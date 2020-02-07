@@ -1,0 +1,103 @@
+WorkingPath: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
+Your original rating data path: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\cars.csv
+Current working path: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
+User, Item, Rating, weather:sunny, weather:snowing, weather:rainy, weather:cloudy, trafficconditions:traffic jam, trafficconditions:lots of cars, trafficconditions:free road, sleepiness:sleepy, sleepiness:awake, roadtype:city, roadtype:serpentine, roadtype:highway, naturalphenomena:night, naturalphenomena:morning, naturalphenomena:day time, naturalphenomena:afternoon, mood:sad, mood:lazy, mood:active, mood:happy, landscape:urban, landscape:mountains, landscape:country side, landscape:coast line, drivingstyle:relaxed driving, drivingstyle:sport driving
+Data transformaton completed (from Loose to Binary format). See new rating file: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
+Dataset: ...ar\data\CARSKit.Workspace\train.csv
+DataPath: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
+Rating data set has been successfully loaded.
+
+/***************************************************************************************************************************************************
+ *
+ * Dataset: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
+ * 
+ * Statistics of U-I-C Matrix:
+ * User amount: 42
+ * Item amount: 139
+ * Rate amount: 1742
+ * Context dimensions: 8 (weather, trafficconditions, sleepiness, roadtype, naturalphenomena, mood, landscape, drivingstyle)
+ * Context conditions: 26 (weather: 4, trafficconditions: 3, sleepiness: 2, roadtype: 3, naturalphenomena: 4, mood: 4, landscape: 4, drivingstyle: 2)
+ * Context situations: 504
+ * Data density: 0.0032%
+ * Scale distribution: [4.0 x 283, 1.0 x 487, 2.0 x 372, 0.0 x 44, 5.0 x 196, 3.0 x 360]
+ * Average value of all ratings: 2.604829
+ * Standard deviation of all ratings: 1.399698
+ * Mode of all rating values: 1.000000
+ * Median of all rating values: 2.000000
+ * 
+ * Distribution of rate counts per user: mean = 41.476190476190474, median = 22.5, sd = 58.45642988595299
+ * Distribution of rate counts per item: mean = 12.532374100719425, median = 12.0, sd = 3.8089296033607662
+ * Distribution of rate counts per context condition: mean = 107.88461538461539, median = 102.5, sd = 24.839990900340403
+ * 
+ * Average rating in each context condition: (Average, Counts)
+ * weather:sunny - 2.577778, 90
+ * weather:snowing - 2.217822, 101
+ * weather:rainy - 2.633803, 71
+ * weather:cloudy - 2.381818, 110
+ * trafficconditions:traffic jam - 1.889831, 118
+ * trafficconditions:lots of cars - 2.343284, 134
+ * trafficconditions:free road - 2.536585, 123
+ * sleepiness:sleepy - 2.087500, 80
+ * sleepiness:awake - 2.763889, 72
+ * roadtype:city - 2.395161, 124
+ * roadtype:serpentine - 2.276786, 112
+ * roadtype:highway - 2.705426, 129
+ * naturalphenomena:night - 2.835443, 79
+ * naturalphenomena:morning - 2.478723, 94
+ * naturalphenomena:day time - 2.156250, 96
+ * naturalphenomena:afternoon - 2.447917, 96
+ * mood:sad - 2.296703, 91
+ * mood:lazy - 2.191011, 89
+ * mood:active - 2.211538, 104
+ * mood:happy - 2.442105, 95
+ * landscape:urban - 2.190000, 100
+ * landscape:mountains - 2.352459, 122
+ * landscape:country side - 2.036036, 111
+ * landscape:coast line - 2.456000, 125
+ * drivingstyle:relaxed driving - 2.277778, 180
+ * drivingstyle:sport driving - 2.415094, 159
+ * 
+ * Statistics of UI Matrix:
+ * User amount: 42
+ * Item amount: 139
+ * Rate amount: 930.0
+ * Data density: 15.9301%
+ * Data density (unique pairs): 64.7312%
+ * Average value of all ratings: 2.343907
+ * Standard deviation of all ratings: 1.247474
+ * Mode of all rating values: 1.000000
+ * Median of all rating values: 2.500000
+ * Distribution of rate counts per UI pair: mean = 1.8731182795698924, median = 2.0, sd = 0.7599009251984651
+ * 
+ * Statistics of UC Matrix:
+ * User amount: 42
+ * Condition amount: 26
+ * Rate amount: 729.0
+ * Data density: 66.7582%
+ * Data density (unique pairs): 63.5117%
+ * Average value of all ratings: 2.381154
+ * Standard deviation of all ratings: 1.111018
+ * Mode of all rating values: 1.000000
+ * Median of all rating values: 2.333333
+ * Distribution of rate counts per UC pair: mean = 3.847736625514403, median = 2.0, sd = 4.834730714053321
+ * 
+ * Statistics of IC Matrix:
+ * Item amount: 139
+ * Condition amount: 26
+ * Rate amount: 1912.0
+ * Data density: 52.9054%
+ * Data density (unique pairs): 36.7155%
+ * Average value of all ratings: 2.371051
+ * Standard deviation of all ratings: 1.324727
+ * Mode of all rating values: 1.000000
+ * Median of all rating values: 2.000000
+ * Distribution of rate counts per IC pair: mean = 1.4670502092050208, median = 1.0, sd = 0.6966462408760568
+ * 
+ * Paired t-test on user's average rating between UI and UC matrix: absolute mean diff = 0.05265947732217979, p-value = 0.030754533061430812
+ * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 0.009350714484129607, p-value = 0.5299481460264985
+ *
+ ***************************************************************************************************************************************************/
+With Setup: cv -k 10 -p on --rand-seed 1 --test-view all
+Final Results by ItemAvg, Pre5: 0.008643,Pre10: 0.004322, Pre5: 0.008643, Rec5: 0.040186, Rec10: 0.040186, Rec5: 0.040186, AUC5: 0.520804, AUC10: 0.520804, AUC5: 0.520804, MAP5: 0.016147, MAP10: 0.016147, MAP5: 0.016147, NDCG5: 0.022306, NDCG10: 0.022306,NDCG5: 0.022306,MRR5: 0.017352, MRR10: 0.017352,MRR5: 0.017352, carskit.alg.baseline.avg.ItemAverage@152f6e2, Time: '00:00','00:02'
+
+Final Results by ItemAvg, Pre5: 0.008643,Pre10: 0.004322, Pre5: 0.008643, Rec5: 0.040186, Rec10: 0.040186, Rec5: 0.040186, AUC5: 0.520804, AUC10: 0.520804, AUC5: 0.520804, MAP5: 0.016147, MAP10: 0.016147, MAP5: 0.016147, NDCG5: 0.022306, NDCG10: 0.022306,NDCG5: 0.022306,MRR5: 0.017352, MRR10: 0.017352,MRR5: 0.017352, carskit.alg.baseline.avg.ItemAverage@152f6e2, Time: '00:00','00:02'

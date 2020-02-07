@@ -1,0 +1,5 @@
+[ERROR] 2019-12-31 15:39:11,881 -- Your rating file path is incorrect: File doesn't exist. Please double check your configuration.
+[INFO ] 2019-12-31 15:39:11,988 -- Your original rating data path: F:\Dropbox\Projects\CARSKit\context-aware_data_sets\Movie_DePaulMovie\ratings.txt
+[INFO ] 2019-12-31 15:39:11,989 -- Current working path: null
+[ERROR] 2019-12-31 15:39:11,990 -- Your rating file path is incorrect: File doesn't exist. Please double check your configuration.
+[ERROR] 2019-12-31 15:39:12,007 -- 
