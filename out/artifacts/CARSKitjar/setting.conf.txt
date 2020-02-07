@@ -32,8 +32,8 @@ recommender=ItemAvg
 # main option: is ranking prediction
 # other options: -ignore NumOfPopularItems
 
-evaluation.setup=cv -k 3 -p on --rand-seed 1 --test-view all
-item.ranking=on -topN 10
+evaluation.setup=cv -k 10 -p on --rand-seed 1 --test-view all
+item.ranking=on -topN 50
 
 # main option: is writing out recommendation results; [--fold-data --measures-only --save-model]
 output.setup=-folder CARSKit.Workspace -verbose on, off --to-file results.txt

@@ -33,10 +33,7 @@ import happy.coding.math.Stats;
 import happy.coding.system.Dates;
 import happy.coding.system.Debug;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
+import java.io.*;
 import java.util.*;
 import java.util.AbstractMap.SimpleImmutableEntry;
 import java.util.concurrent.TimeUnit;
@@ -53,6 +50,7 @@ import librec.data.MatrixEntry;
 import com.google.common.base.Stopwatch;
 import com.google.common.base.Strings;
 import com.google.common.cache.LoadingCache;
+import org.apache.commons.lang3.SerializationUtils;
 
 
 public abstract class Recommender implements Runnable{
@@ -878,11 +876,17 @@ public abstract class Recommender implements Runnable{
                 }
 
                 // TODO EXPERIMENTAL
-                Collection<Integer> posItemsCopy = (Collection<Integer>) deepCopy(posItems);
+//                Collection<Integer> posItemsCopy = SerializationUtils.clone((Serializable) posItems);
+                ArrayList<Integer> posItemsCopy = new ArrayList<>(posItems);
+                ArrayList<Integer> toRemove = new ArrayList<>();
                 for (Integer item : posItemsCopy) {
                     if (rankedItems.contains(item)) {
-                        posItemsCopy.remove(Integer.valueOf(item));
+                        toRemove.add(item);
                     }
+                }
+
+                for (Integer item : toRemove) {
+                    posItemsCopy.remove(Integer.valueOf(item));
                 }
 
                 if (posItemsCopy.size() > 0) {
@@ -891,7 +895,11 @@ public abstract class Recommender implements Runnable{
                         sb = sb.delete(ind + 1, sb.length()+1);
                     }
 
+                    List<Map.Entry<String, Double>> testItemScores = new ArrayList<>(Lists.initSize(posItemsCopy));
+
                     for (Integer j : posItemsCopy) {
+                        String itemNormalId = rateDao.getItemId(j);
+
                         if(isUserSplitting)
                             u = userIdMapper.contains(u,c) ? userIdMapper.get(u,c) : u;
                         if(isItemSplitting)
@@ -901,8 +909,16 @@ public abstract class Recommender implements Runnable{
                         if (!Double.isNaN(rank)) {
                             // add rating threshold as a filter
                             if(rank>0)//binThold)
-                                sb.append(j).append(";").append(rank).append(",");
+                                testItemScores.add(new SimpleImmutableEntry<String, Double>(itemNormalId, rank));
                         }
+                    }
+
+                    // order the ranking scores from highest to lowest: List to preserve orders
+                    Lists.sortList(testItemScores, true);
+                    List<Map.Entry<String, Double>> recomdd = (numRecs <= 0 || testItemScores.size() <= numRecs) ? testItemScores
+                            : testItemScores.subList(0, numRecs);
+                    for (Map.Entry<String, Double> kv : recomdd) {
+                         sb.append(kv.getKey()).append(";").append(kv.getValue()).append(",");
                     }
 
                     StringBuilder sss = new StringBuilder();

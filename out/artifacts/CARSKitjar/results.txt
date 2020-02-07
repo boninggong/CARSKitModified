@@ -98,3 +98,6 @@ Rating data set has been successfully loaded.
  *
  ***************************************************************************************************************************************************/
 With Setup: cv -k 3 -p on --rand-seed 1 --test-view all
+Final Results by ItemAvg, Pre5: 0.011634,Pre10: 0.010484, Rec5: 0.055930, Rec10: 0.099948, AUC5: 0.527825, AUC10: 0.548776, MAP5: 0.017102, MAP10: 0.022798,NDCG5: 0.026675, NDCG10: 0.040915,MRR5: 0.017662, MRR10: 0.023700, carskit.alg.baseline.avg.ItemAverage@152f6e2, Time: '00:00','00:00'
+
+Final Results by ItemAvg, Pre5: 0.011634,Pre10: 0.010484, Rec5: 0.055930, Rec10: 0.099948, AUC5: 0.527825, AUC10: 0.548776, MAP5: 0.017102, MAP10: 0.022798,NDCG5: 0.026675, NDCG10: 0.040915,MRR5: 0.017662, MRR10: 0.023700, carskit.alg.baseline.avg.ItemAverage@152f6e2, Time: '00:00','00:00'

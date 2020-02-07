@@ -1,13 +1,13 @@
-[INFO ] 2020-02-07 17:07:16,516 -- WorkingPath: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
-[INFO ] 2020-02-07 17:07:16,567 -- Your original rating data path: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\cars.csv
-[INFO ] 2020-02-07 17:07:16,570 -- Current working path: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
-[WARN ] 2020-02-07 17:07:16,586 -- You rating data is in Loose format. CARSKit is working on transformation on the data format...
-[INFO ] 2020-02-07 17:07:16,747 -- User, Item, Rating, weather:sunny, weather:snowing, weather:rainy, weather:cloudy, trafficconditions:traffic jam, trafficconditions:lots of cars, trafficconditions:free road, sleepiness:sleepy, sleepiness:awake, roadtype:city, roadtype:serpentine, roadtype:highway, naturalphenomena:night, naturalphenomena:morning, naturalphenomena:day time, naturalphenomena:afternoon, mood:sad, mood:lazy, mood:active, mood:happy, landscape:urban, landscape:mountains, landscape:country side, landscape:coast line, drivingstyle:relaxed driving, drivingstyle:sport driving
-[INFO ] 2020-02-07 17:07:16,987 -- Data transformaton completed (from Loose to Binary format). See new rating file: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
-[INFO ] 2020-02-07 17:07:17,062 -- Dataset: ...ar\data\CARSKit.Workspace\train.csv
-[INFO ] 2020-02-07 17:07:17,072 -- DataPath: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
-[INFO ] 2020-02-07 17:07:17,839 -- Rating data set has been successfully loaded.
-[INFO ] 2020-02-07 17:07:18,168 -- 
+[INFO ] 2020-02-07 19:35:22,851 -- WorkingPath: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
+[INFO ] 2020-02-07 19:35:22,898 -- Your original rating data path: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\cars.csv
+[INFO ] 2020-02-07 19:35:22,901 -- Current working path: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
+[WARN ] 2020-02-07 19:35:22,917 -- You rating data is in Loose format. CARSKit is working on transformation on the data format...
+[INFO ] 2020-02-07 19:35:23,083 -- User, Item, Rating, weather:sunny, weather:snowing, weather:rainy, weather:cloudy, trafficconditions:traffic jam, trafficconditions:lots of cars, trafficconditions:free road, sleepiness:sleepy, sleepiness:awake, roadtype:city, roadtype:serpentine, roadtype:highway, naturalphenomena:night, naturalphenomena:morning, naturalphenomena:day time, naturalphenomena:afternoon, mood:sad, mood:lazy, mood:active, mood:happy, landscape:urban, landscape:mountains, landscape:country side, landscape:coast line, drivingstyle:relaxed driving, drivingstyle:sport driving
+[INFO ] 2020-02-07 19:35:23,362 -- Data transformaton completed (from Loose to Binary format). See new rating file: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
+[INFO ] 2020-02-07 19:35:23,450 -- Dataset: ...ar\data\CARSKit.Workspace\train.csv
+[INFO ] 2020-02-07 19:35:23,462 -- DataPath: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
+[INFO ] 2020-02-07 19:35:24,352 -- Rating data set has been successfully loaded.
+[INFO ] 2020-02-07 19:35:24,948 -- 
 /***************************************************************************************************************************************************
  *
  * Dataset: C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
@@ -98,17 +98,22 @@
  * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 0.009350714484129607, p-value = 0.5299481460264985
  *
  ***************************************************************************************************************************************************/
-[INFO ] 2020-02-07 17:07:18,288 -- With Setup: cv -k 3 -p on --rand-seed 1 --test-view all
-[DEBUG] 2020-02-07 17:07:18,352 -- Fold [1]: training amount: 1132, test amount: 566
-[DEBUG] 2020-02-07 17:07:18,377 -- Fold [2]: training amount: 1135, test amount: 563
-[DEBUG] 2020-02-07 17:07:18,388 -- Fold [3]: training amount: 1129, test amount: 569
-[DEBUG] 2020-02-07 17:07:18,393 -- ItemAvg1 evaluate test data ... 
-[DEBUG] 2020-02-07 17:07:18,393 -- ItemAvg2 evaluate test data ... 
-[DEBUG] 2020-02-07 17:07:18,407 -- ItemAvg3 evaluate test data ... 
-[DEBUG] 2020-02-07 17:07:18,412 -- ItemAvg2 has candidate items: 139
-[DEBUG] 2020-02-07 17:07:18,412 -- ItemAvg1 has candidate items: 139
-[DEBUG] 2020-02-07 17:07:18,421 -- ItemAvg3 has candidate items: 139
-[ERROR] 2020-02-07 17:07:18,933 -- 
-[ERROR] 2020-02-07 17:07:19,070 -- 
-[ERROR] 2020-02-07 17:07:19,257 -- 
-[ERROR] 2020-02-07 17:07:19,292 -- 
+[INFO ] 2020-02-07 19:35:25,023 -- With Setup: cv -k 3 -p on --rand-seed 1 --test-view all
+[DEBUG] 2020-02-07 19:35:25,070 -- Fold [1]: training amount: 1132, test amount: 566
+[DEBUG] 2020-02-07 19:35:25,149 -- Fold [2]: training amount: 1135, test amount: 563
+[DEBUG] 2020-02-07 19:35:25,170 -- Fold [3]: training amount: 1129, test amount: 569
+[DEBUG] 2020-02-07 19:35:25,186 -- ItemAvg1 evaluate test data ... 
+[DEBUG] 2020-02-07 19:35:25,186 -- ItemAvg2 evaluate test data ... 
+[DEBUG] 2020-02-07 19:35:25,209 -- ItemAvg2 has candidate items: 139
+[DEBUG] 2020-02-07 19:35:25,212 -- ItemAvg1 has candidate items: 139
+[DEBUG] 2020-02-07 19:35:25,261 -- ItemAvg3 evaluate test data ... 
+[DEBUG] 2020-02-07 19:35:25,325 -- ItemAvg3 has candidate items: 139
+[DEBUG] 2020-02-07 19:35:25,605 -- ItemAvg2 has writeen item recommendations to C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\ItemAvg-2.csv
+[DEBUG] 2020-02-07 19:35:25,656 -- ItemAvg2: Pre5: 0.012423,Pre10: 0.010243, Rec5: 0.062113, Rec10: 0.099205, AUC5: 0.529822, AUC10: 0.547677, MAP5: 0.020292, MAP10: 0.024610,NDCG5: 0.030406, NDCG10: 0.041980,MRR5: 0.020292, MRR10: 0.024986	Time: 00:00, 00:00
+[DEBUG] 2020-02-07 19:35:25,689 -- ItemAvg1 has writeen item recommendations to C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\ItemAvg-1.csv
+[DEBUG] 2020-02-07 19:35:25,705 -- ItemAvg1: Pre5: 0.013985,Pre10: 0.014254, Rec5: 0.069924, Rec10: 0.141730, AUC5: 0.533386, AUC10: 0.566326, MAP5: 0.017559, MAP10: 0.027624,NDCG5: 0.030176, NDCG10: 0.053920,MRR5: 0.017559, MRR10: 0.027714	Time: 00:00, 00:00
+[DEBUG] 2020-02-07 19:35:25,755 -- ItemAvg3 has writeen item recommendations to C:\Users\BoningGong\Documents\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\ItemAvg-3.csv
+[DEBUG] 2020-02-07 19:35:25,762 -- ItemAvg3: Pre5: 0.008495,Pre10: 0.006956, Rec5: 0.035753, Rec10: 0.058909, AUC5: 0.520269, AUC10: 0.532324, MAP5: 0.013454, MAP10: 0.016160,NDCG5: 0.019443, NDCG10: 0.026845,MRR5: 0.015134, MRR10: 0.018401	Time: 00:00, 00:00
+[INFO ] 2020-02-07 19:35:25,776 -- Final Results by ItemAvg, Pre5: 0.011634,Pre10: 0.010484, Rec5: 0.055930, Rec10: 0.099948, AUC5: 0.527825, AUC10: 0.548776, MAP5: 0.017102, MAP10: 0.022798,NDCG5: 0.026675, NDCG10: 0.040915,MRR5: 0.017662, MRR10: 0.023700, carskit.alg.baseline.avg.ItemAverage@152f6e2, Time: '00:00','00:00'
+
+[DEBUG] 2020-02-07 19:35:25,785 -- Have been collected to file: results.txt
