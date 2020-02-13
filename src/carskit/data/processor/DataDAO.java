@@ -322,10 +322,6 @@ public class DataDAO {
                         }
                     }
                 }
-
-
-
-
             }
             String ctx=sb_ctx.toString();
             // inner id starting from 0

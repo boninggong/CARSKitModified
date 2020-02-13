@@ -299,9 +299,6 @@ public class CARSKit {
     /**
      * write a matrix data into a file
      */
-
-
-
     protected void runAlgorithm() throws Exception {
 
         // evaluation setup
@@ -427,6 +424,20 @@ public class CARSKit {
         LineConfiger algOptions = new LineConfiger(algorithm);
 
         SparseMatrix trainMatrix = data[0], testMatrix = data[1];
+
+        System.out.println("-------- " + algOptions.getMainParam().toLowerCase());
+
+        // TODO Experimental, print train and test matrices
+        try {
+            // FileIO.writeString(WorkingPath + algOptions.getMainParam() + fold + "-training.csv", trainMatrix.toString(rateDao));
+            if (algOptions.getMainParam().toLowerCase() == "usersplitting") {
+                FileIO.writeString(WorkingPath + "UserSplitting-BiasedMF-" + fold + "-test.csv", testMatrix.toString(rateDao));
+            } else {
+                FileIO.writeString(WorkingPath + algOptions.getMainParam() + "-" + fold + "-test.csv", testMatrix.toString(rateDao));
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
         // output data
         //writeData(trainMatrix, testMatrix, fold);

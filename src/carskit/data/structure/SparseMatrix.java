@@ -18,7 +18,9 @@
 
 package carskit.data.structure;
 
+import carskit.data.processor.DataDAO;
 import com.google.common.collect.*;
+import librec.data.MatrixEntry;
 import librec.data.SparseVector;
 
 import java.util.*;
@@ -42,8 +44,28 @@ public class SparseMatrix extends librec.data.SparseMatrix {
         super(mat);
     }
 
-    public String toString() {
-        return super.toString();
+    public String toString(DataDAO rateDao) {
+        StringBuilder sb = new StringBuilder();
+        // numRows 930, representing unique ratings
+        // numColumns 504, representing unique context situations
+        // size = #rows
+        sb.append("User,Item,Context,Rating\n");
+        Iterator it = this.iterator();
+
+        while(it.hasNext()) {
+            MatrixEntry me = (MatrixEntry)it.next();
+            if (me.get() != 0.0D) {
+                List<String> contexts = Arrays.asList(rateDao.getContextId(me.column()).split("\\s*,\\s*"));
+                String contextConditions = "";
+                for (int i = 0; i < contexts.size(); i++) {
+                    sb.append(String.format("%s,%s,%s,%f\n", rateDao.getUserId(rateDao.getUserIdFromUI(me.row())),
+                            rateDao.getItemId(rateDao.getItemIdFromUI(me.row())), rateDao.getContextConditionId(Integer.parseInt(contexts.get(i))),
+                            me.get()));
+                }
+            }
+        }
+
+        return sb.toString();
     }
 
     public double getGlobalAvg()

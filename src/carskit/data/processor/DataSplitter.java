@@ -178,8 +178,8 @@ public class DataSplitter {
         if (Debug.OFF) {
             String dir = Systems.getDesktop();
             try {
-                FileIO.writeString(dir + "training.txt", trainMatrix.toString());
-                FileIO.writeString(dir + "test.txt", testMatrix.toString());
+                FileIO.writeString(dir + fold + "-training.txt", trainMatrix.toString());
+                FileIO.writeString(dir + fold + "-test.txt", testMatrix.toString());
             } catch (Exception e) {
                 e.printStackTrace();
             }

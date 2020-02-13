@@ -892,7 +892,11 @@ public abstract class Recommender implements Runnable{
                 if (posItemsCopy.size() > 0) {
                     for (int i = 0; i < posItemsCopy.size(); i++) {
                         int ind = sb.lastIndexOf(",");
-                        sb = sb.delete(ind + 1, sb.length()+1);
+                        if (i == posItemsCopy.size() - 1) {
+                            sb.delete(ind + 1, sb.length()+1);
+                        } else {
+                            sb.delete(ind, sb.length()+1);
+                        }
                     }
 
                     List<Map.Entry<String, Double>> testItemScores = new ArrayList<>(Lists.initSize(posItemsCopy));

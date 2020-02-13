@@ -6,7 +6,114 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85b35a85-793b-4ca3-9206-6668d7b1b7b4" name="Default" comment="" />
+    <list default="true" id="85b35a85-793b-4ca3-9206-6668d7b1b7b4" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/CARSKit.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CARSKitjar/CARSKit.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/CAMF_CU-1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/CAMF_CU-10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/CAMF_CU-2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/CAMF_CU-3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/CAMF_CU-4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/CAMF_CU-5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/CAMF_CU-6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/CAMF_CU-7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/CAMF_CU-8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/CAMF_CU-9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/CAMF_CU@2020-02-07 12-40-881.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ContextAvg@2020-02-07 11-44-584.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ContextAvg@2020-02-07 11-51-287.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg-1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg-10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg-2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg-3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg-4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg-5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg-6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg-7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg-8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg-9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg@2020-02-06 21-57-344.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg@2020-02-06 23-04-735.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg@2020-02-07 14-50-555.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg@2020-02-07 19-12-82.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg@2020-02-07 19-20-153.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg@2020-02-07 19-24-488.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg@2020-02-07 19-34-228.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemAvg@2020-02-07 19-35-787.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemContextAvg-1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemContextAvg-10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemContextAvg-2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemContextAvg-3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemContextAvg-4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemContextAvg-5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemContextAvg-6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemContextAvg-7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemContextAvg-8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemContextAvg-9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemContextAvg@2020-02-07 13-58-448.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemKNN-1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemKNN-10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemKNN-2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemKNN-3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemKNN-4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemKNN-5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemKNN-6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemKNN-7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemKNN-8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemKNN-9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemKNN@2020-01-01 11-48-780.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemKNN@2020-02-06 21-59-313.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemSplitting -traditional itemavg -minlenu 2 -minleni 2@2020-02-07 12-16-712.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemSplitting-ItemAvg-1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemSplitting-ItemAvg-10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemSplitting-ItemAvg-2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemSplitting-ItemAvg-3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemSplitting-ItemAvg-4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemSplitting-ItemAvg-5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemSplitting-ItemAvg-6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemSplitting-ItemAvg-7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemSplitting-ItemAvg-8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/ItemSplitting-ItemAvg-9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserAvg-1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserAvg-10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserAvg-2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserAvg-3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserAvg-4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserAvg-5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserAvg-6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserAvg-7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserAvg-8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserAvg-9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserAvg@2020-01-02 16-03-147.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserAvg@2020-01-14 12-41-166.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserAvg@2020-01-14 12-50-802.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserAvg@2020-01-14 13-02-563.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserKNN-1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserKNN-10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserKNN-2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserKNN-3.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserKNN-4.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserKNN-5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserKNN-6.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserKNN-7.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserKNN-8.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserKNN-9.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/data/CARSKit.Workspace/UserKNN@2019-12-31 23-43-428.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CARSKitjar/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CARSKitjar/results.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/CARSKitjar/setting.conf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/CARSKitjar/setting.conf.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CARSKit/carskit/data/processor/DataDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CARSKit/carskit/data/processor/DataDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CARSKit/carskit/data/structure/SparseMatrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CARSKit/carskit/data/structure/SparseMatrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CARSKit/carskit/generic/Recommender.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CARSKit/carskit/generic/Recommender.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CARSKit/carskit/main/CARSKit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CARSKit/carskit/main/CARSKit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results_all_2016.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carskit/data/processor/DataDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carskit/data/processor/DataDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carskit/data/processor/DataSplitter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carskit/data/processor/DataSplitter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carskit/data/structure/SparseMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carskit/data/structure/SparseMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carskit/generic/Recommender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carskit/generic/Recommender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carskit/main/CARSKit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carskit/main/CARSKit.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -121,14 +228,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="111" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577807117102" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1581001611715">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1581507842421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581001611715" />
-    <state x="463" y="17" width="609" height="789" key="find.popup" timestamp="1581071402672">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824/1920.0.2048.1112@0.0.1536.824" timestamp="1581419833426" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581507842421" />
+    <state x="463" y="17" width="609" height="789" key="find.popup" timestamp="1581360912612">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="463" y="17" width="609" height="789" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1581071402672" />
+    <state x="463" y="17" width="609" height="789" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1581360912612" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1581084750010">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

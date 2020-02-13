@@ -1,0 +1,291 @@
+User,Item,Context,Rating
+1033,690,sleepiness:sleepy,4.000000
+1003,739,roadtype:serpentine,2.000000
+1003,739,naturalphenomena:night,2.000000
+1012,722,roadtype:highway,1.000000
+1012,722,naturalphenomena:day time,1.000000
+1012,722,mood:happy,1.000000
+1006,703,drivingstyle:sport driving,3.000000
+1019,264,sleepiness:sleepy,3.000000
+1033,289,mood:happy,5.000000
+1033,704,drivingstyle:sport driving,2.000000
+1033,254,trafficconditions:free road,4.000000
+1027,703,trafficconditions:free road,5.000000
+1033,731,trafficconditions:free road,1.000000
+1033,731,mood:active,1.000000
+1033,731,landscape:mountains,1.000000
+1010,249,weather:rainy,3.000000
+1036,297,landscape:mountains,2.000000
+1036,297,drivingstyle:sport driving,2.000000
+1019,260,weather:cloudy,5.000000
+1019,260,trafficconditions:free road,5.000000
+1019,260,naturalphenomena:night,5.000000
+1019,260,landscape:mountains,5.000000
+1006,675,drivingstyle:relaxed driving,4.000000
+1033,285,naturalphenomena:morning,2.000000
+1029,690,landscape:coast line,1.000000
+1012,709,weather:rainy,1.000000
+1012,709,mood:active,1.000000
+1012,709,landscape:urban,1.000000
+1025,291,landscape:coast line,4.000000
+1012,249,weather:snowing,1.000000
+1012,249,sleepiness:awake,1.000000
+1012,249,landscape:urban,1.000000
+1005,263,drivingstyle:relaxed driving,4.000000
+1033,699,drivingstyle:sport driving,4.000000
+1005,748,naturalphenomena:day time,3.000000
+1008,281,roadtype:highway,4.000000
+1036,760,roadtype:city,3.000000
+1006,270,weather:sunny,2.000000
+1006,270,landscape:coast line,2.000000
+1019,259,weather:cloudy,5.000000
+1019,259,roadtype:highway,5.000000
+1019,259,naturalphenomena:morning,5.000000
+1019,259,mood:active,5.000000
+1019,259,landscape:coast line,5.000000
+1002,702,weather:sunny,3.000000
+1002,702,naturalphenomena:afternoon,3.000000
+1023,750,landscape:urban,2.000000
+1037,270,sleepiness:awake,1.000000
+1037,270,roadtype:serpentine,1.000000
+1037,270,landscape:country side,1.000000
+1009,759,roadtype:highway,1.000000
+1009,759,landscape:country side,1.000000
+1009,759,drivingstyle:sport driving,1.000000
+1019,695,weather:rainy,1.000000
+1019,695,landscape:mountains,1.000000
+1036,688,roadtype:city,4.000000
+1040,258,landscape:country side,3.000000
+1020,296,mood:lazy,1.000000
+1020,296,landscape:country side,1.000000
+1020,296,drivingstyle:sport driving,1.000000
+1023,692,trafficconditions:lots of cars,4.000000
+1023,692,landscape:coast line,4.000000
+1018,684,mood:happy,5.000000
+1033,718,drivingstyle:relaxed driving,3.000000
+1033,718,landscape:mountains,2.000000
+1019,682,roadtype:highway,2.000000
+1024,717,landscape:urban,3.000000
+1009,692,roadtype:city,2.000000
+1009,692,trafficconditions:traffic jam,1.000000
+1009,692,landscape:mountains,1.000000
+1012,701,trafficconditions:lots of cars,1.000000
+1012,701,landscape:coast line,1.000000
+1012,701,drivingstyle:sport driving,1.000000
+1008,727,trafficconditions:free road,2.000000
+1008,727,landscape:country side,2.000000
+1009,273,weather:cloudy,5.000000
+1009,273,sleepiness:awake,5.000000
+1013,761,roadtype:city,3.000000
+1013,761,naturalphenomena:day time,3.000000
+1033,736,mood:sad,3.000000
+1006,715,naturalphenomena:night,3.000000
+1009,282,naturalphenomena:night,2.000000
+1009,282,landscape:coast line,2.000000
+1023,746,mood:sad,1.000000
+1018,698,naturalphenomena:afternoon,1.000000
+1018,698,mood:happy,1.000000
+1018,698,landscape:coast line,1.000000
+1019,250,weather:rainy,4.000000
+1019,250,roadtype:city,4.000000
+1024,688,drivingstyle:sport driving,3.000000
+1024,688,weather:cloudy,1.000000
+1024,688,naturalphenomena:day time,1.000000
+1021,743,drivingstyle:sport driving,4.000000
+1019,722,weather:cloudy,3.000000
+1019,722,trafficconditions:free road,3.000000
+1019,722,naturalphenomena:morning,4.000000
+1019,722,mood:active,4.000000
+1034,295,trafficconditions:lots of cars,3.000000
+1034,295,mood:active,3.000000
+1024,283,landscape:mountains,4.000000
+1005,269,landscape:mountains,1.000000
+1012,698,weather:snowing,1.000000
+1012,698,trafficconditions:free road,1.000000
+1012,698,drivingstyle:relaxed driving,1.000000
+1036,759,mood:sad,1.000000
+1012,708,trafficconditions:lots of cars,2.000000
+1012,708,naturalphenomena:morning,3.000000
+1012,708,drivingstyle:sport driving,3.000000
+1006,282,weather:sunny,1.000000
+1006,282,sleepiness:awake,1.000000
+1006,282,roadtype:serpentine,1.000000
+1020,684,roadtype:highway,2.000000
+1020,684,landscape:country side,2.000000
+1014,294,weather:snowing,4.000000
+1014,294,landscape:urban,4.000000
+1040,255,sleepiness:sleepy,4.000000
+1040,255,trafficconditions:free road,1.000000
+1040,255,naturalphenomena:afternoon,1.000000
+1028,738,roadtype:city,1.000000
+1028,738,naturalphenomena:day time,1.000000
+1006,754,trafficconditions:free road,4.000000
+1006,754,roadtype:highway,4.000000
+1006,273,roadtype:highway,5.000000
+1009,277,weather:sunny,4.000000
+1032,715,mood:happy,2.000000
+1003,736,weather:sunny,1.000000
+1003,736,roadtype:city,1.000000
+1003,736,mood:active,1.000000
+1002,745,drivingstyle:sport driving,4.000000
+1035,674,roadtype:highway,3.000000
+1023,680,trafficconditions:traffic jam,2.000000
+1023,680,landscape:urban,2.000000
+1010,713,roadtype:serpentine,3.000000
+1019,685,weather:snowing,1.000000
+1019,685,roadtype:highway,1.000000
+1019,685,mood:happy,1.000000
+1035,291,mood:active,1.000000
+1014,735,trafficconditions:lots of cars,3.000000
+1019,704,trafficconditions:free road,1.000000
+1019,704,roadtype:serpentine,1.000000
+1019,704,naturalphenomena:afternoon,1.000000
+1019,704,mood:active,1.000000
+1019,704,landscape:coast line,1.000000
+1002,295,trafficconditions:traffic jam,2.000000
+1006,251,weather:cloudy,1.000000
+1006,251,trafficconditions:lots of cars,1.000000
+1033,724,mood:lazy,3.000000
+1012,746,weather:cloudy,5.000000
+1012,746,sleepiness:awake,5.000000
+1012,746,naturalphenomena:night,5.000000
+1033,287,drivingstyle:relaxed driving,3.000000
+1033,287,roadtype:serpentine,4.000000
+1033,702,naturalphenomena:afternoon,1.000000
+1033,702,mood:happy,1.000000
+1033,702,drivingstyle:sport driving,1.000000
+1006,714,roadtype:serpentine,1.000000
+1033,759,drivingstyle:relaxed driving,1.000000
+1019,288,landscape:coast line,5.000000
+1019,288,drivingstyle:relaxed driving,5.000000
+1012,265,sleepiness:sleepy,3.000000
+1019,703,weather:sunny,1.000000
+1019,703,landscape:mountains,1.000000
+1019,703,drivingstyle:relaxed driving,1.000000
+1009,294,landscape:urban,1.000000
+1019,734,mood:active,1.000000
+1019,734,weather:cloudy,2.000000
+1019,734,naturalphenomena:afternoon,2.000000
+1019,734,landscape:coast line,2.000000
+1036,745,weather:sunny,1.000000
+1036,745,landscape:mountains,1.000000
+1023,734,trafficconditions:lots of cars,5.000000
+1023,734,mood:sad,5.000000
+1023,734,landscape:coast line,5.000000
+1040,678,trafficconditions:lots of cars,1.000000
+1019,712,drivingstyle:relaxed driving,4.000000
+1014,279,roadtype:highway,1.000000
+1014,279,naturalphenomena:night,1.000000
+1014,279,landscape:coast line,1.000000
+1036,732,weather:rainy,3.000000
+1036,732,naturalphenomena:night,3.000000
+1027,710,roadtype:highway,2.000000
+1006,268,weather:rainy,2.000000
+1006,268,naturalphenomena:day time,2.000000
+1033,733,trafficconditions:lots of cars,1.000000
+1033,711,drivingstyle:relaxed driving,2.000000
+1014,752,weather:sunny,5.000000
+1014,752,drivingstyle:relaxed driving,5.000000
+1008,261,mood:happy,3.000000
+1008,261,drivingstyle:relaxed driving,3.000000
+1033,688,landscape:urban,3.000000
+1012,707,trafficconditions:lots of cars,3.000000
+1007,739,weather:sunny,4.000000
+1007,739,landscape:mountains,2.000000
+1006,753,roadtype:city,3.000000
+1023,761,trafficconditions:traffic jam,2.000000
+1023,761,landscape:country side,2.000000
+1002,748,naturalphenomena:afternoon,1.000000
+1002,748,mood:sad,1.000000
+1002,748,landscape:country side,1.000000
+1006,250,roadtype:highway,4.000000
+1035,707,mood:active,1.000000
+1033,684,sleepiness:sleepy,2.000000
+1021,683,weather:sunny,2.000000
+1022,254,trafficconditions:lots of cars,3.000000
+1032,684,weather:sunny,4.000000
+1032,684,naturalphenomena:day time,4.000000
+1012,725,landscape:urban,3.000000
+1019,716,naturalphenomena:afternoon,4.000000
+1001,294,weather:sunny,2.000000
+1001,294,mood:lazy,2.000000
+1024,259,weather:cloudy,2.000000
+1027,681,landscape:coast line,4.000000
+1033,253,naturalphenomena:morning,3.000000
+1009,743,weather:sunny,2.000000
+1033,680,roadtype:city,4.000000
+1012,253,weather:rainy,3.000000
+1012,253,mood:happy,3.000000
+1019,265,sleepiness:sleepy,4.000000
+1009,271,sleepiness:sleepy,1.000000
+1009,271,roadtype:highway,1.000000
+1033,703,mood:happy,5.000000
+1016,279,sleepiness:sleepy,1.000000
+1016,279,roadtype:city,1.000000
+1024,686,roadtype:serpentine,5.000000
+1018,687,weather:cloudy,2.000000
+1019,274,weather:rainy,5.000000
+1019,274,sleepiness:awake,5.000000
+1019,274,drivingstyle:relaxed driving,5.000000
+1039,284,naturalphenomena:day time,3.000000
+1019,755,trafficconditions:free road,1.000000
+1019,755,sleepiness:sleepy,1.000000
+1019,755,naturalphenomena:afternoon,1.000000
+1019,755,mood:happy,1.000000
+1012,279,naturalphenomena:day time,1.000000
+1012,279,landscape:mountains,1.000000
+1002,760,mood:sad,5.000000
+1002,760,drivingstyle:sport driving,5.000000
+1020,754,mood:happy,1.000000
+1032,744,naturalphenomena:afternoon,3.000000
+1032,744,landscape:urban,3.000000
+1029,745,drivingstyle:relaxed driving,2.000000
+1018,732,sleepiness:awake,2.000000
+1018,732,mood:sad,2.000000
+1006,676,roadtype:highway,4.000000
+1006,676,drivingstyle:sport driving,4.000000
+1033,280,trafficconditions:lots of cars,2.000000
+1012,719,sleepiness:sleepy,3.000000
+1012,719,roadtype:city,3.000000
+1007,266,trafficconditions:free road,5.000000
+1015,683,landscape:country side,3.000000
+1002,716,roadtype:serpentine,1.000000
+1002,716,mood:active,1.000000
+1019,291,weather:snowing,4.000000
+1019,291,trafficconditions:lots of cars,4.000000
+1019,291,mood:sad,4.000000
+1019,291,drivingstyle:sport driving,4.000000
+1024,745,sleepiness:sleepy,1.000000
+1024,745,mood:lazy,1.000000
+1018,733,trafficconditions:free road,1.000000
+1018,733,roadtype:city,1.000000
+1018,733,landscape:mountains,1.000000
+1019,719,weather:cloudy,2.000000
+1019,719,naturalphenomena:afternoon,2.000000
+1019,719,mood:lazy,2.000000
+1019,719,drivingstyle:sport driving,2.000000
+1008,721,naturalphenomena:day time,1.000000
+1008,721,landscape:urban,1.000000
+1012,706,weather:cloudy,3.000000
+1012,706,mood:active,3.000000
+1019,750,weather:snowing,1.000000
+1019,750,landscape:coast line,1.000000
+1019,750,drivingstyle:relaxed driving,1.000000
+1012,728,naturalphenomena:afternoon,1.000000
+1012,728,landscape:coast line,1.000000
+1012,728,drivingstyle:relaxed driving,1.000000
+1012,283,roadtype:highway,4.000000
+1009,288,weather:cloudy,2.000000
+1031,254,landscape:country side,2.000000
+1022,264,drivingstyle:sport driving,2.000000
+1019,256,mood:sad,4.000000
+1035,676,mood:lazy,3.000000
+1006,734,trafficconditions:lots of cars,1.000000
+1006,734,roadtype:city,1.000000
+1006,734,landscape:urban,1.000000
+1002,743,landscape:coast line,1.000000
+1002,743,drivingstyle:sport driving,1.000000
+1033,708,trafficconditions:traffic jam,1.000000
+1023,682,landscape:coast line,4.000000
+1009,253,trafficconditions:lots of cars,5.000000
+1009,253,naturalphenomena:night,5.000000

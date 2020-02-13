@@ -97,7 +97,37 @@ Rating data set has been successfully loaded.
  * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 0.009350714484129607, p-value = 0.5299481460264985
  *
  ***************************************************************************************************************************************************/
-With Setup: cv -k 3 -p on --rand-seed 1 --test-view all
-Final Results by ItemAvg, Pre5: 0.011634,Pre10: 0.010484, Rec5: 0.055930, Rec10: 0.099948, AUC5: 0.527825, AUC10: 0.548776, MAP5: 0.017102, MAP10: 0.022798,NDCG5: 0.026675, NDCG10: 0.040915,MRR5: 0.017662, MRR10: 0.023700, carskit.alg.baseline.avg.ItemAverage@152f6e2, Time: '00:00','00:00'
+With Setup: cv -k 10 -p on --rand-seed 1 --test-view all
+16 users have been splitted.
+User Splitting is done... Algorithm 'biasedmf' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.11399156536839494
+19 users have been splitted.
+User Splitting is done... Algorithm 'biasedmf' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.11003656091520227
+14 users have been splitted.
+User Splitting is done... Algorithm 'biasedmf' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.11806269270298048
+16 users have been splitted.
+User Splitting is done... Algorithm 'biasedmf' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.11510791366906475
+16 users have been splitted.
+User Splitting is done... Algorithm 'biasedmf' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.11225502356735301
+17 users have been splitted.
+User Splitting is done... Algorithm 'biasedmf' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.11242531398609926
+16 users have been splitted.
+User Splitting is done... Algorithm 'biasedmf' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.11523195236913918
+17 users have been splitted.
+User Splitting is done... Algorithm 'biasedmf' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.11205950493842215
+20 users have been splitted.
+User Splitting is done... Algorithm 'biasedmf' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.10733348804827106
+17 users have been splitted.
+User Splitting is done... Algorithm 'biasedmf' will be applied to the transformed data set.
+Density of transformed 2D rating matrix ============================== 0.11157175954151932
+Final Results by UserSplitting-BiasedMF, Pre5: 0.025225,Pre10: 0.020129, Pre50: 0.010121, Rec5: 0.124673, Rec10: 0.199471, Rec50: 0.499734, AUC5: 0.561318, AUC10: 0.593453, AUC50: 0.681199, MAP5: 0.080191, MAP10: 0.089627, MAP50: 0.101656, NDCG5: 0.091320, NDCG10: 0.114992,NDCG50: 0.178110,MRR5: 0.080753, MRR10: 0.090229,MRR50: 0.102233, numFactors: 10, numIter: 150, lrate: 0.02, maxlrate: -1.0, regB: 1.0E-4, regU: 1.0E-4, regI: 1.0E-4, regC: 0.001, isBoldDriver: true, Time: '00:01','00:00'
 
-Final Results by ItemAvg, Pre5: 0.011634,Pre10: 0.010484, Rec5: 0.055930, Rec10: 0.099948, AUC5: 0.527825, AUC10: 0.548776, MAP5: 0.017102, MAP10: 0.022798,NDCG5: 0.026675, NDCG10: 0.040915,MRR5: 0.017662, MRR10: 0.023700, carskit.alg.baseline.avg.ItemAverage@152f6e2, Time: '00:00','00:00'
+Final Results by UserSplitting-BiasedMF, Pre5: 0.025225,Pre10: 0.020129, Pre50: 0.010121, Rec5: 0.124673, Rec10: 0.199471, Rec50: 0.499734, AUC5: 0.561318, AUC10: 0.593453, AUC50: 0.681199, MAP5: 0.080191, MAP10: 0.089627, MAP50: 0.101656, NDCG5: 0.091320, NDCG10: 0.114992,NDCG50: 0.178110,MRR5: 0.080753, MRR10: 0.090229,MRR50: 0.102233, numFactors: 10, numIter: 150, lrate: 0.02, maxlrate: -1.0, regB: 1.0E-4, regU: 1.0E-4, regI: 1.0E-4, regC: 0.001, isBoldDriver: true, Time: '00:01','00:00'
