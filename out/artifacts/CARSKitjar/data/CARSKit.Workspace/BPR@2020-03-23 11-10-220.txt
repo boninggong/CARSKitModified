@@ -1,0 +1,81 @@
+WorkingPath: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
+Your original rating data path: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\nowplaying-rs.csv
+Current working path: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
+User, Item, Rating, daytime:night, daytime:evening, daytime:afternoon, daytime:morning
+Data transformaton completed (from Loose to Binary format). See new rating file: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
+Dataset: ...ar\data\CARSKit.Workspace\train.csv
+DataPath: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
+Rating data set has been successfully loaded.
+
+/************************************************************************************************************
+ *
+ * Dataset: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
+ * 
+ * Statistics of U-I-C Matrix:
+ * User amount: 174
+ * Item amount: 3866
+ * Rate amount: 50387
+ * Context dimensions: 1 (daytime)
+ * Context conditions: 4 (daytime: 4)
+ * Context situations: 4
+ * Data density: 1.8726%
+ * Scale distribution: [1.0 x 50387]
+ * Average value of all ratings: 1.000000
+ * Standard deviation of all ratings: 0.000000
+ * Mode of all rating values: 1.000000
+ * Median of all rating values: 1.000000
+ * 
+ * Distribution of rate counts per user: mean = 289.58045977011494, median = 217.0, sd = 307.78971375606676
+ * Distribution of rate counts per item: mean = 13.033367822038283, median = 12.0, sd = 8.59054051441389
+ * Distribution of rate counts per context condition: mean = 12596.75, median = 12431.5, sd = 601.492466702618
+ * 
+ * Average rating in each context condition: (Average, Counts)
+ * daytime:night - 1.000000, 12393
+ * daytime:evening - 1.000000, 13579
+ * daytime:afternoon - 1.000000, 11945
+ * daytime:morning - 1.000000, 12470
+ * 
+ * Statistics of UI Matrix:
+ * User amount: 174
+ * Item amount: 3866
+ * Rate amount: 50387.0
+ * Data density: 7.4904%
+ * Data density (unique pairs): 0.0000%
+ * Average value of all ratings: 1.000000
+ * Standard deviation of all ratings: 0.000000
+ * Mode of all rating values: 1.000000
+ * Median of all rating values: 1.000000
+ * Distribution of rate counts per UI pair: mean = 1.0, median = 1.0, sd = 0.0
+ * 
+ * Statistics of UC Matrix:
+ * User amount: 174
+ * Condition amount: 4
+ * Rate amount: 684.0
+ * Data density: 98.2759%
+ * Data density (unique pairs): 98.2456%
+ * Average value of all ratings: 1.000000
+ * Standard deviation of all ratings: 0.000000
+ * Mode of all rating values: 1.000000
+ * Median of all rating values: 1.000000
+ * Distribution of rate counts per UC pair: mean = 73.66520467836257, median = 50.0, sd = 82.34564092141909
+ * 
+ * Statistics of IC Matrix:
+ * Item amount: 3866
+ * Condition amount: 4
+ * Rate amount: 13568.0
+ * Data density: 87.7393%
+ * Data density (unique pairs): 80.3508%
+ * Average value of all ratings: 1.000000
+ * Standard deviation of all ratings: 0.000000
+ * Mode of all rating values: 1.000000
+ * Median of all rating values: 1.000000
+ * Distribution of rate counts per IC pair: mean = 3.713664504716981, median = 3.0, sd = 2.5273356147557577
+ * 
+ * Paired t-test on user's average rating between UI and UC matrix: absolute mean diff = 0.0, p-value = NaN
+ * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 0.0, p-value = NaN
+ *
+ ************************************************************************************************************/
+With Setup: cv -k 10 -p on --rand-seed 1 --test-view all
+Final Results by BPR, Pre5: 0.006116,Pre10: 0.005985, Pre50: 0.005424, Rec5: 0.011626, Rec10: 0.024170, Rec50: 0.102378, AUC5: 0.515180, AUC10: 0.528960, AUC50: 0.618775, MAP5: 0.005623, MAP10: 0.007270, MAP50: 0.010736, NDCG5: 0.009204, NDCG10: 0.014218,NDCG50: 0.036025,MRR5: 0.014333, MRR10: 0.017924,MRR50: 0.025389, 0.0,10,0.02,-1.0,1.0E-4,1.0E-4,200, Time: '00:49','00:06'
+
+Final Results by BPR, Pre5: 0.006116,Pre10: 0.005985, Pre50: 0.005424, Rec5: 0.011626, Rec10: 0.024170, Rec50: 0.102378, AUC5: 0.515180, AUC10: 0.528960, AUC50: 0.618775, MAP5: 0.005623, MAP10: 0.007270, MAP50: 0.010736, NDCG5: 0.009204, NDCG10: 0.014218,NDCG50: 0.036025,MRR5: 0.014333, MRR10: 0.017924,MRR50: 0.025389, 0.0,10,0.02,-1.0,1.0E-4,1.0E-4,200, Time: '00:49','00:06'

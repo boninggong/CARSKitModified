@@ -37,6 +37,7 @@ import java.io.*;
 import java.util.*;
 import java.util.AbstractMap.SimpleImmutableEntry;
 import java.util.concurrent.TimeUnit;
+import java.util.concurrent.ThreadLocalRandom;
 
 import carskit.data.processor.DataDAO;
 import carskit.data.structure.SparseMatrix;
@@ -814,6 +815,15 @@ public abstract class Recommender implements Runnable{
                 if (correctItems.size() == 0)
                     continue; // no testing data for user u
 
+                while (correctItems.size() > 5) {
+                    int toRemove = (int) correctItems.size()/2;
+                    while (toRemove != 0) {
+                        int randomNum = ThreadLocalRandom.current().nextInt(0, correctItems.size());
+                        correctItems.remove(randomNum);
+                        toRemove--;
+                    }
+                }
+
                 // remove rated items from candidate items
                 Set<Integer> ratedItems = (cList_train.containsKey(c))?cList_train.get(c):new HashSet<Integer>();
 
@@ -894,7 +904,7 @@ public abstract class Recommender implements Runnable{
                         int ind = sb.lastIndexOf(",");
                         if (i == posItemsCopy.size() - 1) {
                             sb.delete(ind + 1, sb.length()+1);
-                        } else {
+                        } else if (ind != -1) {
                             sb.delete(ind, sb.length()+1);
                         }
                     }
