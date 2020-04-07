@@ -757,6 +757,8 @@ public abstract class Recommender implements Runnable{
             }
         }
 
+        ArrayList<Integer> indicesOfCorrect = new ArrayList<>();
+
         // for each test user
         for (int u:uciList.keySet()) {
             int uu=u;
@@ -854,6 +856,10 @@ public abstract class Recommender implements Runnable{
 
                 // order the ranking scores from highest to lowest: List to preserve orders
                 Lists.sortList(itemScores, true);
+                List<Integer> allRankedItems = new ArrayList<>();
+                for (Map.Entry<Integer, Double> sie : itemScores) {
+                    allRankedItems.add(sie.getKey());
+                }
                 List<Map.Entry<Integer, Double>> recomd = (numRecs <= 0 || itemScores.size() <= numRecs) ? itemScores
                         : itemScores.subList(0, numRecs);
 
@@ -943,6 +949,11 @@ public abstract class Recommender implements Runnable{
 
                 int numDropped = numCands - rankedItems.size();
 
+                // Keep track of indices of correct items in the ranked items list
+                for (Integer crti : correctItems) {
+                    indicesOfCorrect.add(allRankedItems.indexOf(crti));
+                }
+
                 List<Integer> cutoffs = Arrays.asList(5, 10, numRecs);
                 Map<Integer, Double> precs = Measures.PrecAt(rankedItems, correctItems, cutoffs);
                 Map<Integer, Double> recalls = Measures.RecallAt(rankedItems, correctItems, cutoffs);
@@ -1025,6 +1036,22 @@ public abstract class Recommender implements Runnable{
             rrsN.add(Stats.mean(c_rrsN));
         }
 
+        String toFileIndx = workingPath + String.format("%s-%s-indices.csv", algoName, foldInfo);
+        if (indicesOfCorrect.size() > 0) {
+            StringBuilder sb = new StringBuilder();
+            for(Integer indx:indicesOfCorrect){
+                if(sb.length() != 0){
+                    sb.append(",");
+                }
+                sb.append(indx);
+            }
+            try (BufferedWriter bw = new BufferedWriter(new FileWriter(toFileIndx))) {
+                bw.append(sb);//Internally it does aSB.toString();
+                bw.flush();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
 
         // write results out first
         if (isResultsOut && preds.size() > 0) {

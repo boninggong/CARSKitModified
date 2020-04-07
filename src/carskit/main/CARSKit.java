@@ -421,6 +421,7 @@ public class CARSKit {
     protected Recommender getRecommender(SparseMatrix[] data, int fold) throws Exception {
 
         algorithm = cf.getString("recommender");
+        System.out.println(algorithm);
         LineConfiger algOptions = new LineConfiger(algorithm);
 
         SparseMatrix trainMatrix = data[0], testMatrix = data[1];
