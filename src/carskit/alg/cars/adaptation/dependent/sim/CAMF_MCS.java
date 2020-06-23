@@ -56,8 +56,10 @@ public class CAMF_MCS extends CAMF{
         double dist=0;
         for(int i=0;i<conditions.size();++i) {
             int index1=conditions.get(i);
-            int index2=EmptyContextConditions.get(i);
-            dist += Math.pow(cVector_MCS.get(index1) - cVector_MCS.get(index2), 2);
+            if (i < EmptyContextConditions.size()) {
+                int index2=EmptyContextConditions.get(i);
+                dist += Math.pow(cVector_MCS.get(index1) - cVector_MCS.get(index2), 2);
+            }
         }
         dist = Math.sqrt(dist);
         double sim=1-dist;
@@ -90,15 +92,16 @@ public class CAMF_MCS extends CAMF{
                 double dist=0;
                 for(int i=0;i<conditions.size();++i) {
                     int index1=conditions.get(i);
-                    int index2=EmptyContextConditions.get(i);
-                    double pos1=cVector_MCS.get(index1);
-                    double pos2=cVector_MCS.get(index2);
-                    double diff = pos1-pos2;
-                    dist += Math.pow(diff, 2);
-                    if(index1!=index2)
-                        toBeUpdated.put(index1,index2,diff);
-
-                    loss += regC*pos1*pos1 + regC*pos2*pos2;
+                    if (i < EmptyContextConditions.size()) {
+                        int index2=EmptyContextConditions.get(i);
+                        double pos1=cVector_MCS.get(index1);
+                        double pos2=cVector_MCS.get(index2);
+                        double diff = pos1-pos2;
+                        dist += Math.pow(diff, 2);
+                        if(index1!=index2)
+                            toBeUpdated.put(index1,index2,diff);
+                        loss += regC*pos1*pos1 + regC*pos2*pos2;
+                    }
                 }
 
                 dist = Math.sqrt(dist);

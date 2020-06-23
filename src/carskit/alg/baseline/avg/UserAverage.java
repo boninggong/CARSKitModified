@@ -39,7 +39,6 @@ public class UserAverage extends Recommender {
 
     @Override
     protected double predict(int u, int j, int c) throws Exception{
-
         return predict(u,j);
     }
     @Override

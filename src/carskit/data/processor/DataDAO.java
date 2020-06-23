@@ -802,6 +802,10 @@ public class DataDAO {
         return res;
     }
 
+    public double getItemRateCount(int j) {
+        return rates_i_count.get(j);
+    }
+
     /**
      * @param rawId
      *            raw user-item id as String

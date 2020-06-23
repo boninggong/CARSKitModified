@@ -114,18 +114,20 @@ public class CSLIM_LCS extends CSLIM {
                 double simc=1.0;
                 for(int i=0;i<conditions.size();++i)
                 {
-                    int index1=conditions.get(i);
-                    int index2=EmptyContextConditions.get(i);
-
                     double sim=1.0;
-                    if(index1!=index2) {
-                        sim=DenseMatrix.rowMult(cfMatrix_LCS, index1, cfMatrix_LCS, index2);
-                        // control the bounds so that sim will not explode
-                        sim=(sim>1.0)?1.0-lowbound:sim;
-                        sim=(sim<-1.0)?-1.0+lowbound:sim;
-                        toBeUpdated.put(index1,index2,sim);
-                        simc*=sim;
+                    int index1=conditions.get(i);
+                    if (i < EmptyContextConditions.size()) {
+                        int index2=EmptyContextConditions.get(i);
+                        if(index1!=index2) {
+                            sim=DenseMatrix.rowMult(cfMatrix_LCS, index1, cfMatrix_LCS, index2);
+                            // control the bounds so that sim will not explode
+                            sim=(sim>1.0)?1.0-lowbound:sim;
+                            sim=(sim<-1.0)?-1.0+lowbound:sim;
+                            toBeUpdated.put(index1,index2,sim);
+                            simc*=sim;
+                        }
                     }
+
                     loss += regC * sim * sim;
                 }
 
@@ -201,16 +203,18 @@ public class CSLIM_LCS extends CSLIM {
         double sim=1.0;
         for(int i=0;i<conditions.size();++i)
         {
-            double[] dv1=cfMatrix_LCS.row(conditions.get(i)).getData();
-            double[] dv2=cfMatrix_LCS.row(EmptyContextConditions.get(i)).getData();
-            double sum1=0,sum2=0;
-            for(int h=0;h<dv1.length;++h){
-                sum1+=dv1[h]*dv1[h];
-                sum2+=dv2[h]*dv2[h];
+            if (i < EmptyContextConditions.size()) {
+                double[] dv1=cfMatrix_LCS.row(conditions.get(i)).getData();
+                double[] dv2=cfMatrix_LCS.row(EmptyContextConditions.get(i)).getData();
+                double sum1=0,sum2=0;
+                for(int h=0;h<dv1.length;++h){
+                    sum1+=dv1[h]*dv1[h];
+                    sum2+=dv2[h]*dv2[h];
+                }
+                sum1=Math.sqrt(sum1);
+                sum2=Math.sqrt(sum2);
+                sim*=DenseMatrix.rowMult(cfMatrix_LCS, conditions.get(i), cfMatrix_LCS, EmptyContextConditions.get(i))/(sum1*sum2);
             }
-            sum1=Math.sqrt(sum1);
-            sum2=Math.sqrt(sum2);
-            sim*=DenseMatrix.rowMult(cfMatrix_LCS, conditions.get(i), cfMatrix_LCS, EmptyContextConditions.get(i))/(sum1*sum2);
         }
 
         double pred = 0;

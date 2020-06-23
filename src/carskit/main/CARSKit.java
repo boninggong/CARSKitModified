@@ -388,6 +388,7 @@ public class CARSKit {
         Recommender[] algos = new Recommender[kFold];
 
         for (int i = 0; i < kFold; i++) {
+            //if(i == 9 || i == 8) {
             Recommender algo = getRecommender(ds.getKthFold(i + 1), i + 1);
 
             algos[i] = algo;
@@ -396,6 +397,7 @@ public class CARSKit {
 
             if (!isParallelFold)
                 ts[i].join();
+            //}
         }
 
 
@@ -432,9 +434,9 @@ public class CARSKit {
         try {
             // FileIO.writeString(WorkingPath + algOptions.getMainParam() + fold + "-training.csv", trainMatrix.toString(rateDao));
             if (algOptions.getMainParam().toLowerCase() == "usersplitting") {
-                FileIO.writeString(WorkingPath + "UserSplitting-BiasedMF-" + fold + "-test.csv", testMatrix.toString(rateDao));
+                FileIO.writeString(WorkingPath + fold + "-test.csv", testMatrix.toString(rateDao));
             } else {
-                FileIO.writeString(WorkingPath + algOptions.getMainParam() + "-" + fold + "-test.csv", testMatrix.toString(rateDao));
+                FileIO.writeString(WorkingPath + fold + "-test.csv", testMatrix.toString(rateDao));
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -479,6 +481,10 @@ public class CARSKit {
                 return new SLIM(trainMatrix, testMatrix, fold);
             case "bpr":
                 return new BPR(trainMatrix, testMatrix, fold);
+            case "itempop":
+                return new ItemPopularity(trainMatrix, testMatrix, fold);
+            case "rand":
+                return new Random(trainMatrix, testMatrix, fold);
             case "lrmf":
                 return new LRMF(trainMatrix, testMatrix, fold);
             case "rankals":

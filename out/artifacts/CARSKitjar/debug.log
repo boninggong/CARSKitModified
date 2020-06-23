@@ -1,204 +1,267 @@
-[INFO ] 2020-04-06 16:25:02,191 -- WorkingPath: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
-[INFO ] 2020-04-06 16:25:02,249 -- Your original rating data path: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\cars.csv
-[INFO ] 2020-04-06 16:25:02,250 -- Current working path: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
-[WARN ] 2020-04-06 16:25:02,265 -- You rating data is in Loose format. CARSKit is working on transformation on the data format...
-[INFO ] 2020-04-06 16:25:02,422 -- User, Item, Rating, weather:sunny, weather:snowing, weather:rainy, weather:cloudy, trafficconditions:traffic jam, trafficconditions:lots of cars, trafficconditions:free road, sleepiness:sleepy, sleepiness:awake, roadtype:city, roadtype:serpentine, roadtype:highway, naturalphenomena:night, naturalphenomena:morning, naturalphenomena:day time, naturalphenomena:afternoon, mood:sad, mood:lazy, mood:active, mood:happy, landscape:urban, landscape:mountains, landscape:country side, landscape:coast line, drivingstyle:relaxed driving, drivingstyle:sport driving
-[INFO ] 2020-04-06 16:25:02,669 -- Data transformaton completed (from Loose to Binary format). See new rating file: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
-[INFO ] 2020-04-06 16:25:02,749 -- Dataset: ...ar\data\CARSKit.Workspace\train.csv
-[INFO ] 2020-04-06 16:25:02,762 -- DataPath: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
-[INFO ] 2020-04-06 16:25:03,694 -- Rating data set has been successfully loaded.
-[INFO ] 2020-04-06 16:25:04,160 -- 
-/***************************************************************************************************************************************************
+[INFO ] 2020-06-22 18:12:14,279 -- WorkingPath: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
+[INFO ] 2020-06-22 18:12:14,621 -- Your original rating data path: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\nprsv7.csv
+[INFO ] 2020-06-22 18:12:14,678 -- Current working path: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
+[WARN ] 2020-06-22 18:12:14,799 -- You rating data is in Loose format. CARSKit is working on transformation on the data format...
+[INFO ] 2020-06-22 18:12:18,814 -- User, Item, Rating, daytime:night, daytime:evening, daytime:afternoon, daytime:morning
+[INFO ] 2020-06-22 18:12:24,672 -- Data transformaton completed (from Loose to Binary format). See new rating file: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
+[INFO ] 2020-06-22 18:12:24,962 -- Dataset: ...ar\data\CARSKit.Workspace\train.csv
+[INFO ] 2020-06-22 18:12:25,193 -- DataPath: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
+[INFO ] 2020-06-22 18:13:12,450 -- Rating data set has been successfully loaded.
+[INFO ] 2020-06-22 18:13:17,453 -- 
+/*************************************************************************************************************
  *
  * Dataset: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
  * 
  * Statistics of U-I-C Matrix:
- * User amount: 42
- * Item amount: 139
- * Rate amount: 1742
- * Context dimensions: 8 (weather, trafficconditions, sleepiness, roadtype, naturalphenomena, mood, landscape, drivingstyle)
- * Context conditions: 26 (weather: 4, trafficconditions: 3, sleepiness: 2, roadtype: 3, naturalphenomena: 4, mood: 4, landscape: 4, drivingstyle: 2)
- * Context situations: 504
- * Data density: 0.0032%
- * Scale distribution: [4.0 x 283, 1.0 x 487, 2.0 x 372, 0.0 x 44, 5.0 x 196, 3.0 x 360]
- * Average value of all ratings: 2.604829
- * Standard deviation of all ratings: 1.399698
+ * User amount: 252
+ * Item amount: 4288
+ * Rate amount: 69337
+ * Context dimensions: 1 (daytime)
+ * Context conditions: 4 (daytime: 4)
+ * Context situations: 4
+ * Data density: 1.6042%
+ * Scale distribution: [1.0 x 69337]
+ * Average value of all ratings: 1.000000
+ * Standard deviation of all ratings: 0.000000
  * Mode of all rating values: 1.000000
- * Median of all rating values: 2.000000
+ * Median of all rating values: 1.000000
  * 
- * Distribution of rate counts per user: mean = 41.476190476190474, median = 22.5, sd = 58.45642988595299
- * Distribution of rate counts per item: mean = 12.532374100719425, median = 12.0, sd = 3.8089296033607662
- * Distribution of rate counts per context condition: mean = 107.88461538461539, median = 102.5, sd = 24.839990900340403
+ * Distribution of rate counts per user: mean = 275.1468253968254, median = 171.5, sd = 304.07595886515463
+ * Distribution of rate counts per item: mean = 16.17000932835821, median = 14.0, sd = 11.279966962012304
+ * Distribution of rate counts per context condition: mean = 17334.25, median = 16909.0, sd = 977.4843668826627
  * 
  * Average rating in each context condition: (Average, Counts)
- * weather:sunny - 2.577778, 90
- * weather:snowing - 2.217822, 101
- * weather:rainy - 2.633803, 71
- * weather:cloudy - 2.381818, 110
- * trafficconditions:traffic jam - 1.889831, 118
- * trafficconditions:lots of cars - 2.343284, 134
- * trafficconditions:free road - 2.536585, 123
- * sleepiness:sleepy - 2.087500, 80
- * sleepiness:awake - 2.763889, 72
- * roadtype:city - 2.395161, 124
- * roadtype:serpentine - 2.276786, 112
- * roadtype:highway - 2.705426, 129
- * naturalphenomena:night - 2.835443, 79
- * naturalphenomena:morning - 2.478723, 94
- * naturalphenomena:day time - 2.156250, 96
- * naturalphenomena:afternoon - 2.447917, 96
- * mood:sad - 2.296703, 91
- * mood:lazy - 2.191011, 89
- * mood:active - 2.211538, 104
- * mood:happy - 2.442105, 95
- * landscape:urban - 2.190000, 100
- * landscape:mountains - 2.352459, 122
- * landscape:country side - 2.036036, 111
- * landscape:coast line - 2.456000, 125
- * drivingstyle:relaxed driving - 2.277778, 180
- * drivingstyle:sport driving - 2.415094, 159
+ * daytime:night - 1.000000, 16611
+ * daytime:evening - 1.000000, 18968
+ * daytime:afternoon - 1.000000, 16551
+ * daytime:morning - 1.000000, 17207
  * 
  * Statistics of UI Matrix:
- * User amount: 42
- * Item amount: 139
- * Rate amount: 930.0
- * Data density: 15.9301%
- * Data density (unique pairs): 64.7312%
- * Average value of all ratings: 2.343907
- * Standard deviation of all ratings: 1.247474
+ * User amount: 252
+ * Item amount: 4288
+ * Rate amount: 69337.0
+ * Data density: 6.4167%
+ * Data density (unique pairs): 0.0000%
+ * Average value of all ratings: 1.000000
+ * Standard deviation of all ratings: 0.000000
  * Mode of all rating values: 1.000000
- * Median of all rating values: 2.500000
- * Distribution of rate counts per UI pair: mean = 1.8731182795698924, median = 2.0, sd = 0.7599009251984651
+ * Median of all rating values: 1.000000
+ * Distribution of rate counts per UI pair: mean = 1.0, median = 1.0, sd = 0.0
  * 
  * Statistics of UC Matrix:
- * User amount: 42
- * Condition amount: 26
- * Rate amount: 729.0
- * Data density: 66.7582%
- * Data density (unique pairs): 63.5117%
- * Average value of all ratings: 2.381154
- * Standard deviation of all ratings: 1.111018
+ * User amount: 252
+ * Condition amount: 4
+ * Rate amount: 989.0
+ * Data density: 98.1151%
+ * Data density (unique pairs): 97.9778%
+ * Average value of all ratings: 1.000000
+ * Standard deviation of all ratings: 0.000000
  * Mode of all rating values: 1.000000
- * Median of all rating values: 2.333333
- * Distribution of rate counts per UC pair: mean = 3.847736625514403, median = 2.0, sd = 4.834730714053321
+ * Median of all rating values: 1.000000
+ * Distribution of rate counts per UC pair: mean = 70.108190091001, median = 42.0, sd = 82.99416710326743
  * 
  * Statistics of IC Matrix:
- * Item amount: 139
- * Condition amount: 26
- * Rate amount: 1912.0
- * Data density: 52.9054%
- * Data density (unique pairs): 36.7155%
- * Average value of all ratings: 2.371051
- * Standard deviation of all ratings: 1.324727
+ * Item amount: 4288
+ * Condition amount: 4
+ * Rate amount: 15397.0
+ * Data density: 89.7680%
+ * Data density (unique pairs): 84.1463%
+ * Average value of all ratings: 1.000000
+ * Standard deviation of all ratings: 0.000000
  * Mode of all rating values: 1.000000
- * Median of all rating values: 2.000000
- * Distribution of rate counts per IC pair: mean = 1.4670502092050208, median = 1.0, sd = 0.6966462408760568
+ * Median of all rating values: 1.000000
+ * Distribution of rate counts per IC pair: mean = 4.503279859712931, median = 4.0, sd = 3.195672005480334
  * 
- * Paired t-test on user's average rating between UI and UC matrix: absolute mean diff = 0.05265947732217979, p-value = 0.030754533061430812
- * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 0.009350714484129607, p-value = 0.5299481460264985
+ * Paired t-test on user's average rating between UI and UC matrix: absolute mean diff = 0.0, p-value = NaN
+ * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 0.0, p-value = NaN
  *
- ***************************************************************************************************************************************************/
-[INFO ] 2020-04-06 16:25:04,269 -- With Setup: cv -k 10 -p on --rand-seed 1 --test-view all
-[DEBUG] 2020-04-06 16:25:04,353 -- Fold [1]: training amount: 1528, test amount: 170
-[DEBUG] 2020-04-06 16:25:04,641 -- UserSplitting: startId = 42
-[INFO ] 2020-04-06 16:25:04,915 -- 16 users have been splitted.
-[INFO ] 2020-04-06 16:25:04,918 -- User Splitting is done... Algorithm 'userknn' will be applied to the transformed data set.
-[DEBUG] 2020-04-06 16:25:04,944 -- Fold [2]: training amount: 1527, test amount: 171
-[INFO ] 2020-04-06 16:25:04,984 -- Density of transformed 2D rating matrix ============================== 0.11399156536839494
-[DEBUG] 2020-04-06 16:25:04,993 -- Build user similarity matrix ...
-[DEBUG] 2020-04-06 16:25:05,085 -- UserSplitting: startId = 42
-[DEBUG] 2020-04-06 16:25:05,095 -- UserSplitting-UserKNN1 evaluate test data ... 
-[DEBUG] 2020-04-06 16:25:05,162 -- UserSplitting-UserKNN1 has candidate items: 139
-[INFO ] 2020-04-06 16:25:05,287 -- 19 users have been splitted.
-[INFO ] 2020-04-06 16:25:05,290 -- User Splitting is done... Algorithm 'userknn' will be applied to the transformed data set.
-[DEBUG] 2020-04-06 16:25:05,300 -- Fold [3]: training amount: 1531, test amount: 167
-[INFO ] 2020-04-06 16:25:05,354 -- Density of transformed 2D rating matrix ============================== 0.11003656091520227
-[DEBUG] 2020-04-06 16:25:05,377 -- Build user similarity matrix ...
-[DEBUG] 2020-04-06 16:25:05,400 -- UserSplitting: startId = 42
-[DEBUG] 2020-04-06 16:25:05,424 -- UserSplitting-UserKNN2 evaluate test data ... 
-[INFO ] 2020-04-06 16:25:05,533 -- 14 users have been splitted.
-[INFO ] 2020-04-06 16:25:05,534 -- User Splitting is done... Algorithm 'userknn' will be applied to the transformed data set.
-[DEBUG] 2020-04-06 16:25:05,539 -- UserSplitting-UserKNN2 has candidate items: 139
-[DEBUG] 2020-04-06 16:25:05,794 -- Fold [4]: training amount: 1528, test amount: 170
-[INFO ] 2020-04-06 16:25:05,903 -- Density of transformed 2D rating matrix ============================== 0.11806269270298048
-[DEBUG] 2020-04-06 16:25:05,944 -- Build user similarity matrix ...
-[DEBUG] 2020-04-06 16:25:05,975 -- UserSplitting-UserKNN3 evaluate test data ... 
-[DEBUG] 2020-04-06 16:25:06,018 -- UserSplitting-UserKNN3 has candidate items: 139
-[DEBUG] 2020-04-06 16:25:06,019 -- UserSplitting: startId = 42
-[INFO ] 2020-04-06 16:25:06,227 -- 16 users have been splitted.
-[INFO ] 2020-04-06 16:25:06,232 -- User Splitting is done... Algorithm 'userknn' will be applied to the transformed data set.
-[DEBUG] 2020-04-06 16:25:06,268 -- Fold [5]: training amount: 1528, test amount: 170
-[INFO ] 2020-04-06 16:25:06,277 -- Density of transformed 2D rating matrix ============================== 0.11510791366906475
-[DEBUG] 2020-04-06 16:25:06,388 -- Build user similarity matrix ...
-[DEBUG] 2020-04-06 16:25:06,431 -- UserSplitting: startId = 42
-[DEBUG] 2020-04-06 16:25:06,521 -- UserSplitting-UserKNN4 evaluate test data ... 
-[DEBUG] 2020-04-06 16:25:06,667 -- UserSplitting-UserKNN4 has candidate items: 139
-[INFO ] 2020-04-06 16:25:06,746 -- 16 users have been splitted.
-[INFO ] 2020-04-06 16:25:06,769 -- User Splitting is done... Algorithm 'userknn' will be applied to the transformed data set.
-[DEBUG] 2020-04-06 16:25:06,837 -- Fold [6]: training amount: 1532, test amount: 166
-[INFO ] 2020-04-06 16:25:06,845 -- Density of transformed 2D rating matrix ============================== 0.11225502356735301
-[DEBUG] 2020-04-06 16:25:06,940 -- Build user similarity matrix ...
-[DEBUG] 2020-04-06 16:25:06,964 -- UserSplitting: startId = 42
-[DEBUG] 2020-04-06 16:25:07,096 -- UserSplitting-UserKNN5 evaluate test data ... 
-[DEBUG] 2020-04-06 16:25:07,173 -- UserSplitting-UserKNN5 has candidate items: 139
-[INFO ] 2020-04-06 16:25:07,229 -- 17 users have been splitted.
-[INFO ] 2020-04-06 16:25:07,300 -- User Splitting is done... Algorithm 'userknn' will be applied to the transformed data set.
-[DEBUG] 2020-04-06 16:25:07,346 -- Fold [7]: training amount: 1525, test amount: 173
-[INFO ] 2020-04-06 16:25:07,356 -- Density of transformed 2D rating matrix ============================== 0.11242531398609926
-[DEBUG] 2020-04-06 16:25:07,446 -- Build user similarity matrix ...
-[DEBUG] 2020-04-06 16:25:07,517 -- UserSplitting-UserKNN6 evaluate test data ... 
-[DEBUG] 2020-04-06 16:25:07,536 -- UserSplitting: startId = 42
-[DEBUG] 2020-04-06 16:25:07,542 -- UserSplitting-UserKNN6 has candidate items: 139
-[INFO ] 2020-04-06 16:25:07,706 -- 16 users have been splitted.
-[INFO ] 2020-04-06 16:25:07,722 -- User Splitting is done... Algorithm 'userknn' will be applied to the transformed data set.
-[DEBUG] 2020-04-06 16:25:07,758 -- Fold [8]: training amount: 1527, test amount: 171
-[INFO ] 2020-04-06 16:25:07,767 -- Density of transformed 2D rating matrix ============================== 0.11523195236913918
-[DEBUG] 2020-04-06 16:25:07,829 -- Build user similarity matrix ...
-[DEBUG] 2020-04-06 16:25:07,893 -- UserSplitting: startId = 42
-[DEBUG] 2020-04-06 16:25:07,894 -- UserSplitting-UserKNN7 evaluate test data ... 
-[DEBUG] 2020-04-06 16:25:07,901 -- UserSplitting-UserKNN7 has candidate items: 139
-[INFO ] 2020-04-06 16:25:08,092 -- 17 users have been splitted.
-[INFO ] 2020-04-06 16:25:08,106 -- User Splitting is done... Algorithm 'userknn' will be applied to the transformed data set.
-[DEBUG] 2020-04-06 16:25:08,155 -- Fold [9]: training amount: 1526, test amount: 172
-[INFO ] 2020-04-06 16:25:08,173 -- Density of transformed 2D rating matrix ============================== 0.11205950493842215
-[DEBUG] 2020-04-06 16:25:08,262 -- Build user similarity matrix ...
-[DEBUG] 2020-04-06 16:25:08,266 -- UserSplitting: startId = 42
-[DEBUG] 2020-04-06 16:25:08,320 -- UserSplitting-UserKNN8 evaluate test data ... 
-[DEBUG] 2020-04-06 16:25:08,339 -- UserSplitting-UserKNN8 has candidate items: 139
-[INFO ] 2020-04-06 16:25:08,544 -- 20 users have been splitted.
-[INFO ] 2020-04-06 16:25:08,564 -- User Splitting is done... Algorithm 'userknn' will be applied to the transformed data set.
-[DEBUG] 2020-04-06 16:25:08,660 -- Fold [10]: training amount: 1530, test amount: 168
-[INFO ] 2020-04-06 16:25:08,677 -- Density of transformed 2D rating matrix ============================== 0.10733348804827106
-[DEBUG] 2020-04-06 16:25:08,723 -- Build user similarity matrix ...
-[DEBUG] 2020-04-06 16:25:08,778 -- UserSplitting: startId = 42
-[DEBUG] 2020-04-06 16:25:08,813 -- UserSplitting-UserKNN9 evaluate test data ... 
-[DEBUG] 2020-04-06 16:25:08,851 -- UserSplitting-UserKNN9 has candidate items: 139
-[INFO ] 2020-04-06 16:25:08,986 -- 17 users have been splitted.
-[INFO ] 2020-04-06 16:25:08,998 -- User Splitting is done... Algorithm 'userknn' will be applied to the transformed data set.
-[INFO ] 2020-04-06 16:25:09,054 -- Density of transformed 2D rating matrix ============================== 0.11157175954151932
-[DEBUG] 2020-04-06 16:25:09,076 -- Build user similarity matrix ...
-[DEBUG] 2020-04-06 16:25:09,132 -- UserSplitting-UserKNN10 evaluate test data ... 
-[DEBUG] 2020-04-06 16:25:09,206 -- UserSplitting-UserKNN10 has candidate items: 139
-[DEBUG] 2020-04-06 16:25:09,936 -- UserSplitting-UserKNN3 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\UserSplitting-UserKNN-3.csv
-[DEBUG] 2020-04-06 16:25:10,001 -- UserSplitting-UserKNN3: Pre5: 0.013579,Pre10: 0.011800, Pre50: 0.008367, Rec5: 0.066987, Rec10: 0.113602, Rec50: 0.409498, AUC5: 0.532822, AUC10: 0.553387, AUC50: 0.647549, MAP5: 0.030888, MAP10: 0.036527, MAP50: 0.049603, NDCG5: 0.040126, NDCG10: 0.054786,NDCG50: 0.119093,MRR5: 0.031069, MRR10: 0.036886,MRR50: 0.050025	Time: 00:00, 00:03
-[DEBUG] 2020-04-06 16:25:10,393 -- UserSplitting-UserKNN1 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\UserSplitting-UserKNN-1.csv
-[DEBUG] 2020-04-06 16:25:10,408 -- UserSplitting-UserKNN1: Pre5: 0.007261,Pre10: 0.012691, Pre50: 0.008687, Rec5: 0.035231, Rec10: 0.120999, Rec50: 0.404498, AUC5: 0.517274, AUC10: 0.555944, AUC50: 0.635783, MAP5: 0.013354, MAP10: 0.024583, MAP50: 0.037079, NDCG5: 0.018855, NDCG10: 0.046671,NDCG50: 0.107904,MRR5: 0.013569, MRR10: 0.025322,MRR50: 0.037274	Time: 00:00, 00:05
-[DEBUG] 2020-04-06 16:25:10,616 -- UserSplitting-UserKNN4 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\UserSplitting-UserKNN-4.csv
-[DEBUG] 2020-04-06 16:25:10,623 -- UserSplitting-UserKNN4: Pre5: 0.014815,Pre10: 0.011728, Pre50: 0.008222, Rec5: 0.069444, Rec10: 0.111915, Rec50: 0.394542, AUC5: 0.535137, AUC10: 0.553869, AUC50: 0.630253, MAP5: 0.024560, MAP10: 0.030206, MAP50: 0.040521, NDCG5: 0.036132, NDCG10: 0.049908,NDCG50: 0.107878,MRR5: 0.026103, MRR10: 0.031854,MRR50: 0.041617	Time: 00:00, 00:04
-[DEBUG] 2020-04-06 16:25:10,926 -- UserSplitting-UserKNN2 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\UserSplitting-UserKNN-2.csv
-[DEBUG] 2020-04-06 16:25:11,001 -- UserSplitting-UserKNN2: Pre5: 0.010491,Pre10: 0.009472, Pre50: 0.008760, Rec5: 0.052455, Rec10: 0.092485, Rec50: 0.417167, AUC5: 0.524828, AUC10: 0.542741, AUC50: 0.649086, MAP5: 0.016699, MAP10: 0.021425, MAP50: 0.037496, NDCG5: 0.025460, NDCG10: 0.037963,NDCG50: 0.111123,MRR5: 0.016699, MRR10: 0.021744,MRR50: 0.037935	Time: 00:00, 00:05
-[DEBUG] 2020-04-06 16:25:12,025 -- UserSplitting-UserKNN5 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\UserSplitting-UserKNN-5.csv
-[DEBUG] 2020-04-06 16:25:12,035 -- UserSplitting-UserKNN5: Pre5: 0.005789,Pre10: 0.012092, Pre50: 0.009557, Rec5: 0.027705, Rec10: 0.119684, Rec50: 0.465049, AUC5: 0.514113, AUC10: 0.553341, AUC50: 0.646929, MAP5: 0.021717, MAP10: 0.033141, MAP50: 0.044460, NDCG5: 0.023269, NDCG10: 0.052183,NDCG50: 0.121494,MRR5: 0.022130, MRR10: 0.033555,MRR50: 0.045126	Time: 00:00, 00:04
-[DEBUG] 2020-04-06 16:25:12,230 -- UserSplitting-UserKNN7 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\UserSplitting-UserKNN-7.csv
-[DEBUG] 2020-04-06 16:25:12,236 -- UserSplitting-UserKNN7: Pre5: 0.007920,Pre10: 0.007056, Pre50: 0.007604, Rec5: 0.037813, Rec10: 0.068778, Rec50: 0.372574, AUC5: 0.518931, AUC10: 0.532232, AUC50: 0.617026, MAP5: 0.014817, MAP10: 0.018799, MAP50: 0.029713, NDCG5: 0.020749, NDCG10: 0.030613,NDCG50: 0.092853,MRR5: 0.015442, MRR10: 0.019424,MRR50: 0.030391	Time: 00:00, 00:04
-[DEBUG] 2020-04-06 16:25:12,390 -- UserSplitting-UserKNN6 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\UserSplitting-UserKNN-6.csv
-[DEBUG] 2020-04-06 16:25:12,394 -- UserSplitting-UserKNN6: Pre5: 0.011896,Pre10: 0.014000, Pre50: 0.007758, Rec5: 0.057983, Rec10: 0.137895, Rec50: 0.376887, AUC5: 0.528486, AUC10: 0.561157, AUC50: 0.638258, MAP5: 0.021731, MAP10: 0.030178, MAP50: 0.040306, NDCG5: 0.031007, NDCG10: 0.054541,NDCG50: 0.106084,MRR5: 0.022328, MRR10: 0.030602,MRR50: 0.040995	Time: 00:00, 00:04
-[DEBUG] 2020-04-06 16:25:12,455 -- UserSplitting-UserKNN8 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\UserSplitting-UserKNN-8.csv
-[DEBUG] 2020-04-06 16:25:12,478 -- UserSplitting-UserKNN8: Pre5: 0.011695,Pre10: 0.008963, Pre50: 0.010245, Rec5: 0.056014, Rec10: 0.086383, Rec50: 0.497984, AUC5: 0.527522, AUC10: 0.541364, AUC50: 0.652854, MAP5: 0.019558, MAP10: 0.024218, MAP50: 0.039452, NDCG5: 0.028789, NDCG10: 0.039278,NDCG50: 0.123998,MRR5: 0.021326, MRR10: 0.026116,MRR50: 0.041975	Time: 00:00, 00:04
-[DEBUG] 2020-04-06 16:25:12,807 -- UserSplitting-UserKNN9 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\UserSplitting-UserKNN-9.csv
-[DEBUG] 2020-04-06 16:25:12,812 -- UserSplitting-UserKNN9: Pre5: 0.003621,Pre10: 0.009335, Pre50: 0.008331, Rec5: 0.018106, Rec10: 0.091513, Rec50: 0.409412, AUC5: 0.508838, AUC10: 0.541440, AUC50: 0.645048, MAP5: 0.010603, MAP10: 0.020700, MAP50: 0.035827, NDCG5: 0.012526, NDCG10: 0.036717,NDCG50: 0.107210,MRR5: 0.010603, MRR10: 0.020923,MRR50: 0.036174	Time: 00:00, 00:03
-[DEBUG] 2020-04-06 16:25:13,087 -- UserSplitting-UserKNN10 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\UserSplitting-UserKNN-10.csv
-[DEBUG] 2020-04-06 16:25:13,091 -- UserSplitting-UserKNN10: Pre5: 0.005241,Pre10: 0.005384, Pre50: 0.006666, Rec5: 0.025548, Rec10: 0.052522, Rec50: 0.325648, AUC5: 0.512891, AUC10: 0.524724, AUC50: 0.604851, MAP5: 0.018860, MAP10: 0.022231, MAP50: 0.032641, NDCG5: 0.020668, NDCG10: 0.029224,NDCG50: 0.086203,MRR5: 0.019189, MRR10: 0.022643,MRR50: 0.033330	Time: 00:00, 00:03
-[INFO ] 2020-04-06 16:25:13,102 -- Final Results by UserSplitting-UserKNN, Pre5: 0.009231,Pre10: 0.010252, Pre50: 0.008420, Rec5: 0.044729, Rec10: 0.099578, Rec50: 0.407326, AUC5: 0.522084, AUC10: 0.546020, AUC50: 0.636764, MAP5: 0.019279, MAP10: 0.026201, MAP50: 0.038710, NDCG5: 0.025758, NDCG10: 0.043188,NDCG50: 0.108384,MRR5: 0.019846, MRR10: 0.026907,MRR50: 0.039484, 5, pcc, -1, Time: '00:00','00:04'
+ *************************************************************************************************************/
+[INFO ] 2020-06-22 18:13:17,744 -- With Setup: cv -k 5 -p off --rand-seed 1 --test-view all
+[DEBUG] 2020-06-22 18:13:18,238 -- Fold [1]: training amount: 55469, test amount: 13868
+[DEBUG] 2020-06-22 18:13:20,480 -- RankALS1 runs at iter = 1/25
+[DEBUG] 2020-06-22 18:13:51,771 -- RankALS1 runs at iter = 2/25
+[DEBUG] 2020-06-22 18:14:22,173 -- RankALS1 runs at iter = 3/25
+[DEBUG] 2020-06-22 18:14:50,150 -- RankALS1 runs at iter = 4/25
+[DEBUG] 2020-06-22 18:15:21,532 -- RankALS1 runs at iter = 5/25
+[DEBUG] 2020-06-22 18:15:47,443 -- RankALS1 runs at iter = 6/25
+[DEBUG] 2020-06-22 18:16:14,520 -- RankALS1 runs at iter = 7/25
+[DEBUG] 2020-06-22 18:16:43,813 -- RankALS1 runs at iter = 8/25
+[DEBUG] 2020-06-22 18:17:15,402 -- RankALS1 runs at iter = 9/25
+[DEBUG] 2020-06-22 18:17:46,294 -- RankALS1 runs at iter = 10/25
+[DEBUG] 2020-06-22 18:18:12,028 -- RankALS1 runs at iter = 11/25
+[DEBUG] 2020-06-22 18:18:40,474 -- RankALS1 runs at iter = 12/25
+[DEBUG] 2020-06-22 18:19:10,539 -- RankALS1 runs at iter = 13/25
+[DEBUG] 2020-06-22 18:19:39,004 -- RankALS1 runs at iter = 14/25
+[DEBUG] 2020-06-22 18:20:04,486 -- RankALS1 runs at iter = 15/25
+[DEBUG] 2020-06-22 18:20:32,683 -- RankALS1 runs at iter = 16/25
+[DEBUG] 2020-06-22 18:20:56,712 -- RankALS1 runs at iter = 17/25
+[DEBUG] 2020-06-22 18:21:20,844 -- RankALS1 runs at iter = 18/25
+[DEBUG] 2020-06-22 18:21:46,166 -- RankALS1 runs at iter = 19/25
+[DEBUG] 2020-06-22 18:22:11,199 -- RankALS1 runs at iter = 20/25
+[DEBUG] 2020-06-22 18:22:34,957 -- RankALS1 runs at iter = 21/25
+[DEBUG] 2020-06-22 18:23:00,175 -- RankALS1 runs at iter = 22/25
+[DEBUG] 2020-06-22 18:23:25,375 -- RankALS1 runs at iter = 23/25
+[DEBUG] 2020-06-22 18:23:50,510 -- RankALS1 runs at iter = 24/25
+[DEBUG] 2020-06-22 18:24:13,990 -- RankALS1 evaluate test data ... 
+[DEBUG] 2020-06-22 18:24:14,339 -- RankALS1 has candidate items: 4255
+[DEBUG] 2020-06-22 18:24:19,526 -- RankALS1 evaluates progress: 100 / 247
+[DEBUG] 2020-06-22 18:24:19,544 -- RankALS1 evaluates progress: 100 / 247
+[DEBUG] 2020-06-22 18:24:19,563 -- RankALS1 evaluates progress: 100 / 247
+[DEBUG] 2020-06-22 18:24:19,604 -- RankALS1 evaluates progress: 100 / 247
+[DEBUG] 2020-06-22 18:24:22,740 -- RankALS1 evaluates progress: 200 / 247
+[DEBUG] 2020-06-22 18:24:22,746 -- RankALS1 evaluates progress: 200 / 247
+[DEBUG] 2020-06-22 18:24:22,750 -- RankALS1 evaluates progress: 200 / 247
+[DEBUG] 2020-06-22 18:24:22,754 -- RankALS1 evaluates progress: 200 / 247
+[DEBUG] 2020-06-22 18:24:23,871 -- RankALS1 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-1.csv
+[DEBUG] 2020-06-22 18:24:23,894 -- RankALS1: Pre5: 0.020219,Pre10: 0.019809, Pre200: 0.014758, Rec5: 0.009635, Rec10: 0.019711, Rec200: 0.219863, AUC5: 0.546932, AUC10: 0.586654, AUC200: 0.853013, MAP5: 0.004212, MAP10: 0.005643, MAP200: 0.012818, NDCG5: 0.011433, NDCG10: 0.017469,NDCG200: 0.089470,MRR5: 0.042999, MRR10: 0.053365,MRR200: 0.070321	Time: 10:54, 00:09
+[DEBUG] 2020-06-22 18:24:24,027 -- Fold [2]: training amount: 55470, test amount: 13867
+[DEBUG] 2020-06-22 18:24:25,076 -- RankALS2 runs at iter = 1/25
+[DEBUG] 2020-06-22 18:24:47,713 -- RankALS2 runs at iter = 2/25
+[DEBUG] 2020-06-22 18:25:10,932 -- RankALS2 runs at iter = 3/25
+[DEBUG] 2020-06-22 18:25:34,606 -- RankALS2 runs at iter = 4/25
+[DEBUG] 2020-06-22 18:25:57,471 -- RankALS2 runs at iter = 5/25
+[DEBUG] 2020-06-22 18:26:19,996 -- RankALS2 runs at iter = 6/25
+[DEBUG] 2020-06-22 18:26:44,153 -- RankALS2 runs at iter = 7/25
+[DEBUG] 2020-06-22 18:27:13,225 -- RankALS2 runs at iter = 8/25
+[DEBUG] 2020-06-22 18:27:44,505 -- RankALS2 runs at iter = 9/25
+[DEBUG] 2020-06-22 18:28:09,856 -- RankALS2 runs at iter = 10/25
+[DEBUG] 2020-06-22 18:28:35,395 -- RankALS2 runs at iter = 11/25
+[DEBUG] 2020-06-22 18:28:55,947 -- RankALS2 runs at iter = 12/25
+[DEBUG] 2020-06-22 18:29:16,767 -- RankALS2 runs at iter = 13/25
+[DEBUG] 2020-06-22 18:29:46,304 -- RankALS2 runs at iter = 14/25
+[DEBUG] 2020-06-22 18:30:20,646 -- RankALS2 runs at iter = 15/25
+[DEBUG] 2020-06-22 18:30:50,583 -- RankALS2 runs at iter = 16/25
+[DEBUG] 2020-06-22 18:31:18,456 -- RankALS2 runs at iter = 17/25
+[DEBUG] 2020-06-22 18:31:53,165 -- RankALS2 runs at iter = 18/25
+[DEBUG] 2020-06-22 18:32:20,867 -- RankALS2 runs at iter = 19/25
+[DEBUG] 2020-06-22 18:32:47,457 -- RankALS2 runs at iter = 20/25
+[DEBUG] 2020-06-22 18:33:14,701 -- RankALS2 runs at iter = 21/25
+[DEBUG] 2020-06-22 18:33:46,875 -- RankALS2 runs at iter = 22/25
+[DEBUG] 2020-06-22 18:34:17,353 -- RankALS2 runs at iter = 23/25
+[DEBUG] 2020-06-22 18:34:48,404 -- RankALS2 runs at iter = 24/25
+[DEBUG] 2020-06-22 18:35:10,901 -- RankALS2 evaluate test data ... 
+[DEBUG] 2020-06-22 18:35:11,181 -- RankALS2 has candidate items: 4257
+[DEBUG] 2020-06-22 18:35:16,318 -- RankALS2 evaluates progress: 100 / 249
+[DEBUG] 2020-06-22 18:35:16,322 -- RankALS2 evaluates progress: 100 / 249
+[DEBUG] 2020-06-22 18:35:16,326 -- RankALS2 evaluates progress: 100 / 249
+[DEBUG] 2020-06-22 18:35:16,329 -- RankALS2 evaluates progress: 100 / 249
+[DEBUG] 2020-06-22 18:35:19,988 -- RankALS2 evaluates progress: 200 / 249
+[DEBUG] 2020-06-22 18:35:20,011 -- RankALS2 evaluates progress: 200 / 249
+[DEBUG] 2020-06-22 18:35:20,159 -- RankALS2 evaluates progress: 200 / 249
+[DEBUG] 2020-06-22 18:35:20,230 -- RankALS2 evaluates progress: 200 / 249
+[DEBUG] 2020-06-22 18:35:21,783 -- RankALS2 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-2.csv
+[DEBUG] 2020-06-22 18:35:21,794 -- RankALS2: Pre5: 0.023588,Pre10: 0.020833, Pre200: 0.015876, Rec5: 0.018290, Rec10: 0.026430, Rec200: 0.267541, AUC5: 0.554140, AUC10: 0.588244, AUC200: 0.870403, MAP5: 0.008079, MAP10: 0.009171, MAP200: 0.018165, NDCG5: 0.016607, NDCG10: 0.021600,NDCG200: 0.105859,MRR5: 0.050341, MRR10: 0.059291,MRR200: 0.076828	Time: 10:46, 00:10
+[DEBUG] 2020-06-22 18:35:22,041 -- Fold [3]: training amount: 55469, test amount: 13868
+[DEBUG] 2020-06-22 18:35:24,180 -- RankALS3 runs at iter = 1/25
+[DEBUG] 2020-06-22 18:35:51,636 -- RankALS3 runs at iter = 2/25
+[DEBUG] 2020-06-22 18:36:19,201 -- RankALS3 runs at iter = 3/25
+[DEBUG] 2020-06-22 18:36:51,670 -- RankALS3 runs at iter = 4/25
+[DEBUG] 2020-06-22 18:37:20,436 -- RankALS3 runs at iter = 5/25
+[DEBUG] 2020-06-22 18:37:43,865 -- RankALS3 runs at iter = 6/25
+[DEBUG] 2020-06-22 18:38:08,628 -- RankALS3 runs at iter = 7/25
+[DEBUG] 2020-06-22 18:38:28,824 -- RankALS3 runs at iter = 8/25
+[DEBUG] 2020-06-22 18:38:53,000 -- RankALS3 runs at iter = 9/25
+[DEBUG] 2020-06-22 18:39:18,546 -- RankALS3 runs at iter = 10/25
+[DEBUG] 2020-06-22 18:39:41,728 -- RankALS3 runs at iter = 11/25
+[DEBUG] 2020-06-22 18:40:05,169 -- RankALS3 runs at iter = 12/25
+[DEBUG] 2020-06-22 18:40:40,657 -- RankALS3 runs at iter = 13/25
+[DEBUG] 2020-06-22 18:41:17,946 -- RankALS3 runs at iter = 14/25
+[DEBUG] 2020-06-22 18:41:51,477 -- RankALS3 runs at iter = 15/25
+[DEBUG] 2020-06-22 18:42:30,078 -- RankALS3 runs at iter = 16/25
+[DEBUG] 2020-06-22 18:42:58,441 -- RankALS3 runs at iter = 17/25
+[DEBUG] 2020-06-22 18:43:28,106 -- RankALS3 runs at iter = 18/25
+[DEBUG] 2020-06-22 18:43:59,760 -- RankALS3 runs at iter = 19/25
+[DEBUG] 2020-06-22 18:44:34,564 -- RankALS3 runs at iter = 20/25
+[DEBUG] 2020-06-22 18:45:05,051 -- RankALS3 runs at iter = 21/25
+[DEBUG] 2020-06-22 18:45:34,068 -- RankALS3 runs at iter = 22/25
+[DEBUG] 2020-06-22 18:46:15,840 -- RankALS3 runs at iter = 23/25
+[DEBUG] 2020-06-22 18:46:56,626 -- RankALS3 runs at iter = 24/25
+[DEBUG] 2020-06-22 18:47:23,358 -- RankALS3 evaluate test data ... 
+[DEBUG] 2020-06-22 18:47:23,687 -- RankALS3 has candidate items: 4265
+[DEBUG] 2020-06-22 18:47:28,459 -- RankALS3 evaluates progress: 100 / 245
+[DEBUG] 2020-06-22 18:47:28,530 -- RankALS3 evaluates progress: 100 / 245
+[DEBUG] 2020-06-22 18:47:28,595 -- RankALS3 evaluates progress: 100 / 245
+[DEBUG] 2020-06-22 18:47:28,634 -- RankALS3 evaluates progress: 100 / 245
+[DEBUG] 2020-06-22 18:47:31,727 -- RankALS3 evaluates progress: 200 / 245
+[DEBUG] 2020-06-22 18:47:31,766 -- RankALS3 evaluates progress: 200 / 245
+[DEBUG] 2020-06-22 18:47:31,803 -- RankALS3 evaluates progress: 200 / 245
+[DEBUG] 2020-06-22 18:47:31,859 -- RankALS3 evaluates progress: 200 / 245
+[DEBUG] 2020-06-22 18:47:33,334 -- RankALS3 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-3.csv
+[DEBUG] 2020-06-22 18:47:33,651 -- RankALS3: Pre5: 0.015182,Pre10: 0.016337, Pre200: 0.009950, Rec5: 0.005350, Rec10: 0.014492, Rec200: 0.141278, AUC5: 0.532935, AUC10: 0.567080, AUC200: 0.800133, MAP5: 0.002518, MAP10: 0.004061, MAP200: 0.008356, NDCG5: 0.007262, NDCG10: 0.012918,NDCG200: 0.060094,MRR5: 0.035919, MRR10: 0.045325,MRR200: 0.058434	Time: 11:59, 00:10
+[DEBUG] 2020-06-22 18:47:34,093 -- Fold [4]: training amount: 55470, test amount: 13867
+[DEBUG] 2020-06-22 18:47:36,394 -- RankALS4 runs at iter = 1/25
+[DEBUG] 2020-06-22 18:48:13,871 -- RankALS4 runs at iter = 2/25
+[DEBUG] 2020-06-22 18:49:08,976 -- RankALS4 runs at iter = 3/25
+[DEBUG] 2020-06-22 18:49:46,166 -- RankALS4 runs at iter = 4/25
+[DEBUG] 2020-06-22 18:50:35,798 -- RankALS4 runs at iter = 5/25
+[DEBUG] 2020-06-22 18:51:27,319 -- RankALS4 runs at iter = 6/25
+[DEBUG] 2020-06-22 18:52:03,220 -- RankALS4 runs at iter = 7/25
+[DEBUG] 2020-06-22 18:52:43,837 -- RankALS4 runs at iter = 8/25
+[DEBUG] 2020-06-22 18:53:34,585 -- RankALS4 runs at iter = 9/25
+[DEBUG] 2020-06-22 18:54:15,019 -- RankALS4 runs at iter = 10/25
+[DEBUG] 2020-06-22 18:54:53,231 -- RankALS4 runs at iter = 11/25
+[DEBUG] 2020-06-22 18:55:27,009 -- RankALS4 runs at iter = 12/25
+[DEBUG] 2020-06-22 18:56:07,399 -- RankALS4 runs at iter = 13/25
+[DEBUG] 2020-06-22 18:56:47,652 -- RankALS4 runs at iter = 14/25
+[DEBUG] 2020-06-22 18:57:24,887 -- RankALS4 runs at iter = 15/25
+[DEBUG] 2020-06-22 18:58:18,133 -- RankALS4 runs at iter = 16/25
+[DEBUG] 2020-06-22 18:59:10,069 -- RankALS4 runs at iter = 17/25
+[DEBUG] 2020-06-22 18:59:57,491 -- RankALS4 runs at iter = 18/25
+[DEBUG] 2020-06-22 19:00:49,632 -- RankALS4 runs at iter = 19/25
+[DEBUG] 2020-06-22 19:01:27,155 -- RankALS4 runs at iter = 20/25
+[DEBUG] 2020-06-22 19:02:11,898 -- RankALS4 runs at iter = 21/25
+[DEBUG] 2020-06-22 19:02:42,622 -- RankALS4 runs at iter = 22/25
+[DEBUG] 2020-06-22 19:03:10,230 -- RankALS4 runs at iter = 23/25
+[DEBUG] 2020-06-22 19:03:36,947 -- RankALS4 runs at iter = 24/25
+[DEBUG] 2020-06-22 19:04:05,095 -- RankALS4 evaluate test data ... 
+[DEBUG] 2020-06-22 19:04:05,444 -- RankALS4 has candidate items: 4260
+[DEBUG] 2020-06-22 19:04:09,757 -- RankALS4 evaluates progress: 100 / 250
+[DEBUG] 2020-06-22 19:04:09,925 -- RankALS4 evaluates progress: 100 / 250
+[DEBUG] 2020-06-22 19:04:10,024 -- RankALS4 evaluates progress: 100 / 250
+[DEBUG] 2020-06-22 19:04:10,139 -- RankALS4 evaluates progress: 100 / 250
+[DEBUG] 2020-06-22 19:04:13,267 -- RankALS4 evaluates progress: 200 / 250
+[DEBUG] 2020-06-22 19:04:13,414 -- RankALS4 evaluates progress: 200 / 250
+[DEBUG] 2020-06-22 19:04:13,493 -- RankALS4 evaluates progress: 200 / 250
+[DEBUG] 2020-06-22 19:04:13,551 -- RankALS4 evaluates progress: 200 / 250
+[DEBUG] 2020-06-22 19:04:15,189 -- RankALS4 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-4.csv
+[DEBUG] 2020-06-22 19:04:15,270 -- RankALS4: Pre5: 0.008333,Pre10: 0.011250, Pre200: 0.007462, Rec5: 0.004435, Rec10: 0.014528, Rec200: 0.140712, AUC5: 0.519537, AUC10: 0.546206, AUC200: 0.732314, MAP5: 0.001652, MAP10: 0.003024, MAP200: 0.006675, NDCG5: 0.004417, NDCG10: 0.009612,NDCG200: 0.050461,MRR5: 0.016563, MRR10: 0.023800,MRR200: 0.034734	Time: 16:29, 00:10
+[DEBUG] 2020-06-22 19:04:15,435 -- Fold [5]: training amount: 55470, test amount: 13867
+[DEBUG] 2020-06-22 19:04:16,842 -- RankALS5 runs at iter = 1/25
+[DEBUG] 2020-06-22 19:04:43,998 -- RankALS5 runs at iter = 2/25
+[DEBUG] 2020-06-22 19:05:15,444 -- RankALS5 runs at iter = 3/25
+[DEBUG] 2020-06-22 19:05:46,084 -- RankALS5 runs at iter = 4/25
+[DEBUG] 2020-06-22 19:06:15,161 -- RankALS5 runs at iter = 5/25
+[DEBUG] 2020-06-22 19:06:48,575 -- RankALS5 runs at iter = 6/25
+[DEBUG] 2020-06-22 19:07:17,262 -- RankALS5 runs at iter = 7/25
+[DEBUG] 2020-06-22 19:07:49,321 -- RankALS5 runs at iter = 8/25
+[DEBUG] 2020-06-22 19:08:14,672 -- RankALS5 runs at iter = 9/25
+[DEBUG] 2020-06-22 19:08:40,699 -- RankALS5 runs at iter = 10/25
+[DEBUG] 2020-06-22 19:09:07,349 -- RankALS5 runs at iter = 11/25
+[DEBUG] 2020-06-22 19:09:33,577 -- RankALS5 runs at iter = 12/25
+[DEBUG] 2020-06-22 19:10:05,504 -- RankALS5 runs at iter = 13/25
+[DEBUG] 2020-06-22 19:10:37,162 -- RankALS5 runs at iter = 14/25
+[DEBUG] 2020-06-22 19:11:09,818 -- RankALS5 runs at iter = 15/25
+[DEBUG] 2020-06-22 19:11:38,557 -- RankALS5 runs at iter = 16/25
+[DEBUG] 2020-06-22 19:12:09,456 -- RankALS5 runs at iter = 17/25
+[DEBUG] 2020-06-22 19:12:38,798 -- RankALS5 runs at iter = 18/25
+[DEBUG] 2020-06-22 19:13:10,668 -- RankALS5 runs at iter = 19/25
+[DEBUG] 2020-06-22 19:13:39,827 -- RankALS5 runs at iter = 20/25
+[DEBUG] 2020-06-22 19:14:08,823 -- RankALS5 runs at iter = 21/25
+[DEBUG] 2020-06-22 19:14:36,351 -- RankALS5 runs at iter = 22/25
+[DEBUG] 2020-06-22 19:15:05,292 -- RankALS5 runs at iter = 23/25
+[DEBUG] 2020-06-22 19:15:36,774 -- RankALS5 runs at iter = 24/25
+[DEBUG] 2020-06-22 19:16:01,183 -- RankALS5 evaluate test data ... 
+[DEBUG] 2020-06-22 19:16:01,404 -- RankALS5 has candidate items: 4267
+[DEBUG] 2020-06-22 19:16:06,137 -- RankALS5 evaluates progress: 100 / 247
+[DEBUG] 2020-06-22 19:16:06,140 -- RankALS5 evaluates progress: 100 / 247
+[DEBUG] 2020-06-22 19:16:06,144 -- RankALS5 evaluates progress: 100 / 247
+[DEBUG] 2020-06-22 19:16:06,147 -- RankALS5 evaluates progress: 100 / 247
+[DEBUG] 2020-06-22 19:16:09,527 -- RankALS5 evaluates progress: 200 / 247
+[DEBUG] 2020-06-22 19:16:09,641 -- RankALS5 evaluates progress: 200 / 247
+[DEBUG] 2020-06-22 19:16:09,734 -- RankALS5 evaluates progress: 200 / 247
+[DEBUG] 2020-06-22 19:16:09,823 -- RankALS5 evaluates progress: 200 / 247
+[DEBUG] 2020-06-22 19:16:11,035 -- RankALS5 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-5.csv
+[DEBUG] 2020-06-22 19:16:11,040 -- RankALS5: Pre5: 0.019792,Pre10: 0.019076, Pre200: 0.013532, Rec5: 0.008454, Rec10: 0.021153, Rec200: 0.265827, AUC5: 0.544964, AUC10: 0.578087, AUC200: 0.860270, MAP5: 0.002937, MAP10: 0.004935, MAP200: 0.013357, NDCG5: 0.009080, NDCG10: 0.016078,NDCG200: 0.094148,MRR5: 0.036925, MRR10: 0.045535,MRR200: 0.061846	Time: 11:44, 00:09
+[INFO ] 2020-06-22 19:16:11,052 -- Final Results by RankALS, Pre5: 0.017423,Pre10: 0.017461, Pre200: 0.012315, Rec5: 0.009233, Rec10: 0.019263, Rec200: 0.207044, AUC5: 0.539702, AUC10: 0.573254, AUC200: 0.823226, MAP5: 0.003880, MAP10: 0.005367, MAP200: 0.011874, NDCG5: 0.009760, NDCG10: 0.015535,NDCG200: 0.080006,MRR5: 0.036549, MRR10: 0.045463,MRR200: 0.060433, 0.0, 10, true, 25, Time: '12:22','00:10'
 
-[DEBUG] 2020-04-06 16:25:13,106 -- Have been collected to file: results.txt
+[DEBUG] 2020-06-22 19:16:11,058 -- Have been collected to file: results.txt

@@ -817,14 +817,14 @@ public abstract class Recommender implements Runnable{
                 if (correctItems.size() == 0)
                     continue; // no testing data for user u
 
-                while (correctItems.size() > 5) {
-                    int toRemove = (int) correctItems.size()/2;
-                    while (toRemove != 0) {
-                        int randomNum = ThreadLocalRandom.current().nextInt(0, correctItems.size());
-                        correctItems.remove(randomNum);
-                        toRemove--;
-                    }
-                }
+//                while (correctItems.size() > 5) {
+//                    int toRemove = (int) correctItems.size()/2;
+//                    while (toRemove != 0) {
+//                        int randomNum = ThreadLocalRandom.current().nextInt(0, correctItems.size());
+//                        correctItems.remove(randomNum);
+//                        toRemove--;
+//                    }
+//                }
 
                 // remove rated items from candidate items
                 Set<Integer> ratedItems = (cList_train.containsKey(c))?cList_train.get(c):new HashSet<Integer>();
@@ -851,8 +851,8 @@ public abstract class Recommender implements Runnable{
                     }
                 }
 
-                if (itemScores.size() == 0)
-                    continue; // no recommendations available for user u
+                if (itemScores.size() == 0)                    continue; // no recommendations available for user u
+
 
                 // order the ranking scores from highest to lowest: List to preserve orders
                 Lists.sortList(itemScores, true);
@@ -892,59 +892,59 @@ public abstract class Recommender implements Runnable{
                 }
 
                 // TODO EXPERIMENTAL
-//                Collection<Integer> posItemsCopy = SerializationUtils.clone((Serializable) posItems);
-                ArrayList<Integer> posItemsCopy = new ArrayList<>(posItems);
-                ArrayList<Integer> toRemove = new ArrayList<>();
-                for (Integer item : posItemsCopy) {
-                    if (rankedItems.contains(item)) {
-                        toRemove.add(item);
-                    }
-                }
-
-                for (Integer item : toRemove) {
-                    posItemsCopy.remove(Integer.valueOf(item));
-                }
-
-                if (posItemsCopy.size() > 0) {
-                    for (int i = 0; i < posItemsCopy.size(); i++) {
-                        int ind = sb.lastIndexOf(",");
-                        if (i == posItemsCopy.size() - 1) {
-                            sb.delete(ind + 1, sb.length()+1);
-                        } else if (ind != -1) {
-                            sb.delete(ind, sb.length()+1);
-                        }
-                    }
-
-                    List<Map.Entry<String, Double>> testItemScores = new ArrayList<>(Lists.initSize(posItemsCopy));
-
-                    for (Integer j : posItemsCopy) {
-                        String itemNormalId = rateDao.getItemId(j);
-
-                        if(isUserSplitting)
-                            u = userIdMapper.contains(u,c) ? userIdMapper.get(u,c) : u;
-                        if(isItemSplitting)
-                            j = itemIdMapper.contains(j,c) ? itemIdMapper.get(j,c) : j;
-
-                        final double rank = ranking(u, j, c);
-                        if (!Double.isNaN(rank)) {
-                            // add rating threshold as a filter
-                            if(rank>0)//binThold)
-                                testItemScores.add(new SimpleImmutableEntry<String, Double>(itemNormalId, rank));
-                        }
-                    }
-
-                    // order the ranking scores from highest to lowest: List to preserve orders
-                    Lists.sortList(testItemScores, true);
-                    List<Map.Entry<String, Double>> recomdd = (numRecs <= 0 || testItemScores.size() <= numRecs) ? testItemScores
-                            : testItemScores.subList(0, numRecs);
-                    for (Map.Entry<String, Double> kv : recomdd) {
-                         sb.append(kv.getKey()).append(";").append(kv.getValue()).append(",");
-                    }
-
-                    StringBuilder sss = new StringBuilder();
-                    sss.append(sb.substring(0, sb.length() - 1));
-                    sb = sss;
-                }
+                // Remove last few items in list to put positive test items there
+//                ArrayList<Integer> posItemsCopy = new ArrayList<>(posItems);
+//                ArrayList<Integer> toRemove = new ArrayList<>();
+//                for (Integer item : posItemsCopy) {
+//                    if (rankedItems.contains(item)) {
+//                        toRemove.add(item);
+//                    }
+//                }
+//
+//                for (Integer item : toRemove) {
+//                    posItemsCopy.remove(Integer.valueOf(item));
+//                }
+//
+//                if (posItemsCopy.size() > 0) {
+//                    for (int i = 0; i < posItemsCopy.size(); i++) {
+//                        int ind = sb.lastIndexOf(",");
+//                        if (i == posItemsCopy.size() - 1) {
+//                            sb.delete(ind + 1, sb.length()+1);
+//                        } else if (ind != -1) {
+//                            sb.delete(ind, sb.length()+1);
+//                        }
+//                    }
+//
+//                    List<Map.Entry<String, Double>> testItemScores = new ArrayList<>(Lists.initSize(posItemsCopy));
+//
+//                    for (Integer j : posItemsCopy) {
+//                        String itemNormalId = rateDao.getItemId(j);
+//
+//                        if(isUserSplitting)
+//                            u = userIdMapper.contains(u,c) ? userIdMapper.get(u,c) : u;
+//                        if(isItemSplitting)
+//                            j = itemIdMapper.contains(j,c) ? itemIdMapper.get(j,c) : j;
+//
+//                        final double rank = ranking(u, j, c);
+//                        if (!Double.isNaN(rank)) {
+//                            // add rating threshold as a filter
+//                            if(rank>0)//binThold)
+//                                testItemScores.add(new SimpleImmutableEntry<String, Double>(itemNormalId, rank));
+//                        }
+//                    }
+//
+//                    // order the ranking scores from highest to lowest: List to preserve orders
+//                    Lists.sortList(testItemScores, true);
+//                    List<Map.Entry<String, Double>> recomdd = (numRecs <= 0 || testItemScores.size() <= numRecs) ? testItemScores
+//                            : testItemScores.subList(0, numRecs);
+//                    for (Map.Entry<String, Double> kv : recomdd) {
+//                         sb.append(kv.getKey()).append(";").append(kv.getValue()).append(",");
+//                    }
+//
+//                    StringBuilder sss = new StringBuilder();
+//                    sss.append(sb.substring(0, sb.length() - 1));
+//                    sb = sss;
+//                }
 
 
                 int numDropped = numCands - rankedItems.size();

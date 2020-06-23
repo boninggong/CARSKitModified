@@ -53,7 +53,8 @@ public class CAMF_ICS extends CAMF{
         double pred=DenseMatrix.rowMult(P, u, Q, j);
         List<Integer> conditions=getConditions(c);
         for(int i=0;i<conditions.size();++i)
-            pred=pred*ccMatrix_ICS.get(conditions.get(i), EmptyContextConditions.get(i));
+            if (i < EmptyContextConditions.size())
+                pred=pred*ccMatrix_ICS.get(conditions.get(i), EmptyContextConditions.get(i));
         return pred;
     }
 
@@ -78,13 +79,15 @@ public class CAMF_ICS extends CAMF{
                 double pred=dotRating;
                 List<Integer> conditions=getConditions(ctx);
                 for(int i=0;i<conditions.size();++i) {
-                    int index1=conditions.get(i);
-                    int index2=EmptyContextConditions.get(i);
                     double sim=1.0;
-                    if(index1!=index2) {
-                        sim = ccMatrix_ICS.get(index1, index2);
-                        toBeUpdated.put(index1,index2,sim);
-                        simc*=sim;
+                    int index1=conditions.get(i);
+                    if (i < EmptyContextConditions.size()) {
+                        int index2=EmptyContextConditions.get(i);
+                        if(index1!=index2) {
+                            sim = ccMatrix_ICS.get(index1, index2);
+                            toBeUpdated.put(index1,index2,sim);
+                            simc*=sim;
+                        }
                     }
                     loss += regC * sim * sim;
                     pred = pred * sim;
