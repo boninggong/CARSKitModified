@@ -22,7 +22,7 @@ ratings.setup=-threshold 0 -datatransformation 1 -fullstat 1
 # CARS - dependent-sim models: CAMF_ICS, CAMF_LCS, CAMF_MCS, CSLIM_ICS, CSLIM_LCS, CSLIM_MCS, GCSLIM_ICS, GCSLIM_LCS, GCSLIM_MCS
 # Notes: SLIM based models and dependent-sim models are top-N recommendation models which can be examined by top-N recommendations only.
 
-recommender= RankALS
+recommender= BPR
 
 # main option: 1. test-set -f test-file-path; 2. cv (cross validation) -k k-folds [-p on, off]
 # 3. leave-one-out; 4. given-ratio -r ratio;
@@ -43,7 +43,7 @@ guava.cache.spec=maximumSize=200,expireAfterAccess=2m
 
 ################################################### Model-based Methods ##########################################
 num.factors=10
-num.max.iter=20
+num.max.iter=50
 
 # options: -bold-driver, -decay ratio, -moment value
 learn.rate=2e-2 -max -1 -bold-driver
