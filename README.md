@@ -23,7 +23,9 @@ The following modifications have been made to the original version:
 * Modified that the system also outputs the fold that has been left out in each iteration over all the folds. Our re-rank system needs to know for each iteration which ratings/listening events are used for evaluation of performance.
 * Modified that next to the specific fold, the system also outputs another file containing the index of all positive items across all recommendation lists. This data is used to visualize the distribution of positive items for the initial recommender algorithm to get a general idea about the recommendation accuracy.
 
+See the original CARSKit guide: http://arxiv.org/abs/1511.03780 on how to use the system. 
 
+See https://github.com/boninggong/Re-rankSystem for instructions on where the resulting files should be put to use the re-rank system.
 
 
 
