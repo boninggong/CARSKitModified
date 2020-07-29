@@ -1,13 +1,13 @@
-[INFO ] 2020-07-22 11:40:19,992 -- WorkingPath: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
-[INFO ] 2020-07-22 11:40:20,030 -- Your original rating data path: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\nprs.csv
-[INFO ] 2020-07-22 11:40:20,032 -- Current working path: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
-[WARN ] 2020-07-22 11:40:20,049 -- You rating data is in Loose format. CARSKit is working on transformation on the data format...
-[INFO ] 2020-07-22 11:40:23,054 -- User, Item, Rating, daytime:evening, daytime:night, daytime:afternoon, daytime:morning
-[INFO ] 2020-07-22 11:40:25,774 -- Data transformaton completed (from Loose to Binary format). See new rating file: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
-[INFO ] 2020-07-22 11:40:25,861 -- Dataset: ...ar\data\CARSKit.Workspace\train.csv
-[INFO ] 2020-07-22 11:40:25,871 -- DataPath: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
-[INFO ] 2020-07-22 11:41:12,612 -- Rating data set has been successfully loaded.
-[INFO ] 2020-07-22 11:41:18,862 -- 
+[INFO ] 2020-07-29 18:07:56,991 -- WorkingPath: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
+[INFO ] 2020-07-29 18:07:57,027 -- Your original rating data path: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\nowplaying-rs-final.csv
+[INFO ] 2020-07-29 18:07:57,030 -- Current working path: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
+[WARN ] 2020-07-29 18:07:57,042 -- You rating data is in Loose format. CARSKit is working on transformation on the data format...
+[INFO ] 2020-07-29 18:08:00,180 -- User, Item, Rating, daytime:evening, daytime:night, daytime:afternoon, daytime:morning
+[INFO ] 2020-07-29 18:08:03,016 -- Data transformaton completed (from Loose to Binary format). See new rating file: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
+[INFO ] 2020-07-29 18:08:03,069 -- Dataset: ...ar\data\CARSKit.Workspace\train.csv
+[INFO ] 2020-07-29 18:08:03,080 -- DataPath: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
+[INFO ] 2020-07-29 18:08:44,780 -- Rating data set has been successfully loaded.
+[INFO ] 2020-07-29 18:08:50,863 -- 
 /*************************************************************************************************************
  *
  * Dataset: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
@@ -76,172 +76,202 @@
  * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 0.0, p-value = NaN
  *
  *************************************************************************************************************/
-[INFO ] 2020-07-22 11:41:18,903 -- With Setup: cv -k 5 -p on --rand-seed 1 --test-view all
-[DEBUG] 2020-07-22 11:41:19,169 -- Fold [1]: training amount: 86561, test amount: 21641
-[DEBUG] 2020-07-22 11:41:20,073 -- Fold [2]: training amount: 86562, test amount: 21640
-[DEBUG] 2020-07-22 11:41:20,478 -- RankALS1 runs at iter = 1/20
-[DEBUG] 2020-07-22 11:41:20,923 -- Fold [3]: training amount: 86561, test amount: 21641
-[DEBUG] 2020-07-22 11:41:22,132 -- RankALS2 runs at iter = 1/20
-[DEBUG] 2020-07-22 11:41:22,783 -- Fold [4]: training amount: 86562, test amount: 21640
-[DEBUG] 2020-07-22 11:41:23,268 -- RankALS3 runs at iter = 1/20
-[DEBUG] 2020-07-22 11:41:23,908 -- Fold [5]: training amount: 86562, test amount: 21640
-[DEBUG] 2020-07-22 11:41:24,457 -- RankALS4 runs at iter = 1/20
-[DEBUG] 2020-07-22 11:41:26,214 -- RankALS5 runs at iter = 1/20
-[DEBUG] 2020-07-22 11:42:11,545 -- RankALS1 runs at iter = 2/20
-[DEBUG] 2020-07-22 11:42:11,971 -- RankALS2 runs at iter = 2/20
-[DEBUG] 2020-07-22 11:42:12,883 -- RankALS3 runs at iter = 2/20
-[DEBUG] 2020-07-22 11:42:13,702 -- RankALS4 runs at iter = 2/20
-[DEBUG] 2020-07-22 11:42:14,813 -- RankALS5 runs at iter = 2/20
-[DEBUG] 2020-07-22 11:43:02,801 -- RankALS1 runs at iter = 3/20
-[DEBUG] 2020-07-22 11:43:04,176 -- RankALS2 runs at iter = 3/20
-[DEBUG] 2020-07-22 11:43:05,053 -- RankALS4 runs at iter = 3/20
-[DEBUG] 2020-07-22 11:43:05,694 -- RankALS3 runs at iter = 3/20
-[DEBUG] 2020-07-22 11:43:06,841 -- RankALS5 runs at iter = 3/20
-[DEBUG] 2020-07-22 11:43:54,921 -- RankALS1 runs at iter = 4/20
-[DEBUG] 2020-07-22 11:43:56,855 -- RankALS2 runs at iter = 4/20
-[DEBUG] 2020-07-22 11:43:57,662 -- RankALS4 runs at iter = 4/20
-[DEBUG] 2020-07-22 11:43:58,477 -- RankALS3 runs at iter = 4/20
-[DEBUG] 2020-07-22 11:44:00,439 -- RankALS5 runs at iter = 4/20
-[DEBUG] 2020-07-22 11:44:55,239 -- RankALS2 runs at iter = 5/20
-[DEBUG] 2020-07-22 11:44:56,865 -- RankALS3 runs at iter = 5/20
-[DEBUG] 2020-07-22 11:44:57,112 -- RankALS1 runs at iter = 5/20
-[DEBUG] 2020-07-22 11:44:59,364 -- RankALS4 runs at iter = 5/20
-[DEBUG] 2020-07-22 11:45:01,152 -- RankALS5 runs at iter = 5/20
-[DEBUG] 2020-07-22 11:45:49,584 -- RankALS2 runs at iter = 6/20
-[DEBUG] 2020-07-22 11:45:49,820 -- RankALS1 runs at iter = 6/20
-[DEBUG] 2020-07-22 11:45:51,941 -- RankALS3 runs at iter = 6/20
-[DEBUG] 2020-07-22 11:45:52,491 -- RankALS4 runs at iter = 6/20
-[DEBUG] 2020-07-22 11:45:54,429 -- RankALS5 runs at iter = 6/20
-[DEBUG] 2020-07-22 11:46:38,021 -- RankALS2 runs at iter = 7/20
-[DEBUG] 2020-07-22 11:46:38,772 -- RankALS1 runs at iter = 7/20
-[DEBUG] 2020-07-22 11:46:40,778 -- RankALS3 runs at iter = 7/20
-[DEBUG] 2020-07-22 11:46:40,893 -- RankALS4 runs at iter = 7/20
-[DEBUG] 2020-07-22 11:46:42,923 -- RankALS5 runs at iter = 7/20
-[DEBUG] 2020-07-22 11:47:21,306 -- RankALS2 runs at iter = 8/20
-[DEBUG] 2020-07-22 11:47:23,300 -- RankALS1 runs at iter = 8/20
-[DEBUG] 2020-07-22 11:47:23,992 -- RankALS4 runs at iter = 8/20
-[DEBUG] 2020-07-22 11:47:24,091 -- RankALS3 runs at iter = 8/20
-[DEBUG] 2020-07-22 11:47:27,106 -- RankALS5 runs at iter = 8/20
-[DEBUG] 2020-07-22 11:48:05,359 -- RankALS2 runs at iter = 9/20
-[DEBUG] 2020-07-22 11:48:08,580 -- RankALS4 runs at iter = 9/20
-[DEBUG] 2020-07-22 11:48:08,617 -- RankALS1 runs at iter = 9/20
-[DEBUG] 2020-07-22 11:48:08,647 -- RankALS3 runs at iter = 9/20
-[DEBUG] 2020-07-22 11:48:12,928 -- RankALS5 runs at iter = 9/20
-[DEBUG] 2020-07-22 11:48:50,861 -- RankALS2 runs at iter = 10/20
-[DEBUG] 2020-07-22 11:48:53,676 -- RankALS4 runs at iter = 10/20
-[DEBUG] 2020-07-22 11:48:54,173 -- RankALS3 runs at iter = 10/20
-[DEBUG] 2020-07-22 11:48:54,995 -- RankALS1 runs at iter = 10/20
-[DEBUG] 2020-07-22 11:49:00,439 -- RankALS5 runs at iter = 10/20
-[DEBUG] 2020-07-22 11:49:37,369 -- RankALS2 runs at iter = 11/20
-[DEBUG] 2020-07-22 11:49:40,338 -- RankALS4 runs at iter = 11/20
-[DEBUG] 2020-07-22 11:49:40,994 -- RankALS3 runs at iter = 11/20
-[DEBUG] 2020-07-22 11:49:42,199 -- RankALS1 runs at iter = 11/20
-[DEBUG] 2020-07-22 11:49:46,697 -- RankALS5 runs at iter = 11/20
-[DEBUG] 2020-07-22 11:50:20,870 -- RankALS2 runs at iter = 12/20
-[DEBUG] 2020-07-22 11:50:24,193 -- RankALS4 runs at iter = 12/20
-[DEBUG] 2020-07-22 11:50:24,512 -- RankALS3 runs at iter = 12/20
-[DEBUG] 2020-07-22 11:50:26,619 -- RankALS1 runs at iter = 12/20
-[DEBUG] 2020-07-22 11:50:31,140 -- RankALS5 runs at iter = 12/20
-[DEBUG] 2020-07-22 11:51:10,945 -- RankALS2 runs at iter = 13/20
-[DEBUG] 2020-07-22 11:51:14,929 -- RankALS3 runs at iter = 13/20
-[DEBUG] 2020-07-22 11:51:14,937 -- RankALS4 runs at iter = 13/20
-[DEBUG] 2020-07-22 11:51:18,046 -- RankALS1 runs at iter = 13/20
-[DEBUG] 2020-07-22 11:51:23,094 -- RankALS5 runs at iter = 13/20
-[DEBUG] 2020-07-22 11:51:56,873 -- RankALS2 runs at iter = 14/20
-[DEBUG] 2020-07-22 11:52:01,719 -- RankALS3 runs at iter = 14/20
-[DEBUG] 2020-07-22 11:52:01,839 -- RankALS4 runs at iter = 14/20
-[DEBUG] 2020-07-22 11:52:04,873 -- RankALS1 runs at iter = 14/20
-[DEBUG] 2020-07-22 11:52:10,033 -- RankALS5 runs at iter = 14/20
-[DEBUG] 2020-07-22 11:52:42,027 -- RankALS2 runs at iter = 15/20
-[DEBUG] 2020-07-22 11:52:46,057 -- RankALS3 runs at iter = 15/20
-[DEBUG] 2020-07-22 11:52:46,251 -- RankALS4 runs at iter = 15/20
-[DEBUG] 2020-07-22 11:52:49,920 -- RankALS1 runs at iter = 15/20
-[DEBUG] 2020-07-22 11:52:55,285 -- RankALS5 runs at iter = 15/20
-[DEBUG] 2020-07-22 11:53:27,409 -- RankALS2 runs at iter = 16/20
-[DEBUG] 2020-07-22 11:53:31,495 -- RankALS3 runs at iter = 16/20
-[DEBUG] 2020-07-22 11:53:31,779 -- RankALS4 runs at iter = 16/20
-[DEBUG] 2020-07-22 11:53:36,171 -- RankALS1 runs at iter = 16/20
-[DEBUG] 2020-07-22 11:53:42,360 -- RankALS5 runs at iter = 16/20
-[DEBUG] 2020-07-22 11:54:13,495 -- RankALS2 runs at iter = 17/20
-[DEBUG] 2020-07-22 11:54:17,752 -- RankALS3 runs at iter = 17/20
-[DEBUG] 2020-07-22 11:54:18,481 -- RankALS4 runs at iter = 17/20
-[DEBUG] 2020-07-22 11:54:23,194 -- RankALS1 runs at iter = 17/20
-[DEBUG] 2020-07-22 11:54:30,239 -- RankALS5 runs at iter = 17/20
-[DEBUG] 2020-07-22 11:55:03,988 -- RankALS2 runs at iter = 18/20
-[DEBUG] 2020-07-22 11:55:08,158 -- RankALS3 runs at iter = 18/20
-[DEBUG] 2020-07-22 11:55:08,769 -- RankALS4 runs at iter = 18/20
-[DEBUG] 2020-07-22 11:55:13,932 -- RankALS1 runs at iter = 18/20
-[DEBUG] 2020-07-22 11:55:19,298 -- RankALS5 runs at iter = 18/20
-[DEBUG] 2020-07-22 11:55:47,182 -- RankALS2 runs at iter = 19/20
-[DEBUG] 2020-07-22 11:55:51,645 -- RankALS3 runs at iter = 19/20
-[DEBUG] 2020-07-22 11:55:51,817 -- RankALS4 runs at iter = 19/20
-[DEBUG] 2020-07-22 11:55:58,540 -- RankALS1 runs at iter = 19/20
-[DEBUG] 2020-07-22 11:56:03,879 -- RankALS5 runs at iter = 19/20
-[DEBUG] 2020-07-22 11:56:29,213 -- RankALS2 evaluate test data ... 
-[DEBUG] 2020-07-22 11:56:29,836 -- RankALS2 has candidate items: 7219
-[DEBUG] 2020-07-22 11:56:34,385 -- RankALS2 evaluates progress: 100 / 330
-[DEBUG] 2020-07-22 11:56:34,388 -- RankALS2 evaluates progress: 100 / 330
-[DEBUG] 2020-07-22 11:56:34,394 -- RankALS2 evaluates progress: 100 / 330
-[DEBUG] 2020-07-22 11:56:34,400 -- RankALS2 evaluates progress: 100 / 330
-[DEBUG] 2020-07-22 11:56:35,185 -- RankALS3 evaluate test data ... 
-[DEBUG] 2020-07-22 11:56:35,616 -- RankALS3 has candidate items: 7222
-[DEBUG] 2020-07-22 11:56:35,695 -- RankALS4 evaluate test data ... 
-[DEBUG] 2020-07-22 11:56:36,081 -- RankALS4 has candidate items: 7223
-[DEBUG] 2020-07-22 11:56:40,490 -- RankALS2 evaluates progress: 200 / 330
-[DEBUG] 2020-07-22 11:56:40,496 -- RankALS2 evaluates progress: 200 / 330
-[DEBUG] 2020-07-22 11:56:40,501 -- RankALS2 evaluates progress: 200 / 330
-[DEBUG] 2020-07-22 11:56:40,507 -- RankALS2 evaluates progress: 200 / 330
-[DEBUG] 2020-07-22 11:56:40,807 -- RankALS4 evaluates progress: 100 / 330
-[DEBUG] 2020-07-22 11:56:40,832 -- RankALS4 evaluates progress: 100 / 330
-[DEBUG] 2020-07-22 11:56:40,851 -- RankALS4 evaluates progress: 100 / 330
-[DEBUG] 2020-07-22 11:56:40,868 -- RankALS4 evaluates progress: 100 / 330
-[DEBUG] 2020-07-22 11:56:43,201 -- RankALS3 evaluates progress: 100 / 329
-[DEBUG] 2020-07-22 11:56:43,224 -- RankALS3 evaluates progress: 100 / 329
-[DEBUG] 2020-07-22 11:56:43,246 -- RankALS3 evaluates progress: 100 / 329
-[DEBUG] 2020-07-22 11:56:43,274 -- RankALS3 evaluates progress: 100 / 329
-[DEBUG] 2020-07-22 11:56:44,117 -- RankALS1 evaluate test data ... 
-[DEBUG] 2020-07-22 11:56:44,508 -- RankALS1 has candidate items: 7221
-[DEBUG] 2020-07-22 11:56:45,785 -- RankALS4 evaluates progress: 200 / 330
-[DEBUG] 2020-07-22 11:56:45,789 -- RankALS4 evaluates progress: 200 / 330
-[DEBUG] 2020-07-22 11:56:45,794 -- RankALS4 evaluates progress: 200 / 330
-[DEBUG] 2020-07-22 11:56:45,799 -- RankALS4 evaluates progress: 200 / 330
-[DEBUG] 2020-07-22 11:56:46,604 -- RankALS2 evaluates progress: 300 / 330
-[DEBUG] 2020-07-22 11:56:47,992 -- RankALS2 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-2.csv
-[DEBUG] 2020-07-22 11:56:48,015 -- RankALS2: Pre5: 0.019569,Pre10: 0.017603, Pre200: 0.012397, Rec5: 0.012465, Rec10: 0.025211, Rec200: 0.242827, AUC5: 0.545766, AUC10: 0.580214, AUC200: 0.833674, MAP5: 0.006145, MAP10: 0.007807, MAP200: 0.015750, NDCG5: 0.012947, NDCG10: 0.019759,NDCG200: 0.090545,MRR5: 0.042478, MRR10: 0.051204,MRR200: 0.066481	Time: 15:08, 00:18
-[DEBUG] 2020-07-22 11:56:49,839 -- RankALS3 evaluates progress: 200 / 329
-[DEBUG] 2020-07-22 11:56:49,859 -- RankALS3 evaluates progress: 200 / 329
-[DEBUG] 2020-07-22 11:56:49,878 -- RankALS3 evaluates progress: 200 / 329
-[DEBUG] 2020-07-22 11:56:49,898 -- RankALS3 evaluates progress: 200 / 329
-[DEBUG] 2020-07-22 11:56:50,817 -- RankALS5 evaluate test data ... 
-[DEBUG] 2020-07-22 11:56:51,170 -- RankALS5 has candidate items: 7237
-[DEBUG] 2020-07-22 11:56:51,205 -- RankALS1 evaluates progress: 100 / 328
-[DEBUG] 2020-07-22 11:56:51,210 -- RankALS1 evaluates progress: 100 / 328
-[DEBUG] 2020-07-22 11:56:51,215 -- RankALS1 evaluates progress: 100 / 328
-[DEBUG] 2020-07-22 11:56:51,220 -- RankALS1 evaluates progress: 100 / 328
-[DEBUG] 2020-07-22 11:56:52,326 -- RankALS4 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-4.csv
-[DEBUG] 2020-07-22 11:56:52,332 -- RankALS4: Pre5: 0.019560,Pre10: 0.017593, Pre200: 0.012069, Rec5: 0.014163, Rec10: 0.021730, Rec200: 0.226348, AUC5: 0.544818, AUC10: 0.571687, AUC200: 0.838333, MAP5: 0.006607, MAP10: 0.008268, MAP200: 0.015618, NDCG5: 0.014043, NDCG10: 0.018836,NDCG200: 0.086442,MRR5: 0.043981, MRR10: 0.051191,MRR200: 0.067610	Time: 15:12, 00:16
-[DEBUG] 2020-07-22 11:56:55,034 -- RankALS3 evaluates progress: 300 / 329
-[DEBUG] 2020-07-22 11:56:55,923 -- RankALS1 evaluates progress: 200 / 328
-[DEBUG] 2020-07-22 11:56:55,928 -- RankALS1 evaluates progress: 200 / 328
-[DEBUG] 2020-07-22 11:56:55,933 -- RankALS1 evaluates progress: 200 / 328
-[DEBUG] 2020-07-22 11:56:55,933 -- RankALS3 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-3.csv
-[DEBUG] 2020-07-22 11:56:55,936 -- RankALS1 evaluates progress: 200 / 328
-[DEBUG] 2020-07-22 11:56:55,936 -- RankALS3: Pre5: 0.017281,Pre10: 0.015395, Pre200: 0.009954, Rec5: 0.004998, Rec10: 0.008593, Rec200: 0.107379, AUC5: 0.537546, AUC10: 0.559449, AUC200: 0.771907, MAP5: 0.002630, MAP10: 0.003230, MAP200: 0.006634, NDCG5: 0.007525, NDCG10: 0.010394,NDCG200: 0.050261,MRR5: 0.039364, MRR10: 0.045059,MRR200: 0.057531	Time: 15:12, 00:20
-[DEBUG] 2020-07-22 11:56:56,134 -- RankALS5 evaluates progress: 100 / 330
-[DEBUG] 2020-07-22 11:56:56,149 -- RankALS5 evaluates progress: 100 / 330
-[DEBUG] 2020-07-22 11:56:56,164 -- RankALS5 evaluates progress: 100 / 330
-[DEBUG] 2020-07-22 11:56:56,179 -- RankALS5 evaluates progress: 100 / 330
-[DEBUG] 2020-07-22 11:56:58,324 -- RankALS1 evaluates progress: 300 / 328
-[DEBUG] 2020-07-22 11:56:58,329 -- RankALS1 evaluates progress: 300 / 328
-[DEBUG] 2020-07-22 11:56:58,739 -- RankALS1 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-1.csv
-[DEBUG] 2020-07-22 11:56:58,742 -- RankALS1: Pre5: 0.012564,Pre10: 0.013462, Pre200: 0.011032, Rec5: 0.002285, Rec10: 0.006687, Rec200: 0.099886, AUC5: 0.529074, AUC10: 0.559822, AUC200: 0.805631, MAP5: 0.001204, MAP10: 0.001799, MAP200: 0.004990, NDCG5: 0.004294, NDCG10: 0.007607,NDCG200: 0.047795,MRR5: 0.030833, MRR10: 0.038831,MRR200: 0.053435	Time: 15:24, 00:14
-[DEBUG] 2020-07-22 11:56:59,888 -- RankALS5 evaluates progress: 200 / 330
-[DEBUG] 2020-07-22 11:56:59,892 -- RankALS5 evaluates progress: 200 / 330
-[DEBUG] 2020-07-22 11:56:59,897 -- RankALS5 evaluates progress: 200 / 330
-[DEBUG] 2020-07-22 11:56:59,901 -- RankALS5 evaluates progress: 200 / 330
-[DEBUG] 2020-07-22 11:57:03,163 -- RankALS5 evaluates progress: 300 / 330
-[DEBUG] 2020-07-22 11:57:03,777 -- RankALS5 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-5.csv
-[DEBUG] 2020-07-22 11:57:03,780 -- RankALS5: Pre5: 0.012805,Pre10: 0.014837, Pre200: 0.011982, Rec5: 0.007323, Rec10: 0.016522, Rec200: 0.190499, AUC5: 0.529503, AUC10: 0.562244, AUC200: 0.809115, MAP5: 0.004708, MAP10: 0.006019, MAP200: 0.012076, NDCG5: 0.008346, NDCG10: 0.013741,NDCG200: 0.073827,MRR5: 0.025991, MRR10: 0.034596,MRR200: 0.049006	Time: 15:25, 00:12
-[INFO ] 2020-07-22 11:57:03,785 -- Final Results by RankALS, Pre5: 0.016356,Pre10: 0.015778, Pre200: 0.011487, Rec5: 0.008247, Rec10: 0.015749, Rec200: 0.173388, AUC5: 0.537341, AUC10: 0.566683, AUC200: 0.811732, MAP5: 0.004259, MAP10: 0.005425, MAP200: 0.011014, NDCG5: 0.009431, NDCG10: 0.014067,NDCG200: 0.069774,MRR5: 0.036530, MRR10: 0.044176,MRR200: 0.058813, 0.0, 10, true, 20, Time: '15:16','00:16'
+[INFO ] 2020-07-29 18:08:50,914 -- With Setup: cv -k 5 -p on --rand-seed 1 --test-view all
+[DEBUG] 2020-07-29 18:08:51,180 -- Fold [1]: training amount: 86561, test amount: 21641
+[DEBUG] 2020-07-29 18:08:52,110 -- Fold [2]: training amount: 86562, test amount: 21640
+[DEBUG] 2020-07-29 18:08:52,813 -- Fold [3]: training amount: 86561, test amount: 21641
+[DEBUG] 2020-07-29 18:08:54,388 -- Fold [4]: training amount: 86562, test amount: 21640
+[DEBUG] 2020-07-29 18:08:55,390 -- Fold [5]: training amount: 86562, test amount: 21640
+[DEBUG] 2020-07-29 18:08:55,891 -- BPR1 iter 1: loss = 23848.102, delta_loss = -23848.102, learn_rate = 0.02
+[DEBUG] 2020-07-29 18:08:56,150 -- BPR2 iter 1: loss = 23862.041, delta_loss = -23862.041, learn_rate = 0.02
+[DEBUG] 2020-07-29 18:08:57,717 -- BPR3 iter 1: loss = 24064.72, delta_loss = -24064.72, learn_rate = 0.02
+[DEBUG] 2020-07-29 18:08:58,469 -- BPR4 iter 1: loss = 23913.814, delta_loss = -23913.814, learn_rate = 0.02
+[DEBUG] 2020-07-29 18:08:58,603 -- BPR1 iter 2: loss = 21822.773, delta_loss = 2025.328, learn_rate = 0.02
+[DEBUG] 2020-07-29 18:08:58,797 -- BPR2 iter 2: loss = 21969.975, delta_loss = 1892.0654, learn_rate = 0.02
+[DEBUG] 2020-07-29 18:08:59,306 -- BPR5 iter 1: loss = 24013.479, delta_loss = -24013.479, learn_rate = 0.02
+[DEBUG] 2020-07-29 18:08:59,651 -- BPR3 iter 2: loss = 21941.184, delta_loss = 2123.5374, learn_rate = 0.02
+[DEBUG] 2020-07-29 18:09:00,421 -- BPR4 iter 2: loss = 21942.967, delta_loss = 1970.8469, learn_rate = 0.02
+[DEBUG] 2020-07-29 18:09:00,490 -- BPR1 iter 3: loss = 20470.152, delta_loss = 1352.6206, learn_rate = 0.021
+[DEBUG] 2020-07-29 18:09:00,730 -- BPR2 iter 3: loss = 20473.283, delta_loss = 1496.6921, learn_rate = 0.021
+[DEBUG] 2020-07-29 18:09:01,193 -- BPR5 iter 2: loss = 21840.889, delta_loss = 2172.5903, learn_rate = 0.02
+[DEBUG] 2020-07-29 18:09:01,547 -- BPR3 iter 3: loss = 20595.4, delta_loss = 1345.7838, learn_rate = 0.021
+[DEBUG] 2020-07-29 18:09:02,370 -- BPR1 iter 4: loss = 19467.336, delta_loss = 1002.8152, learn_rate = 0.022049999
+[DEBUG] 2020-07-29 18:09:02,377 -- BPR4 iter 3: loss = 20508.896, delta_loss = 1434.0719, learn_rate = 0.021
+[DEBUG] 2020-07-29 18:09:02,675 -- BPR2 iter 4: loss = 19426.14, delta_loss = 1047.143, learn_rate = 0.022049999
+[DEBUG] 2020-07-29 18:09:03,109 -- BPR5 iter 3: loss = 20463.59, delta_loss = 1377.2988, learn_rate = 0.021
+[DEBUG] 2020-07-29 18:09:03,534 -- BPR3 iter 4: loss = 19538.834, delta_loss = 1056.5664, learn_rate = 0.022049999
+[DEBUG] 2020-07-29 18:09:04,314 -- BPR4 iter 4: loss = 19493.023, delta_loss = 1015.8728, learn_rate = 0.022049999
+[DEBUG] 2020-07-29 18:09:04,339 -- BPR1 iter 5: loss = 18413.94, delta_loss = 1053.398, learn_rate = 0.0231525
+[DEBUG] 2020-07-29 18:09:04,647 -- BPR2 iter 5: loss = 18537.393, delta_loss = 888.74817, learn_rate = 0.0231525
+[DEBUG] 2020-07-29 18:09:04,994 -- BPR5 iter 4: loss = 19488.377, delta_loss = 975.2137, learn_rate = 0.022049999
+[DEBUG] 2020-07-29 18:09:05,410 -- BPR3 iter 5: loss = 18415.922, delta_loss = 1122.9111, learn_rate = 0.0231525
+[DEBUG] 2020-07-29 18:09:06,186 -- BPR4 iter 5: loss = 18447.854, delta_loss = 1045.1692, learn_rate = 0.0231525
+[DEBUG] 2020-07-29 18:09:06,201 -- BPR1 iter 6: loss = 17711.193, delta_loss = 702.7451, learn_rate = 0.024310125
+[DEBUG] 2020-07-29 18:09:06,514 -- BPR2 iter 6: loss = 17617.28, delta_loss = 920.1127, learn_rate = 0.024310125
+[DEBUG] 2020-07-29 18:09:06,822 -- BPR5 iter 5: loss = 18571.97, delta_loss = 916.40485, learn_rate = 0.0231525
+[DEBUG] 2020-07-29 18:09:07,256 -- BPR3 iter 6: loss = 17760.275, delta_loss = 655.6463, learn_rate = 0.024310125
+[DEBUG] 2020-07-29 18:09:08,076 -- BPR1 iter 7: loss = 16810.406, delta_loss = 900.78674, learn_rate = 0.025525631
+[DEBUG] 2020-07-29 18:09:08,104 -- BPR4 iter 6: loss = 17734.69, delta_loss = 713.1648, learn_rate = 0.024310125
+[DEBUG] 2020-07-29 18:09:08,420 -- BPR2 iter 7: loss = 16692.201, delta_loss = 925.07733, learn_rate = 0.025525631
+[DEBUG] 2020-07-29 18:09:08,674 -- BPR5 iter 6: loss = 17696.305, delta_loss = 875.66656, learn_rate = 0.024310125
+[DEBUG] 2020-07-29 18:09:09,095 -- BPR3 iter 7: loss = 17015.873, delta_loss = 744.4027, learn_rate = 0.025525631
+[DEBUG] 2020-07-29 18:09:09,902 -- BPR1 iter 8: loss = 16282.761, delta_loss = 527.64624, learn_rate = 0.026801912
+[DEBUG] 2020-07-29 18:09:09,918 -- BPR4 iter 7: loss = 17062.285, delta_loss = 672.40283, learn_rate = 0.025525631
+[DEBUG] 2020-07-29 18:09:10,242 -- BPR2 iter 8: loss = 16166.508, delta_loss = 525.69403, learn_rate = 0.026801912
+[DEBUG] 2020-07-29 18:09:10,462 -- BPR5 iter 7: loss = 17000.719, delta_loss = 695.586, learn_rate = 0.025525631
+[DEBUG] 2020-07-29 18:09:10,902 -- BPR3 iter 8: loss = 16300.041, delta_loss = 715.8329, learn_rate = 0.026801912
+[DEBUG] 2020-07-29 18:09:11,645 -- BPR4 iter 8: loss = 16267.31, delta_loss = 794.9768, learn_rate = 0.026801912
+[DEBUG] 2020-07-29 18:09:11,706 -- BPR1 iter 9: loss = 15668.505, delta_loss = 614.2556, learn_rate = 0.028142007
+[DEBUG] 2020-07-29 18:09:12,008 -- BPR2 iter 9: loss = 15527.001, delta_loss = 639.5066, learn_rate = 0.028142007
+[DEBUG] 2020-07-29 18:09:12,276 -- BPR5 iter 8: loss = 16206.456, delta_loss = 794.2633, learn_rate = 0.026801912
+[DEBUG] 2020-07-29 18:09:12,643 -- BPR3 iter 9: loss = 15627.662, delta_loss = 672.3785, learn_rate = 0.028142007
+[DEBUG] 2020-07-29 18:09:13,432 -- BPR4 iter 9: loss = 15546.726, delta_loss = 720.58374, learn_rate = 0.028142007
+[DEBUG] 2020-07-29 18:09:13,572 -- BPR1 iter 10: loss = 15137.048, delta_loss = 531.45715, learn_rate = 0.029549109
+[DEBUG] 2020-07-29 18:09:13,906 -- BPR2 iter 10: loss = 14956.32, delta_loss = 570.68115, learn_rate = 0.029549109
+[DEBUG] 2020-07-29 18:09:14,133 -- BPR5 iter 9: loss = 15675.969, delta_loss = 530.4873, learn_rate = 0.028142007
+[DEBUG] 2020-07-29 18:09:14,508 -- BPR3 iter 10: loss = 15098.176, delta_loss = 529.4863, learn_rate = 0.029549109
+[DEBUG] 2020-07-29 18:09:15,238 -- BPR4 iter 10: loss = 14986.098, delta_loss = 560.628, learn_rate = 0.029549109
+[DEBUG] 2020-07-29 18:09:15,378 -- BPR1 iter 11: loss = 14614.9, delta_loss = 522.1474, learn_rate = 0.031026565
+[DEBUG] 2020-07-29 18:09:15,775 -- BPR2 iter 11: loss = 14447.415, delta_loss = 508.9049, learn_rate = 0.031026565
+[DEBUG] 2020-07-29 18:09:15,879 -- BPR5 iter 10: loss = 15165.155, delta_loss = 510.8132, learn_rate = 0.029549109
+[DEBUG] 2020-07-29 18:09:16,277 -- BPR3 iter 11: loss = 14389.235, delta_loss = 708.9406, learn_rate = 0.031026565
+[DEBUG] 2020-07-29 18:09:17,050 -- BPR4 iter 11: loss = 14530.039, delta_loss = 456.05856, learn_rate = 0.031026565
+[DEBUG] 2020-07-29 18:09:17,198 -- BPR1 iter 12: loss = 13970.858, delta_loss = 644.0424, learn_rate = 0.03257789
+[DEBUG] 2020-07-29 18:09:17,605 -- BPR2 iter 12: loss = 13768.336, delta_loss = 679.07916, learn_rate = 0.03257789
+[DEBUG] 2020-07-29 18:09:17,704 -- BPR5 iter 11: loss = 14638.78, delta_loss = 526.37445, learn_rate = 0.031026565
+[DEBUG] 2020-07-29 18:09:18,149 -- BPR3 iter 12: loss = 13869.447, delta_loss = 519.7875, learn_rate = 0.03257789
+[DEBUG] 2020-07-29 18:09:18,902 -- BPR4 iter 12: loss = 13980.027, delta_loss = 550.01117, learn_rate = 0.03257789
+[DEBUG] 2020-07-29 18:09:19,095 -- BPR1 iter 13: loss = 13588.229, delta_loss = 382.62994, learn_rate = 0.034206785
+[DEBUG] 2020-07-29 18:09:19,445 -- BPR2 iter 13: loss = 13368.4375, delta_loss = 399.89874, learn_rate = 0.034206785
+[DEBUG] 2020-07-29 18:09:19,600 -- BPR5 iter 12: loss = 14160.693, delta_loss = 478.08722, learn_rate = 0.03257789
+[DEBUG] 2020-07-29 18:09:19,957 -- BPR3 iter 13: loss = 13463.956, delta_loss = 405.4913, learn_rate = 0.034206785
+[DEBUG] 2020-07-29 18:09:20,729 -- BPR4 iter 13: loss = 13519.217, delta_loss = 460.8114, learn_rate = 0.034206785
+[DEBUG] 2020-07-29 18:09:20,837 -- BPR1 iter 14: loss = 12969.686, delta_loss = 618.5428, learn_rate = 0.035917126
+[DEBUG] 2020-07-29 18:09:21,272 -- BPR2 iter 14: loss = 12961.182, delta_loss = 407.25513, learn_rate = 0.035917126
+[DEBUG] 2020-07-29 18:09:21,421 -- BPR5 iter 13: loss = 13479.151, delta_loss = 681.5421, learn_rate = 0.034206785
+[DEBUG] 2020-07-29 18:09:21,673 -- BPR3 iter 14: loss = 12975.388, delta_loss = 488.56906, learn_rate = 0.035917126
+[DEBUG] 2020-07-29 18:09:22,504 -- BPR4 iter 14: loss = 12982.723, delta_loss = 536.4938, learn_rate = 0.035917126
+[DEBUG] 2020-07-29 18:09:22,649 -- BPR1 iter 15: loss = 12560.069, delta_loss = 409.61584, learn_rate = 0.037712984
+[DEBUG] 2020-07-29 18:09:23,195 -- BPR2 iter 15: loss = 12335.888, delta_loss = 625.29407, learn_rate = 0.037712984
+[DEBUG] 2020-07-29 18:09:23,258 -- BPR5 iter 14: loss = 13014.186, delta_loss = 464.96603, learn_rate = 0.035917126
+[DEBUG] 2020-07-29 18:09:23,551 -- BPR3 iter 15: loss = 12473.383, delta_loss = 502.00424, learn_rate = 0.037712984
+[DEBUG] 2020-07-29 18:09:24,329 -- BPR4 iter 15: loss = 12345.511, delta_loss = 637.2124, learn_rate = 0.037712984
+[DEBUG] 2020-07-29 18:09:24,514 -- BPR1 iter 16: loss = 12004.108, delta_loss = 555.96063, learn_rate = 0.039598633
+[DEBUG] 2020-07-29 18:09:24,991 -- BPR2 iter 16: loss = 12025.849, delta_loss = 310.0391, learn_rate = 0.039598633
+[DEBUG] 2020-07-29 18:09:25,087 -- BPR5 iter 15: loss = 12498.858, delta_loss = 515.3273, learn_rate = 0.037712984
+[DEBUG] 2020-07-29 18:09:25,320 -- BPR3 iter 16: loss = 12053.08, delta_loss = 420.30307, learn_rate = 0.039598633
+[DEBUG] 2020-07-29 18:09:26,144 -- BPR4 iter 16: loss = 12112.432, delta_loss = 233.0785, learn_rate = 0.039598633
+[DEBUG] 2020-07-29 18:09:26,362 -- BPR1 iter 17: loss = 11629.061, delta_loss = 375.04794, learn_rate = 0.04157856
+[DEBUG] 2020-07-29 18:09:26,917 -- BPR2 iter 17: loss = 11613.868, delta_loss = 411.98068, learn_rate = 0.04157856
+[DEBUG] 2020-07-29 18:09:26,961 -- BPR5 iter 16: loss = 12074.089, delta_loss = 424.7687, learn_rate = 0.039598633
+[DEBUG] 2020-07-29 18:09:27,311 -- BPR3 iter 17: loss = 11698.891, delta_loss = 354.189, learn_rate = 0.04157856
+[DEBUG] 2020-07-29 18:09:28,218 -- BPR4 iter 17: loss = 11611.832, delta_loss = 500.59988, learn_rate = 0.04157856
+[DEBUG] 2020-07-29 18:09:28,474 -- BPR1 iter 18: loss = 11224.66, delta_loss = 404.40045, learn_rate = 0.04365749
+[DEBUG] 2020-07-29 18:09:28,961 -- BPR2 iter 18: loss = 11166.772, delta_loss = 447.0961, learn_rate = 0.04365749
+[DEBUG] 2020-07-29 18:09:28,994 -- BPR5 iter 17: loss = 11672.488, delta_loss = 401.6011, learn_rate = 0.04157856
+[DEBUG] 2020-07-29 18:09:29,328 -- BPR3 iter 18: loss = 11128.505, delta_loss = 570.386, learn_rate = 0.04365749
+[DEBUG] 2020-07-29 18:09:30,152 -- BPR4 iter 18: loss = 11025.23, delta_loss = 586.60114, learn_rate = 0.04365749
+[DEBUG] 2020-07-29 18:09:30,304 -- BPR1 iter 19: loss = 10708.156, delta_loss = 516.5046, learn_rate = 0.045840364
+[DEBUG] 2020-07-29 18:09:30,849 -- BPR5 iter 18: loss = 11264.928, delta_loss = 407.56088, learn_rate = 0.04365749
+[DEBUG] 2020-07-29 18:09:30,874 -- BPR2 iter 19: loss = 10725.768, delta_loss = 441.00464, learn_rate = 0.045840364
+[DEBUG] 2020-07-29 18:09:31,132 -- BPR3 iter 19: loss = 10593.377, delta_loss = 535.12775, learn_rate = 0.045840364
+[DEBUG] 2020-07-29 18:09:31,988 -- BPR4 iter 19: loss = 10667.001, delta_loss = 358.23026, learn_rate = 0.045840364
+[DEBUG] 2020-07-29 18:09:32,111 -- BPR1 iter 20: loss = 10266.203, delta_loss = 441.9527, learn_rate = 0.048132382
+[DEBUG] 2020-07-29 18:09:32,756 -- BPR5 iter 19: loss = 10610.209, delta_loss = 654.718, learn_rate = 0.045840364
+[DEBUG] 2020-07-29 18:09:32,761 -- BPR2 iter 20: loss = 10138.272, delta_loss = 587.4951, learn_rate = 0.048132382
+[DEBUG] 2020-07-29 18:09:32,985 -- BPR3 iter 20: loss = 10146.079, delta_loss = 447.2985, learn_rate = 0.048132382
+[DEBUG] 2020-07-29 18:09:33,869 -- BPR4 iter 20: loss = 10079.018, delta_loss = 587.9833, learn_rate = 0.048132382
+[DEBUG] 2020-07-29 18:09:33,996 -- BPR1 iter 21: loss = 9739.474, delta_loss = 526.7293, learn_rate = 0.050539
+[DEBUG] 2020-07-29 18:09:34,601 -- BPR5 iter 20: loss = 10181.101, delta_loss = 429.10916, learn_rate = 0.048132382
+[DEBUG] 2020-07-29 18:09:34,636 -- BPR2 iter 21: loss = 9759.982, delta_loss = 378.28973, learn_rate = 0.050539
+[DEBUG] 2020-07-29 18:09:34,801 -- BPR3 iter 21: loss = 9602.96, delta_loss = 543.11835, learn_rate = 0.050539
+[DEBUG] 2020-07-29 18:09:35,735 -- BPR4 iter 21: loss = 9751.362, delta_loss = 327.65518, learn_rate = 0.050539
+[DEBUG] 2020-07-29 18:09:35,773 -- BPR1 iter 22: loss = 9313.494, delta_loss = 425.97925, learn_rate = 0.053065952
+[DEBUG] 2020-07-29 18:09:36,434 -- BPR2 iter 22: loss = 9228.978, delta_loss = 531.0045, learn_rate = 0.053065952
+[DEBUG] 2020-07-29 18:09:36,447 -- BPR5 iter 21: loss = 9732.955, delta_loss = 448.1448, learn_rate = 0.050539
+[DEBUG] 2020-07-29 18:09:36,538 -- BPR3 iter 22: loss = 8980.238, delta_loss = 622.7217, learn_rate = 0.053065952
+[DEBUG] 2020-07-29 18:09:37,529 -- BPR4 iter 22: loss = 9324.489, delta_loss = 426.8723, learn_rate = 0.053065952
+[DEBUG] 2020-07-29 18:09:37,612 -- BPR1 iter 23: loss = 8914.715, delta_loss = 398.77927, learn_rate = 0.05571925
+[DEBUG] 2020-07-29 18:09:38,311 -- BPR2 iter 23: loss = 8718.305, delta_loss = 510.6737, learn_rate = 0.05571925
+[DEBUG] 2020-07-29 18:09:38,325 -- BPR5 iter 22: loss = 9273.231, delta_loss = 459.72345, learn_rate = 0.053065952
+[DEBUG] 2020-07-29 18:09:38,382 -- BPR3 iter 23: loss = 8615.123, delta_loss = 365.11566, learn_rate = 0.05571925
+[DEBUG] 2020-07-29 18:09:39,323 -- BPR4 iter 23: loss = 8753.854, delta_loss = 570.6362, learn_rate = 0.05571925
+[DEBUG] 2020-07-29 18:09:39,374 -- BPR1 iter 24: loss = 8370.907, delta_loss = 543.8077, learn_rate = 0.058505215
+[DEBUG] 2020-07-29 18:09:40,104 -- BPR5 iter 23: loss = 8777.016, delta_loss = 496.2166, learn_rate = 0.05571925
+[DEBUG] 2020-07-29 18:09:40,201 -- BPR3 iter 24: loss = 8136.068, delta_loss = 479.05518, learn_rate = 0.058505215
+[DEBUG] 2020-07-29 18:09:40,249 -- BPR2 iter 24: loss = 8317.295, delta_loss = 401.00906, learn_rate = 0.058505215
+[DEBUG] 2020-07-29 18:09:41,194 -- BPR4 iter 24: loss = 8450.986, delta_loss = 302.86734, learn_rate = 0.058505215
+[DEBUG] 2020-07-29 18:09:41,317 -- BPR1 iter 25: loss = 7926.9077, delta_loss = 443.99997, learn_rate = 0.061430473
+[DEBUG] 2020-07-29 18:09:41,318 -- BPR1 evaluate test data ... 
+[DEBUG] 2020-07-29 18:09:41,760 -- BPR1 has candidate items: 7221
+[DEBUG] 2020-07-29 18:09:42,211 -- BPR5 iter 24: loss = 8164.6787, delta_loss = 612.3366, learn_rate = 0.058505215
+[DEBUG] 2020-07-29 18:09:42,294 -- BPR3 iter 25: loss = 7759.021, delta_loss = 377.04688, learn_rate = 0.061430473
+[DEBUG] 2020-07-29 18:09:42,299 -- BPR3 evaluate test data ... 
+[DEBUG] 2020-07-29 18:09:42,379 -- BPR2 iter 25: loss = 7867.343, delta_loss = 449.95233, learn_rate = 0.061430473
+[DEBUG] 2020-07-29 18:09:42,384 -- BPR2 evaluate test data ... 
+[DEBUG] 2020-07-29 18:09:42,732 -- BPR3 has candidate items: 7222
+[DEBUG] 2020-07-29 18:09:42,833 -- BPR2 has candidate items: 7219
+[DEBUG] 2020-07-29 18:09:43,536 -- BPR4 iter 25: loss = 7865.4673, delta_loss = 585.51904, learn_rate = 0.061430473
+[DEBUG] 2020-07-29 18:09:43,538 -- BPR4 evaluate test data ... 
+[DEBUG] 2020-07-29 18:09:43,846 -- BPR4 has candidate items: 7223
+[DEBUG] 2020-07-29 18:09:44,332 -- BPR5 iter 25: loss = 7958.116, delta_loss = 206.56259, learn_rate = 0.061430473
+[DEBUG] 2020-07-29 18:09:44,342 -- BPR5 evaluate test data ... 
+[DEBUG] 2020-07-29 18:09:44,577 -- BPR5 has candidate items: 7237
+[DEBUG] 2020-07-29 18:09:50,394 -- BPR1 evaluates progress: 100 / 328
+[DEBUG] 2020-07-29 18:09:50,426 -- BPR1 evaluates progress: 100 / 328
+[DEBUG] 2020-07-29 18:09:50,454 -- BPR1 evaluates progress: 100 / 328
+[DEBUG] 2020-07-29 18:09:50,480 -- BPR1 evaluates progress: 100 / 328
+[DEBUG] 2020-07-29 18:09:50,945 -- BPR3 evaluates progress: 100 / 329
+[DEBUG] 2020-07-29 18:09:50,957 -- BPR2 evaluates progress: 100 / 330
+[DEBUG] 2020-07-29 18:09:50,967 -- BPR3 evaluates progress: 100 / 329
+[DEBUG] 2020-07-29 18:09:50,974 -- BPR2 evaluates progress: 100 / 330
+[DEBUG] 2020-07-29 18:09:50,991 -- BPR3 evaluates progress: 100 / 329
+[DEBUG] 2020-07-29 18:09:50,999 -- BPR2 evaluates progress: 100 / 330
+[DEBUG] 2020-07-29 18:09:51,021 -- BPR3 evaluates progress: 100 / 329
+[DEBUG] 2020-07-29 18:09:51,024 -- BPR2 evaluates progress: 100 / 330
+[DEBUG] 2020-07-29 18:09:51,826 -- BPR4 evaluates progress: 100 / 330
+[DEBUG] 2020-07-29 18:09:51,850 -- BPR4 evaluates progress: 100 / 330
+[DEBUG] 2020-07-29 18:09:51,875 -- BPR4 evaluates progress: 100 / 330
+[DEBUG] 2020-07-29 18:09:51,899 -- BPR4 evaluates progress: 100 / 330
+[DEBUG] 2020-07-29 18:09:52,748 -- BPR5 evaluates progress: 100 / 330
+[DEBUG] 2020-07-29 18:09:52,767 -- BPR5 evaluates progress: 100 / 330
+[DEBUG] 2020-07-29 18:09:52,792 -- BPR5 evaluates progress: 100 / 330
+[DEBUG] 2020-07-29 18:09:52,817 -- BPR5 evaluates progress: 100 / 330
+[DEBUG] 2020-07-29 18:09:58,447 -- BPR1 evaluates progress: 200 / 328
+[DEBUG] 2020-07-29 18:09:58,473 -- BPR1 evaluates progress: 200 / 328
+[DEBUG] 2020-07-29 18:09:58,490 -- BPR1 evaluates progress: 200 / 328
+[DEBUG] 2020-07-29 18:09:58,512 -- BPR1 evaluates progress: 200 / 328
+[DEBUG] 2020-07-29 18:09:59,072 -- BPR2 evaluates progress: 200 / 330
+[DEBUG] 2020-07-29 18:09:59,095 -- BPR2 evaluates progress: 200 / 330
+[DEBUG] 2020-07-29 18:09:59,108 -- BPR3 evaluates progress: 200 / 329
+[DEBUG] 2020-07-29 18:09:59,122 -- BPR2 evaluates progress: 200 / 330
+[DEBUG] 2020-07-29 18:09:59,131 -- BPR3 evaluates progress: 200 / 329
+[DEBUG] 2020-07-29 18:09:59,147 -- BPR2 evaluates progress: 200 / 330
+[DEBUG] 2020-07-29 18:09:59,151 -- BPR3 evaluates progress: 200 / 329
+[DEBUG] 2020-07-29 18:09:59,175 -- BPR3 evaluates progress: 200 / 329
+[DEBUG] 2020-07-29 18:10:00,057 -- BPR4 evaluates progress: 200 / 330
+[DEBUG] 2020-07-29 18:10:00,080 -- BPR4 evaluates progress: 200 / 330
+[DEBUG] 2020-07-29 18:10:00,100 -- BPR4 evaluates progress: 200 / 330
+[DEBUG] 2020-07-29 18:10:00,121 -- BPR4 evaluates progress: 200 / 330
+[DEBUG] 2020-07-29 18:10:00,876 -- BPR5 evaluates progress: 200 / 330
+[DEBUG] 2020-07-29 18:10:00,901 -- BPR5 evaluates progress: 200 / 330
+[DEBUG] 2020-07-29 18:10:00,922 -- BPR5 evaluates progress: 200 / 330
+[DEBUG] 2020-07-29 18:10:00,931 -- BPR5 evaluates progress: 200 / 330
+[DEBUG] 2020-07-29 18:10:05,224 -- BPR1 evaluates progress: 300 / 328
+[DEBUG] 2020-07-29 18:10:05,247 -- BPR1 evaluates progress: 300 / 328
+[DEBUG] 2020-07-29 18:10:05,686 -- BPR3 evaluates progress: 300 / 329
+[DEBUG] 2020-07-29 18:10:05,991 -- BPR2 evaluates progress: 300 / 330
+[DEBUG] 2020-07-29 18:10:06,556 -- BPR1 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\BPR-1.csv
+[DEBUG] 2020-07-29 18:10:06,578 -- BPR1: Pre5: 0.016309,Pre10: 0.016871, Pre200: 0.010978, Rec5: 0.006169, Rec10: 0.015586, Rec200: 0.172981, AUC5: 0.537948, AUC10: 0.572280, AUC200: 0.835968, MAP5: 0.003283, MAP10: 0.004603, MAP200: 0.009599, NDCG5: 0.008083, NDCG10: 0.013547,NDCG200: 0.067977,MRR5: 0.038723, MRR10: 0.047789,MRR200: 0.064109	Time: 00:49, 00:25
+[DEBUG] 2020-07-29 18:10:07,253 -- BPR3 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\BPR-3.csv
+[DEBUG] 2020-07-29 18:10:07,256 -- BPR3: Pre5: 0.021930,Pre10: 0.020511, Pre200: 0.012279, Rec5: 0.012206, Rec10: 0.023259, Rec200: 0.196287, AUC5: 0.550049, AUC10: 0.587174, AUC200: 0.845297, MAP5: 0.006063, MAP10: 0.007500, MAP200: 0.012860, NDCG5: 0.013167, NDCG10: 0.019119,NDCG200: 0.077863,MRR5: 0.047166, MRR10: 0.056969,MRR200: 0.071967	Time: 00:48, 00:24
+[DEBUG] 2020-07-29 18:10:07,292 -- BPR2 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\BPR-2.csv
+[DEBUG] 2020-07-29 18:10:07,296 -- BPR2: Pre5: 0.022051,Pre10: 0.021103, Pre200: 0.011419, Rec5: 0.010215, Rec10: 0.020359, Rec200: 0.184740, AUC5: 0.549282, AUC10: 0.589674, AUC200: 0.839554, MAP5: 0.004189, MAP10: 0.005697, MAP200: 0.010858, NDCG5: 0.011049, NDCG10: 0.017121,NDCG200: 0.072501,MRR5: 0.045927, MRR10: 0.056106,MRR200: 0.070611	Time: 00:49, 00:24
+[DEBUG] 2020-07-29 18:10:07,612 -- BPR5 evaluates progress: 300 / 330
+[DEBUG] 2020-07-29 18:10:08,012 -- BPR4 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\BPR-4.csv
+[DEBUG] 2020-07-29 18:10:08,024 -- BPR4: Pre5: 0.017431,Pre10: 0.016488, Pre200: 0.011719, Rec5: 0.007531, Rec10: 0.017367, Rec200: 0.179835, AUC5: 0.541501, AUC10: 0.571904, AUC200: 0.835993, MAP5: 0.004060, MAP10: 0.005383, MAP200: 0.010366, NDCG5: 0.009672, NDCG10: 0.014775,NDCG200: 0.070740,MRR5: 0.043493, MRR10: 0.051523,MRR200: 0.067227	Time: 00:48, 00:24
+[DEBUG] 2020-07-29 18:10:08,645 -- BPR5 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\BPR-5.csv
+[DEBUG] 2020-07-29 18:10:08,655 -- BPR5: Pre5: 0.018288,Pre10: 0.017579, Pre200: 0.011668, Rec5: 0.006875, Rec10: 0.013394, Rec200: 0.182794, AUC5: 0.543017, AUC10: 0.577100, AUC200: 0.833999, MAP5: 0.003323, MAP10: 0.004237, MAP200: 0.009566, NDCG5: 0.009288, NDCG10: 0.013633,NDCG200: 0.071343,MRR5: 0.048552, MRR10: 0.057158,MRR200: 0.072736	Time: 00:48, 00:24
+[INFO ] 2020-07-29 18:10:08,661 -- Final Results by BPR, Pre5: 0.019202,Pre10: 0.018510, Pre200: 0.011613, Rec5: 0.008599, Rec10: 0.017993, Rec200: 0.183328, AUC5: 0.544360, AUC10: 0.579626, AUC200: 0.838162, MAP5: 0.004184, MAP10: 0.005484, MAP200: 0.010650, NDCG5: 0.010252, NDCG10: 0.015639,NDCG200: 0.072085,MRR5: 0.044772, MRR10: 0.053909,MRR200: 0.069330, 0.0,10,0.02,-1.0,1.0E-4,1.0E-4,25, Time: '00:48','00:24'
 
-[DEBUG] 2020-07-22 11:57:03,788 -- Have been collected to file: results.txt
+[DEBUG] 2020-07-29 18:10:08,666 -- Have been collected to file: results.txt

@@ -1,5 +1,5 @@
 WorkingPath: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
-Your original rating data path: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\nprs.csv
+Your original rating data path: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\nowplaying-rs-final.csv
 Current working path: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
 User, Item, Rating, daytime:evening, daytime:night, daytime:afternoon, daytime:morning
 Data transformaton completed (from Loose to Binary format). See new rating file: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
@@ -76,6 +76,6 @@ Rating data set has been successfully loaded.
  *
  *************************************************************************************************************/
 With Setup: cv -k 5 -p on --rand-seed 1 --test-view all
-Final Results by RankALS, Pre5: 0.016356,Pre10: 0.015778, Pre200: 0.011487, Rec5: 0.008247, Rec10: 0.015749, Rec200: 0.173388, AUC5: 0.537341, AUC10: 0.566683, AUC200: 0.811732, MAP5: 0.004259, MAP10: 0.005425, MAP200: 0.011014, NDCG5: 0.009431, NDCG10: 0.014067,NDCG200: 0.069774,MRR5: 0.036530, MRR10: 0.044176,MRR200: 0.058813, 0.0, 10, true, 20, Time: '15:16','00:16'
+Final Results by BPR, Pre5: 0.019202,Pre10: 0.018510, Pre200: 0.011613, Rec5: 0.008599, Rec10: 0.017993, Rec200: 0.183328, AUC5: 0.544360, AUC10: 0.579626, AUC200: 0.838162, MAP5: 0.004184, MAP10: 0.005484, MAP200: 0.010650, NDCG5: 0.010252, NDCG10: 0.015639,NDCG200: 0.072085,MRR5: 0.044772, MRR10: 0.053909,MRR200: 0.069330, 0.0,10,0.02,-1.0,1.0E-4,1.0E-4,25, Time: '00:48','00:24'
 
-Final Results by RankALS, Pre5: 0.016356,Pre10: 0.015778, Pre200: 0.011487, Rec5: 0.008247, Rec10: 0.015749, Rec200: 0.173388, AUC5: 0.537341, AUC10: 0.566683, AUC200: 0.811732, MAP5: 0.004259, MAP10: 0.005425, MAP200: 0.011014, NDCG5: 0.009431, NDCG10: 0.014067,NDCG200: 0.069774,MRR5: 0.036530, MRR10: 0.044176,MRR200: 0.058813, 0.0, 10, true, 20, Time: '15:16','00:16'
+Final Results by BPR, Pre5: 0.019202,Pre10: 0.018510, Pre200: 0.011613, Rec5: 0.008599, Rec10: 0.017993, Rec200: 0.183328, AUC5: 0.544360, AUC10: 0.579626, AUC200: 0.838162, MAP5: 0.004184, MAP10: 0.005484, MAP200: 0.010650, NDCG5: 0.010252, NDCG10: 0.015639,NDCG200: 0.072085,MRR5: 0.044772, MRR10: 0.053909,MRR200: 0.069330, 0.0,10,0.02,-1.0,1.0E-4,1.0E-4,25, Time: '00:48','00:24'

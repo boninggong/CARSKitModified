@@ -1,6 +1,6 @@
 ################################################### Essential Setup #############################################
 # dataset: contextual rating data, or raw rating
-dataset.ratings.wins=C:\\Users\\BoningGong\\Repos\\CARSKitModified\\out\\artifacts\\CARSKitjar\\data\\nprs.csv
+dataset.ratings.wins=C:\\Users\\BoningGong\\Repos\\CARSKitModified\\out\\artifacts\\CARSKitjar\\data\\nowplaying-rs-final.csv
 
 dataset.social.wins=-1
 dataset.social.lins=-1
