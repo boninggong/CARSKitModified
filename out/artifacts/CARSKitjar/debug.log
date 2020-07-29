@@ -1,46 +1,46 @@
-[INFO ] 2020-06-22 18:12:14,279 -- WorkingPath: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
-[INFO ] 2020-06-22 18:12:14,621 -- Your original rating data path: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\nprsv7.csv
-[INFO ] 2020-06-22 18:12:14,678 -- Current working path: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
-[WARN ] 2020-06-22 18:12:14,799 -- You rating data is in Loose format. CARSKit is working on transformation on the data format...
-[INFO ] 2020-06-22 18:12:18,814 -- User, Item, Rating, daytime:night, daytime:evening, daytime:afternoon, daytime:morning
-[INFO ] 2020-06-22 18:12:24,672 -- Data transformaton completed (from Loose to Binary format). See new rating file: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
-[INFO ] 2020-06-22 18:12:24,962 -- Dataset: ...ar\data\CARSKit.Workspace\train.csv
-[INFO ] 2020-06-22 18:12:25,193 -- DataPath: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
-[INFO ] 2020-06-22 18:13:12,450 -- Rating data set has been successfully loaded.
-[INFO ] 2020-06-22 18:13:17,453 -- 
+[INFO ] 2020-07-22 11:40:19,992 -- WorkingPath: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
+[INFO ] 2020-07-22 11:40:20,030 -- Your original rating data path: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\nprs.csv
+[INFO ] 2020-07-22 11:40:20,032 -- Current working path: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\
+[WARN ] 2020-07-22 11:40:20,049 -- You rating data is in Loose format. CARSKit is working on transformation on the data format...
+[INFO ] 2020-07-22 11:40:23,054 -- User, Item, Rating, daytime:evening, daytime:night, daytime:afternoon, daytime:morning
+[INFO ] 2020-07-22 11:40:25,774 -- Data transformaton completed (from Loose to Binary format). See new rating file: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
+[INFO ] 2020-07-22 11:40:25,861 -- Dataset: ...ar\data\CARSKit.Workspace\train.csv
+[INFO ] 2020-07-22 11:40:25,871 -- DataPath: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
+[INFO ] 2020-07-22 11:41:12,612 -- Rating data set has been successfully loaded.
+[INFO ] 2020-07-22 11:41:18,862 -- 
 /*************************************************************************************************************
  *
- * Dataset: C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
+ * Dataset: C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\train.csv
  * 
  * Statistics of U-I-C Matrix:
- * User amount: 252
- * Item amount: 4288
- * Rate amount: 69337
+ * User amount: 333
+ * Item amount: 7304
+ * Rate amount: 108202
  * Context dimensions: 1 (daytime)
  * Context conditions: 4 (daytime: 4)
  * Context situations: 4
- * Data density: 1.6042%
- * Scale distribution: [1.0 x 69337]
+ * Data density: 1.1122%
+ * Scale distribution: [1.0 x 108202]
  * Average value of all ratings: 1.000000
  * Standard deviation of all ratings: 0.000000
  * Mode of all rating values: 1.000000
  * Median of all rating values: 1.000000
  * 
- * Distribution of rate counts per user: mean = 275.1468253968254, median = 171.5, sd = 304.07595886515463
- * Distribution of rate counts per item: mean = 16.17000932835821, median = 14.0, sd = 11.279966962012304
- * Distribution of rate counts per context condition: mean = 17334.25, median = 16909.0, sd = 977.4843668826627
+ * Distribution of rate counts per user: mean = 324.9309309309309, median = 184.0, sd = 373.04273363161735
+ * Distribution of rate counts per item: mean = 14.81407447973713, median = 12.0, sd = 12.06295956989055
+ * Distribution of rate counts per context condition: mean = 27050.5, median = 26833.0, sd = 1338.4764659866082
  * 
  * Average rating in each context condition: (Average, Counts)
- * daytime:night - 1.000000, 16611
- * daytime:evening - 1.000000, 18968
- * daytime:afternoon - 1.000000, 16551
- * daytime:morning - 1.000000, 17207
+ * daytime:evening - 1.000000, 29133
+ * daytime:night - 1.000000, 25403
+ * daytime:afternoon - 1.000000, 26732
+ * daytime:morning - 1.000000, 26934
  * 
  * Statistics of UI Matrix:
- * User amount: 252
- * Item amount: 4288
- * Rate amount: 69337.0
- * Data density: 6.4167%
+ * User amount: 333
+ * Item amount: 7304
+ * Rate amount: 108202.0
+ * Data density: 4.4487%
  * Data density (unique pairs): 0.0000%
  * Average value of all ratings: 1.000000
  * Standard deviation of all ratings: 0.000000
@@ -49,219 +49,199 @@
  * Distribution of rate counts per UI pair: mean = 1.0, median = 1.0, sd = 0.0
  * 
  * Statistics of UC Matrix:
- * User amount: 252
+ * User amount: 333
  * Condition amount: 4
- * Rate amount: 989.0
- * Data density: 98.1151%
- * Data density (unique pairs): 97.9778%
+ * Rate amount: 1312.0
+ * Data density: 98.4985%
+ * Data density (unique pairs): 98.4756%
  * Average value of all ratings: 1.000000
  * Standard deviation of all ratings: 0.000000
  * Mode of all rating values: 1.000000
  * Median of all rating values: 1.000000
- * Distribution of rate counts per UC pair: mean = 70.108190091001, median = 42.0, sd = 82.99416710326743
+ * Distribution of rate counts per UC pair: mean = 82.47103658536585, median = 43.5, sd = 101.4616010035018
  * 
  * Statistics of IC Matrix:
- * Item amount: 4288
+ * Item amount: 7304
  * Condition amount: 4
- * Rate amount: 15397.0
- * Data density: 89.7680%
- * Data density (unique pairs): 84.1463%
+ * Rate amount: 25295.0
+ * Data density: 86.5793%
+ * Data density (unique pairs): 80.5258%
  * Average value of all ratings: 1.000000
  * Standard deviation of all ratings: 0.000000
  * Mode of all rating values: 1.000000
  * Median of all rating values: 1.000000
- * Distribution of rate counts per IC pair: mean = 4.503279859712931, median = 4.0, sd = 3.195672005480334
+ * Distribution of rate counts per IC pair: mean = 4.277604269618502, median = 3.0, sd = 3.367123955649008
  * 
  * Paired t-test on user's average rating between UI and UC matrix: absolute mean diff = 0.0, p-value = NaN
  * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 0.0, p-value = NaN
  *
  *************************************************************************************************************/
-[INFO ] 2020-06-22 18:13:17,744 -- With Setup: cv -k 5 -p off --rand-seed 1 --test-view all
-[DEBUG] 2020-06-22 18:13:18,238 -- Fold [1]: training amount: 55469, test amount: 13868
-[DEBUG] 2020-06-22 18:13:20,480 -- RankALS1 runs at iter = 1/25
-[DEBUG] 2020-06-22 18:13:51,771 -- RankALS1 runs at iter = 2/25
-[DEBUG] 2020-06-22 18:14:22,173 -- RankALS1 runs at iter = 3/25
-[DEBUG] 2020-06-22 18:14:50,150 -- RankALS1 runs at iter = 4/25
-[DEBUG] 2020-06-22 18:15:21,532 -- RankALS1 runs at iter = 5/25
-[DEBUG] 2020-06-22 18:15:47,443 -- RankALS1 runs at iter = 6/25
-[DEBUG] 2020-06-22 18:16:14,520 -- RankALS1 runs at iter = 7/25
-[DEBUG] 2020-06-22 18:16:43,813 -- RankALS1 runs at iter = 8/25
-[DEBUG] 2020-06-22 18:17:15,402 -- RankALS1 runs at iter = 9/25
-[DEBUG] 2020-06-22 18:17:46,294 -- RankALS1 runs at iter = 10/25
-[DEBUG] 2020-06-22 18:18:12,028 -- RankALS1 runs at iter = 11/25
-[DEBUG] 2020-06-22 18:18:40,474 -- RankALS1 runs at iter = 12/25
-[DEBUG] 2020-06-22 18:19:10,539 -- RankALS1 runs at iter = 13/25
-[DEBUG] 2020-06-22 18:19:39,004 -- RankALS1 runs at iter = 14/25
-[DEBUG] 2020-06-22 18:20:04,486 -- RankALS1 runs at iter = 15/25
-[DEBUG] 2020-06-22 18:20:32,683 -- RankALS1 runs at iter = 16/25
-[DEBUG] 2020-06-22 18:20:56,712 -- RankALS1 runs at iter = 17/25
-[DEBUG] 2020-06-22 18:21:20,844 -- RankALS1 runs at iter = 18/25
-[DEBUG] 2020-06-22 18:21:46,166 -- RankALS1 runs at iter = 19/25
-[DEBUG] 2020-06-22 18:22:11,199 -- RankALS1 runs at iter = 20/25
-[DEBUG] 2020-06-22 18:22:34,957 -- RankALS1 runs at iter = 21/25
-[DEBUG] 2020-06-22 18:23:00,175 -- RankALS1 runs at iter = 22/25
-[DEBUG] 2020-06-22 18:23:25,375 -- RankALS1 runs at iter = 23/25
-[DEBUG] 2020-06-22 18:23:50,510 -- RankALS1 runs at iter = 24/25
-[DEBUG] 2020-06-22 18:24:13,990 -- RankALS1 evaluate test data ... 
-[DEBUG] 2020-06-22 18:24:14,339 -- RankALS1 has candidate items: 4255
-[DEBUG] 2020-06-22 18:24:19,526 -- RankALS1 evaluates progress: 100 / 247
-[DEBUG] 2020-06-22 18:24:19,544 -- RankALS1 evaluates progress: 100 / 247
-[DEBUG] 2020-06-22 18:24:19,563 -- RankALS1 evaluates progress: 100 / 247
-[DEBUG] 2020-06-22 18:24:19,604 -- RankALS1 evaluates progress: 100 / 247
-[DEBUG] 2020-06-22 18:24:22,740 -- RankALS1 evaluates progress: 200 / 247
-[DEBUG] 2020-06-22 18:24:22,746 -- RankALS1 evaluates progress: 200 / 247
-[DEBUG] 2020-06-22 18:24:22,750 -- RankALS1 evaluates progress: 200 / 247
-[DEBUG] 2020-06-22 18:24:22,754 -- RankALS1 evaluates progress: 200 / 247
-[DEBUG] 2020-06-22 18:24:23,871 -- RankALS1 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-1.csv
-[DEBUG] 2020-06-22 18:24:23,894 -- RankALS1: Pre5: 0.020219,Pre10: 0.019809, Pre200: 0.014758, Rec5: 0.009635, Rec10: 0.019711, Rec200: 0.219863, AUC5: 0.546932, AUC10: 0.586654, AUC200: 0.853013, MAP5: 0.004212, MAP10: 0.005643, MAP200: 0.012818, NDCG5: 0.011433, NDCG10: 0.017469,NDCG200: 0.089470,MRR5: 0.042999, MRR10: 0.053365,MRR200: 0.070321	Time: 10:54, 00:09
-[DEBUG] 2020-06-22 18:24:24,027 -- Fold [2]: training amount: 55470, test amount: 13867
-[DEBUG] 2020-06-22 18:24:25,076 -- RankALS2 runs at iter = 1/25
-[DEBUG] 2020-06-22 18:24:47,713 -- RankALS2 runs at iter = 2/25
-[DEBUG] 2020-06-22 18:25:10,932 -- RankALS2 runs at iter = 3/25
-[DEBUG] 2020-06-22 18:25:34,606 -- RankALS2 runs at iter = 4/25
-[DEBUG] 2020-06-22 18:25:57,471 -- RankALS2 runs at iter = 5/25
-[DEBUG] 2020-06-22 18:26:19,996 -- RankALS2 runs at iter = 6/25
-[DEBUG] 2020-06-22 18:26:44,153 -- RankALS2 runs at iter = 7/25
-[DEBUG] 2020-06-22 18:27:13,225 -- RankALS2 runs at iter = 8/25
-[DEBUG] 2020-06-22 18:27:44,505 -- RankALS2 runs at iter = 9/25
-[DEBUG] 2020-06-22 18:28:09,856 -- RankALS2 runs at iter = 10/25
-[DEBUG] 2020-06-22 18:28:35,395 -- RankALS2 runs at iter = 11/25
-[DEBUG] 2020-06-22 18:28:55,947 -- RankALS2 runs at iter = 12/25
-[DEBUG] 2020-06-22 18:29:16,767 -- RankALS2 runs at iter = 13/25
-[DEBUG] 2020-06-22 18:29:46,304 -- RankALS2 runs at iter = 14/25
-[DEBUG] 2020-06-22 18:30:20,646 -- RankALS2 runs at iter = 15/25
-[DEBUG] 2020-06-22 18:30:50,583 -- RankALS2 runs at iter = 16/25
-[DEBUG] 2020-06-22 18:31:18,456 -- RankALS2 runs at iter = 17/25
-[DEBUG] 2020-06-22 18:31:53,165 -- RankALS2 runs at iter = 18/25
-[DEBUG] 2020-06-22 18:32:20,867 -- RankALS2 runs at iter = 19/25
-[DEBUG] 2020-06-22 18:32:47,457 -- RankALS2 runs at iter = 20/25
-[DEBUG] 2020-06-22 18:33:14,701 -- RankALS2 runs at iter = 21/25
-[DEBUG] 2020-06-22 18:33:46,875 -- RankALS2 runs at iter = 22/25
-[DEBUG] 2020-06-22 18:34:17,353 -- RankALS2 runs at iter = 23/25
-[DEBUG] 2020-06-22 18:34:48,404 -- RankALS2 runs at iter = 24/25
-[DEBUG] 2020-06-22 18:35:10,901 -- RankALS2 evaluate test data ... 
-[DEBUG] 2020-06-22 18:35:11,181 -- RankALS2 has candidate items: 4257
-[DEBUG] 2020-06-22 18:35:16,318 -- RankALS2 evaluates progress: 100 / 249
-[DEBUG] 2020-06-22 18:35:16,322 -- RankALS2 evaluates progress: 100 / 249
-[DEBUG] 2020-06-22 18:35:16,326 -- RankALS2 evaluates progress: 100 / 249
-[DEBUG] 2020-06-22 18:35:16,329 -- RankALS2 evaluates progress: 100 / 249
-[DEBUG] 2020-06-22 18:35:19,988 -- RankALS2 evaluates progress: 200 / 249
-[DEBUG] 2020-06-22 18:35:20,011 -- RankALS2 evaluates progress: 200 / 249
-[DEBUG] 2020-06-22 18:35:20,159 -- RankALS2 evaluates progress: 200 / 249
-[DEBUG] 2020-06-22 18:35:20,230 -- RankALS2 evaluates progress: 200 / 249
-[DEBUG] 2020-06-22 18:35:21,783 -- RankALS2 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-2.csv
-[DEBUG] 2020-06-22 18:35:21,794 -- RankALS2: Pre5: 0.023588,Pre10: 0.020833, Pre200: 0.015876, Rec5: 0.018290, Rec10: 0.026430, Rec200: 0.267541, AUC5: 0.554140, AUC10: 0.588244, AUC200: 0.870403, MAP5: 0.008079, MAP10: 0.009171, MAP200: 0.018165, NDCG5: 0.016607, NDCG10: 0.021600,NDCG200: 0.105859,MRR5: 0.050341, MRR10: 0.059291,MRR200: 0.076828	Time: 10:46, 00:10
-[DEBUG] 2020-06-22 18:35:22,041 -- Fold [3]: training amount: 55469, test amount: 13868
-[DEBUG] 2020-06-22 18:35:24,180 -- RankALS3 runs at iter = 1/25
-[DEBUG] 2020-06-22 18:35:51,636 -- RankALS3 runs at iter = 2/25
-[DEBUG] 2020-06-22 18:36:19,201 -- RankALS3 runs at iter = 3/25
-[DEBUG] 2020-06-22 18:36:51,670 -- RankALS3 runs at iter = 4/25
-[DEBUG] 2020-06-22 18:37:20,436 -- RankALS3 runs at iter = 5/25
-[DEBUG] 2020-06-22 18:37:43,865 -- RankALS3 runs at iter = 6/25
-[DEBUG] 2020-06-22 18:38:08,628 -- RankALS3 runs at iter = 7/25
-[DEBUG] 2020-06-22 18:38:28,824 -- RankALS3 runs at iter = 8/25
-[DEBUG] 2020-06-22 18:38:53,000 -- RankALS3 runs at iter = 9/25
-[DEBUG] 2020-06-22 18:39:18,546 -- RankALS3 runs at iter = 10/25
-[DEBUG] 2020-06-22 18:39:41,728 -- RankALS3 runs at iter = 11/25
-[DEBUG] 2020-06-22 18:40:05,169 -- RankALS3 runs at iter = 12/25
-[DEBUG] 2020-06-22 18:40:40,657 -- RankALS3 runs at iter = 13/25
-[DEBUG] 2020-06-22 18:41:17,946 -- RankALS3 runs at iter = 14/25
-[DEBUG] 2020-06-22 18:41:51,477 -- RankALS3 runs at iter = 15/25
-[DEBUG] 2020-06-22 18:42:30,078 -- RankALS3 runs at iter = 16/25
-[DEBUG] 2020-06-22 18:42:58,441 -- RankALS3 runs at iter = 17/25
-[DEBUG] 2020-06-22 18:43:28,106 -- RankALS3 runs at iter = 18/25
-[DEBUG] 2020-06-22 18:43:59,760 -- RankALS3 runs at iter = 19/25
-[DEBUG] 2020-06-22 18:44:34,564 -- RankALS3 runs at iter = 20/25
-[DEBUG] 2020-06-22 18:45:05,051 -- RankALS3 runs at iter = 21/25
-[DEBUG] 2020-06-22 18:45:34,068 -- RankALS3 runs at iter = 22/25
-[DEBUG] 2020-06-22 18:46:15,840 -- RankALS3 runs at iter = 23/25
-[DEBUG] 2020-06-22 18:46:56,626 -- RankALS3 runs at iter = 24/25
-[DEBUG] 2020-06-22 18:47:23,358 -- RankALS3 evaluate test data ... 
-[DEBUG] 2020-06-22 18:47:23,687 -- RankALS3 has candidate items: 4265
-[DEBUG] 2020-06-22 18:47:28,459 -- RankALS3 evaluates progress: 100 / 245
-[DEBUG] 2020-06-22 18:47:28,530 -- RankALS3 evaluates progress: 100 / 245
-[DEBUG] 2020-06-22 18:47:28,595 -- RankALS3 evaluates progress: 100 / 245
-[DEBUG] 2020-06-22 18:47:28,634 -- RankALS3 evaluates progress: 100 / 245
-[DEBUG] 2020-06-22 18:47:31,727 -- RankALS3 evaluates progress: 200 / 245
-[DEBUG] 2020-06-22 18:47:31,766 -- RankALS3 evaluates progress: 200 / 245
-[DEBUG] 2020-06-22 18:47:31,803 -- RankALS3 evaluates progress: 200 / 245
-[DEBUG] 2020-06-22 18:47:31,859 -- RankALS3 evaluates progress: 200 / 245
-[DEBUG] 2020-06-22 18:47:33,334 -- RankALS3 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-3.csv
-[DEBUG] 2020-06-22 18:47:33,651 -- RankALS3: Pre5: 0.015182,Pre10: 0.016337, Pre200: 0.009950, Rec5: 0.005350, Rec10: 0.014492, Rec200: 0.141278, AUC5: 0.532935, AUC10: 0.567080, AUC200: 0.800133, MAP5: 0.002518, MAP10: 0.004061, MAP200: 0.008356, NDCG5: 0.007262, NDCG10: 0.012918,NDCG200: 0.060094,MRR5: 0.035919, MRR10: 0.045325,MRR200: 0.058434	Time: 11:59, 00:10
-[DEBUG] 2020-06-22 18:47:34,093 -- Fold [4]: training amount: 55470, test amount: 13867
-[DEBUG] 2020-06-22 18:47:36,394 -- RankALS4 runs at iter = 1/25
-[DEBUG] 2020-06-22 18:48:13,871 -- RankALS4 runs at iter = 2/25
-[DEBUG] 2020-06-22 18:49:08,976 -- RankALS4 runs at iter = 3/25
-[DEBUG] 2020-06-22 18:49:46,166 -- RankALS4 runs at iter = 4/25
-[DEBUG] 2020-06-22 18:50:35,798 -- RankALS4 runs at iter = 5/25
-[DEBUG] 2020-06-22 18:51:27,319 -- RankALS4 runs at iter = 6/25
-[DEBUG] 2020-06-22 18:52:03,220 -- RankALS4 runs at iter = 7/25
-[DEBUG] 2020-06-22 18:52:43,837 -- RankALS4 runs at iter = 8/25
-[DEBUG] 2020-06-22 18:53:34,585 -- RankALS4 runs at iter = 9/25
-[DEBUG] 2020-06-22 18:54:15,019 -- RankALS4 runs at iter = 10/25
-[DEBUG] 2020-06-22 18:54:53,231 -- RankALS4 runs at iter = 11/25
-[DEBUG] 2020-06-22 18:55:27,009 -- RankALS4 runs at iter = 12/25
-[DEBUG] 2020-06-22 18:56:07,399 -- RankALS4 runs at iter = 13/25
-[DEBUG] 2020-06-22 18:56:47,652 -- RankALS4 runs at iter = 14/25
-[DEBUG] 2020-06-22 18:57:24,887 -- RankALS4 runs at iter = 15/25
-[DEBUG] 2020-06-22 18:58:18,133 -- RankALS4 runs at iter = 16/25
-[DEBUG] 2020-06-22 18:59:10,069 -- RankALS4 runs at iter = 17/25
-[DEBUG] 2020-06-22 18:59:57,491 -- RankALS4 runs at iter = 18/25
-[DEBUG] 2020-06-22 19:00:49,632 -- RankALS4 runs at iter = 19/25
-[DEBUG] 2020-06-22 19:01:27,155 -- RankALS4 runs at iter = 20/25
-[DEBUG] 2020-06-22 19:02:11,898 -- RankALS4 runs at iter = 21/25
-[DEBUG] 2020-06-22 19:02:42,622 -- RankALS4 runs at iter = 22/25
-[DEBUG] 2020-06-22 19:03:10,230 -- RankALS4 runs at iter = 23/25
-[DEBUG] 2020-06-22 19:03:36,947 -- RankALS4 runs at iter = 24/25
-[DEBUG] 2020-06-22 19:04:05,095 -- RankALS4 evaluate test data ... 
-[DEBUG] 2020-06-22 19:04:05,444 -- RankALS4 has candidate items: 4260
-[DEBUG] 2020-06-22 19:04:09,757 -- RankALS4 evaluates progress: 100 / 250
-[DEBUG] 2020-06-22 19:04:09,925 -- RankALS4 evaluates progress: 100 / 250
-[DEBUG] 2020-06-22 19:04:10,024 -- RankALS4 evaluates progress: 100 / 250
-[DEBUG] 2020-06-22 19:04:10,139 -- RankALS4 evaluates progress: 100 / 250
-[DEBUG] 2020-06-22 19:04:13,267 -- RankALS4 evaluates progress: 200 / 250
-[DEBUG] 2020-06-22 19:04:13,414 -- RankALS4 evaluates progress: 200 / 250
-[DEBUG] 2020-06-22 19:04:13,493 -- RankALS4 evaluates progress: 200 / 250
-[DEBUG] 2020-06-22 19:04:13,551 -- RankALS4 evaluates progress: 200 / 250
-[DEBUG] 2020-06-22 19:04:15,189 -- RankALS4 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-4.csv
-[DEBUG] 2020-06-22 19:04:15,270 -- RankALS4: Pre5: 0.008333,Pre10: 0.011250, Pre200: 0.007462, Rec5: 0.004435, Rec10: 0.014528, Rec200: 0.140712, AUC5: 0.519537, AUC10: 0.546206, AUC200: 0.732314, MAP5: 0.001652, MAP10: 0.003024, MAP200: 0.006675, NDCG5: 0.004417, NDCG10: 0.009612,NDCG200: 0.050461,MRR5: 0.016563, MRR10: 0.023800,MRR200: 0.034734	Time: 16:29, 00:10
-[DEBUG] 2020-06-22 19:04:15,435 -- Fold [5]: training amount: 55470, test amount: 13867
-[DEBUG] 2020-06-22 19:04:16,842 -- RankALS5 runs at iter = 1/25
-[DEBUG] 2020-06-22 19:04:43,998 -- RankALS5 runs at iter = 2/25
-[DEBUG] 2020-06-22 19:05:15,444 -- RankALS5 runs at iter = 3/25
-[DEBUG] 2020-06-22 19:05:46,084 -- RankALS5 runs at iter = 4/25
-[DEBUG] 2020-06-22 19:06:15,161 -- RankALS5 runs at iter = 5/25
-[DEBUG] 2020-06-22 19:06:48,575 -- RankALS5 runs at iter = 6/25
-[DEBUG] 2020-06-22 19:07:17,262 -- RankALS5 runs at iter = 7/25
-[DEBUG] 2020-06-22 19:07:49,321 -- RankALS5 runs at iter = 8/25
-[DEBUG] 2020-06-22 19:08:14,672 -- RankALS5 runs at iter = 9/25
-[DEBUG] 2020-06-22 19:08:40,699 -- RankALS5 runs at iter = 10/25
-[DEBUG] 2020-06-22 19:09:07,349 -- RankALS5 runs at iter = 11/25
-[DEBUG] 2020-06-22 19:09:33,577 -- RankALS5 runs at iter = 12/25
-[DEBUG] 2020-06-22 19:10:05,504 -- RankALS5 runs at iter = 13/25
-[DEBUG] 2020-06-22 19:10:37,162 -- RankALS5 runs at iter = 14/25
-[DEBUG] 2020-06-22 19:11:09,818 -- RankALS5 runs at iter = 15/25
-[DEBUG] 2020-06-22 19:11:38,557 -- RankALS5 runs at iter = 16/25
-[DEBUG] 2020-06-22 19:12:09,456 -- RankALS5 runs at iter = 17/25
-[DEBUG] 2020-06-22 19:12:38,798 -- RankALS5 runs at iter = 18/25
-[DEBUG] 2020-06-22 19:13:10,668 -- RankALS5 runs at iter = 19/25
-[DEBUG] 2020-06-22 19:13:39,827 -- RankALS5 runs at iter = 20/25
-[DEBUG] 2020-06-22 19:14:08,823 -- RankALS5 runs at iter = 21/25
-[DEBUG] 2020-06-22 19:14:36,351 -- RankALS5 runs at iter = 22/25
-[DEBUG] 2020-06-22 19:15:05,292 -- RankALS5 runs at iter = 23/25
-[DEBUG] 2020-06-22 19:15:36,774 -- RankALS5 runs at iter = 24/25
-[DEBUG] 2020-06-22 19:16:01,183 -- RankALS5 evaluate test data ... 
-[DEBUG] 2020-06-22 19:16:01,404 -- RankALS5 has candidate items: 4267
-[DEBUG] 2020-06-22 19:16:06,137 -- RankALS5 evaluates progress: 100 / 247
-[DEBUG] 2020-06-22 19:16:06,140 -- RankALS5 evaluates progress: 100 / 247
-[DEBUG] 2020-06-22 19:16:06,144 -- RankALS5 evaluates progress: 100 / 247
-[DEBUG] 2020-06-22 19:16:06,147 -- RankALS5 evaluates progress: 100 / 247
-[DEBUG] 2020-06-22 19:16:09,527 -- RankALS5 evaluates progress: 200 / 247
-[DEBUG] 2020-06-22 19:16:09,641 -- RankALS5 evaluates progress: 200 / 247
-[DEBUG] 2020-06-22 19:16:09,734 -- RankALS5 evaluates progress: 200 / 247
-[DEBUG] 2020-06-22 19:16:09,823 -- RankALS5 evaluates progress: 200 / 247
-[DEBUG] 2020-06-22 19:16:11,035 -- RankALS5 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKit\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-5.csv
-[DEBUG] 2020-06-22 19:16:11,040 -- RankALS5: Pre5: 0.019792,Pre10: 0.019076, Pre200: 0.013532, Rec5: 0.008454, Rec10: 0.021153, Rec200: 0.265827, AUC5: 0.544964, AUC10: 0.578087, AUC200: 0.860270, MAP5: 0.002937, MAP10: 0.004935, MAP200: 0.013357, NDCG5: 0.009080, NDCG10: 0.016078,NDCG200: 0.094148,MRR5: 0.036925, MRR10: 0.045535,MRR200: 0.061846	Time: 11:44, 00:09
-[INFO ] 2020-06-22 19:16:11,052 -- Final Results by RankALS, Pre5: 0.017423,Pre10: 0.017461, Pre200: 0.012315, Rec5: 0.009233, Rec10: 0.019263, Rec200: 0.207044, AUC5: 0.539702, AUC10: 0.573254, AUC200: 0.823226, MAP5: 0.003880, MAP10: 0.005367, MAP200: 0.011874, NDCG5: 0.009760, NDCG10: 0.015535,NDCG200: 0.080006,MRR5: 0.036549, MRR10: 0.045463,MRR200: 0.060433, 0.0, 10, true, 25, Time: '12:22','00:10'
+[INFO ] 2020-07-22 11:41:18,903 -- With Setup: cv -k 5 -p on --rand-seed 1 --test-view all
+[DEBUG] 2020-07-22 11:41:19,169 -- Fold [1]: training amount: 86561, test amount: 21641
+[DEBUG] 2020-07-22 11:41:20,073 -- Fold [2]: training amount: 86562, test amount: 21640
+[DEBUG] 2020-07-22 11:41:20,478 -- RankALS1 runs at iter = 1/20
+[DEBUG] 2020-07-22 11:41:20,923 -- Fold [3]: training amount: 86561, test amount: 21641
+[DEBUG] 2020-07-22 11:41:22,132 -- RankALS2 runs at iter = 1/20
+[DEBUG] 2020-07-22 11:41:22,783 -- Fold [4]: training amount: 86562, test amount: 21640
+[DEBUG] 2020-07-22 11:41:23,268 -- RankALS3 runs at iter = 1/20
+[DEBUG] 2020-07-22 11:41:23,908 -- Fold [5]: training amount: 86562, test amount: 21640
+[DEBUG] 2020-07-22 11:41:24,457 -- RankALS4 runs at iter = 1/20
+[DEBUG] 2020-07-22 11:41:26,214 -- RankALS5 runs at iter = 1/20
+[DEBUG] 2020-07-22 11:42:11,545 -- RankALS1 runs at iter = 2/20
+[DEBUG] 2020-07-22 11:42:11,971 -- RankALS2 runs at iter = 2/20
+[DEBUG] 2020-07-22 11:42:12,883 -- RankALS3 runs at iter = 2/20
+[DEBUG] 2020-07-22 11:42:13,702 -- RankALS4 runs at iter = 2/20
+[DEBUG] 2020-07-22 11:42:14,813 -- RankALS5 runs at iter = 2/20
+[DEBUG] 2020-07-22 11:43:02,801 -- RankALS1 runs at iter = 3/20
+[DEBUG] 2020-07-22 11:43:04,176 -- RankALS2 runs at iter = 3/20
+[DEBUG] 2020-07-22 11:43:05,053 -- RankALS4 runs at iter = 3/20
+[DEBUG] 2020-07-22 11:43:05,694 -- RankALS3 runs at iter = 3/20
+[DEBUG] 2020-07-22 11:43:06,841 -- RankALS5 runs at iter = 3/20
+[DEBUG] 2020-07-22 11:43:54,921 -- RankALS1 runs at iter = 4/20
+[DEBUG] 2020-07-22 11:43:56,855 -- RankALS2 runs at iter = 4/20
+[DEBUG] 2020-07-22 11:43:57,662 -- RankALS4 runs at iter = 4/20
+[DEBUG] 2020-07-22 11:43:58,477 -- RankALS3 runs at iter = 4/20
+[DEBUG] 2020-07-22 11:44:00,439 -- RankALS5 runs at iter = 4/20
+[DEBUG] 2020-07-22 11:44:55,239 -- RankALS2 runs at iter = 5/20
+[DEBUG] 2020-07-22 11:44:56,865 -- RankALS3 runs at iter = 5/20
+[DEBUG] 2020-07-22 11:44:57,112 -- RankALS1 runs at iter = 5/20
+[DEBUG] 2020-07-22 11:44:59,364 -- RankALS4 runs at iter = 5/20
+[DEBUG] 2020-07-22 11:45:01,152 -- RankALS5 runs at iter = 5/20
+[DEBUG] 2020-07-22 11:45:49,584 -- RankALS2 runs at iter = 6/20
+[DEBUG] 2020-07-22 11:45:49,820 -- RankALS1 runs at iter = 6/20
+[DEBUG] 2020-07-22 11:45:51,941 -- RankALS3 runs at iter = 6/20
+[DEBUG] 2020-07-22 11:45:52,491 -- RankALS4 runs at iter = 6/20
+[DEBUG] 2020-07-22 11:45:54,429 -- RankALS5 runs at iter = 6/20
+[DEBUG] 2020-07-22 11:46:38,021 -- RankALS2 runs at iter = 7/20
+[DEBUG] 2020-07-22 11:46:38,772 -- RankALS1 runs at iter = 7/20
+[DEBUG] 2020-07-22 11:46:40,778 -- RankALS3 runs at iter = 7/20
+[DEBUG] 2020-07-22 11:46:40,893 -- RankALS4 runs at iter = 7/20
+[DEBUG] 2020-07-22 11:46:42,923 -- RankALS5 runs at iter = 7/20
+[DEBUG] 2020-07-22 11:47:21,306 -- RankALS2 runs at iter = 8/20
+[DEBUG] 2020-07-22 11:47:23,300 -- RankALS1 runs at iter = 8/20
+[DEBUG] 2020-07-22 11:47:23,992 -- RankALS4 runs at iter = 8/20
+[DEBUG] 2020-07-22 11:47:24,091 -- RankALS3 runs at iter = 8/20
+[DEBUG] 2020-07-22 11:47:27,106 -- RankALS5 runs at iter = 8/20
+[DEBUG] 2020-07-22 11:48:05,359 -- RankALS2 runs at iter = 9/20
+[DEBUG] 2020-07-22 11:48:08,580 -- RankALS4 runs at iter = 9/20
+[DEBUG] 2020-07-22 11:48:08,617 -- RankALS1 runs at iter = 9/20
+[DEBUG] 2020-07-22 11:48:08,647 -- RankALS3 runs at iter = 9/20
+[DEBUG] 2020-07-22 11:48:12,928 -- RankALS5 runs at iter = 9/20
+[DEBUG] 2020-07-22 11:48:50,861 -- RankALS2 runs at iter = 10/20
+[DEBUG] 2020-07-22 11:48:53,676 -- RankALS4 runs at iter = 10/20
+[DEBUG] 2020-07-22 11:48:54,173 -- RankALS3 runs at iter = 10/20
+[DEBUG] 2020-07-22 11:48:54,995 -- RankALS1 runs at iter = 10/20
+[DEBUG] 2020-07-22 11:49:00,439 -- RankALS5 runs at iter = 10/20
+[DEBUG] 2020-07-22 11:49:37,369 -- RankALS2 runs at iter = 11/20
+[DEBUG] 2020-07-22 11:49:40,338 -- RankALS4 runs at iter = 11/20
+[DEBUG] 2020-07-22 11:49:40,994 -- RankALS3 runs at iter = 11/20
+[DEBUG] 2020-07-22 11:49:42,199 -- RankALS1 runs at iter = 11/20
+[DEBUG] 2020-07-22 11:49:46,697 -- RankALS5 runs at iter = 11/20
+[DEBUG] 2020-07-22 11:50:20,870 -- RankALS2 runs at iter = 12/20
+[DEBUG] 2020-07-22 11:50:24,193 -- RankALS4 runs at iter = 12/20
+[DEBUG] 2020-07-22 11:50:24,512 -- RankALS3 runs at iter = 12/20
+[DEBUG] 2020-07-22 11:50:26,619 -- RankALS1 runs at iter = 12/20
+[DEBUG] 2020-07-22 11:50:31,140 -- RankALS5 runs at iter = 12/20
+[DEBUG] 2020-07-22 11:51:10,945 -- RankALS2 runs at iter = 13/20
+[DEBUG] 2020-07-22 11:51:14,929 -- RankALS3 runs at iter = 13/20
+[DEBUG] 2020-07-22 11:51:14,937 -- RankALS4 runs at iter = 13/20
+[DEBUG] 2020-07-22 11:51:18,046 -- RankALS1 runs at iter = 13/20
+[DEBUG] 2020-07-22 11:51:23,094 -- RankALS5 runs at iter = 13/20
+[DEBUG] 2020-07-22 11:51:56,873 -- RankALS2 runs at iter = 14/20
+[DEBUG] 2020-07-22 11:52:01,719 -- RankALS3 runs at iter = 14/20
+[DEBUG] 2020-07-22 11:52:01,839 -- RankALS4 runs at iter = 14/20
+[DEBUG] 2020-07-22 11:52:04,873 -- RankALS1 runs at iter = 14/20
+[DEBUG] 2020-07-22 11:52:10,033 -- RankALS5 runs at iter = 14/20
+[DEBUG] 2020-07-22 11:52:42,027 -- RankALS2 runs at iter = 15/20
+[DEBUG] 2020-07-22 11:52:46,057 -- RankALS3 runs at iter = 15/20
+[DEBUG] 2020-07-22 11:52:46,251 -- RankALS4 runs at iter = 15/20
+[DEBUG] 2020-07-22 11:52:49,920 -- RankALS1 runs at iter = 15/20
+[DEBUG] 2020-07-22 11:52:55,285 -- RankALS5 runs at iter = 15/20
+[DEBUG] 2020-07-22 11:53:27,409 -- RankALS2 runs at iter = 16/20
+[DEBUG] 2020-07-22 11:53:31,495 -- RankALS3 runs at iter = 16/20
+[DEBUG] 2020-07-22 11:53:31,779 -- RankALS4 runs at iter = 16/20
+[DEBUG] 2020-07-22 11:53:36,171 -- RankALS1 runs at iter = 16/20
+[DEBUG] 2020-07-22 11:53:42,360 -- RankALS5 runs at iter = 16/20
+[DEBUG] 2020-07-22 11:54:13,495 -- RankALS2 runs at iter = 17/20
+[DEBUG] 2020-07-22 11:54:17,752 -- RankALS3 runs at iter = 17/20
+[DEBUG] 2020-07-22 11:54:18,481 -- RankALS4 runs at iter = 17/20
+[DEBUG] 2020-07-22 11:54:23,194 -- RankALS1 runs at iter = 17/20
+[DEBUG] 2020-07-22 11:54:30,239 -- RankALS5 runs at iter = 17/20
+[DEBUG] 2020-07-22 11:55:03,988 -- RankALS2 runs at iter = 18/20
+[DEBUG] 2020-07-22 11:55:08,158 -- RankALS3 runs at iter = 18/20
+[DEBUG] 2020-07-22 11:55:08,769 -- RankALS4 runs at iter = 18/20
+[DEBUG] 2020-07-22 11:55:13,932 -- RankALS1 runs at iter = 18/20
+[DEBUG] 2020-07-22 11:55:19,298 -- RankALS5 runs at iter = 18/20
+[DEBUG] 2020-07-22 11:55:47,182 -- RankALS2 runs at iter = 19/20
+[DEBUG] 2020-07-22 11:55:51,645 -- RankALS3 runs at iter = 19/20
+[DEBUG] 2020-07-22 11:55:51,817 -- RankALS4 runs at iter = 19/20
+[DEBUG] 2020-07-22 11:55:58,540 -- RankALS1 runs at iter = 19/20
+[DEBUG] 2020-07-22 11:56:03,879 -- RankALS5 runs at iter = 19/20
+[DEBUG] 2020-07-22 11:56:29,213 -- RankALS2 evaluate test data ... 
+[DEBUG] 2020-07-22 11:56:29,836 -- RankALS2 has candidate items: 7219
+[DEBUG] 2020-07-22 11:56:34,385 -- RankALS2 evaluates progress: 100 / 330
+[DEBUG] 2020-07-22 11:56:34,388 -- RankALS2 evaluates progress: 100 / 330
+[DEBUG] 2020-07-22 11:56:34,394 -- RankALS2 evaluates progress: 100 / 330
+[DEBUG] 2020-07-22 11:56:34,400 -- RankALS2 evaluates progress: 100 / 330
+[DEBUG] 2020-07-22 11:56:35,185 -- RankALS3 evaluate test data ... 
+[DEBUG] 2020-07-22 11:56:35,616 -- RankALS3 has candidate items: 7222
+[DEBUG] 2020-07-22 11:56:35,695 -- RankALS4 evaluate test data ... 
+[DEBUG] 2020-07-22 11:56:36,081 -- RankALS4 has candidate items: 7223
+[DEBUG] 2020-07-22 11:56:40,490 -- RankALS2 evaluates progress: 200 / 330
+[DEBUG] 2020-07-22 11:56:40,496 -- RankALS2 evaluates progress: 200 / 330
+[DEBUG] 2020-07-22 11:56:40,501 -- RankALS2 evaluates progress: 200 / 330
+[DEBUG] 2020-07-22 11:56:40,507 -- RankALS2 evaluates progress: 200 / 330
+[DEBUG] 2020-07-22 11:56:40,807 -- RankALS4 evaluates progress: 100 / 330
+[DEBUG] 2020-07-22 11:56:40,832 -- RankALS4 evaluates progress: 100 / 330
+[DEBUG] 2020-07-22 11:56:40,851 -- RankALS4 evaluates progress: 100 / 330
+[DEBUG] 2020-07-22 11:56:40,868 -- RankALS4 evaluates progress: 100 / 330
+[DEBUG] 2020-07-22 11:56:43,201 -- RankALS3 evaluates progress: 100 / 329
+[DEBUG] 2020-07-22 11:56:43,224 -- RankALS3 evaluates progress: 100 / 329
+[DEBUG] 2020-07-22 11:56:43,246 -- RankALS3 evaluates progress: 100 / 329
+[DEBUG] 2020-07-22 11:56:43,274 -- RankALS3 evaluates progress: 100 / 329
+[DEBUG] 2020-07-22 11:56:44,117 -- RankALS1 evaluate test data ... 
+[DEBUG] 2020-07-22 11:56:44,508 -- RankALS1 has candidate items: 7221
+[DEBUG] 2020-07-22 11:56:45,785 -- RankALS4 evaluates progress: 200 / 330
+[DEBUG] 2020-07-22 11:56:45,789 -- RankALS4 evaluates progress: 200 / 330
+[DEBUG] 2020-07-22 11:56:45,794 -- RankALS4 evaluates progress: 200 / 330
+[DEBUG] 2020-07-22 11:56:45,799 -- RankALS4 evaluates progress: 200 / 330
+[DEBUG] 2020-07-22 11:56:46,604 -- RankALS2 evaluates progress: 300 / 330
+[DEBUG] 2020-07-22 11:56:47,992 -- RankALS2 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-2.csv
+[DEBUG] 2020-07-22 11:56:48,015 -- RankALS2: Pre5: 0.019569,Pre10: 0.017603, Pre200: 0.012397, Rec5: 0.012465, Rec10: 0.025211, Rec200: 0.242827, AUC5: 0.545766, AUC10: 0.580214, AUC200: 0.833674, MAP5: 0.006145, MAP10: 0.007807, MAP200: 0.015750, NDCG5: 0.012947, NDCG10: 0.019759,NDCG200: 0.090545,MRR5: 0.042478, MRR10: 0.051204,MRR200: 0.066481	Time: 15:08, 00:18
+[DEBUG] 2020-07-22 11:56:49,839 -- RankALS3 evaluates progress: 200 / 329
+[DEBUG] 2020-07-22 11:56:49,859 -- RankALS3 evaluates progress: 200 / 329
+[DEBUG] 2020-07-22 11:56:49,878 -- RankALS3 evaluates progress: 200 / 329
+[DEBUG] 2020-07-22 11:56:49,898 -- RankALS3 evaluates progress: 200 / 329
+[DEBUG] 2020-07-22 11:56:50,817 -- RankALS5 evaluate test data ... 
+[DEBUG] 2020-07-22 11:56:51,170 -- RankALS5 has candidate items: 7237
+[DEBUG] 2020-07-22 11:56:51,205 -- RankALS1 evaluates progress: 100 / 328
+[DEBUG] 2020-07-22 11:56:51,210 -- RankALS1 evaluates progress: 100 / 328
+[DEBUG] 2020-07-22 11:56:51,215 -- RankALS1 evaluates progress: 100 / 328
+[DEBUG] 2020-07-22 11:56:51,220 -- RankALS1 evaluates progress: 100 / 328
+[DEBUG] 2020-07-22 11:56:52,326 -- RankALS4 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-4.csv
+[DEBUG] 2020-07-22 11:56:52,332 -- RankALS4: Pre5: 0.019560,Pre10: 0.017593, Pre200: 0.012069, Rec5: 0.014163, Rec10: 0.021730, Rec200: 0.226348, AUC5: 0.544818, AUC10: 0.571687, AUC200: 0.838333, MAP5: 0.006607, MAP10: 0.008268, MAP200: 0.015618, NDCG5: 0.014043, NDCG10: 0.018836,NDCG200: 0.086442,MRR5: 0.043981, MRR10: 0.051191,MRR200: 0.067610	Time: 15:12, 00:16
+[DEBUG] 2020-07-22 11:56:55,034 -- RankALS3 evaluates progress: 300 / 329
+[DEBUG] 2020-07-22 11:56:55,923 -- RankALS1 evaluates progress: 200 / 328
+[DEBUG] 2020-07-22 11:56:55,928 -- RankALS1 evaluates progress: 200 / 328
+[DEBUG] 2020-07-22 11:56:55,933 -- RankALS1 evaluates progress: 200 / 328
+[DEBUG] 2020-07-22 11:56:55,933 -- RankALS3 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-3.csv
+[DEBUG] 2020-07-22 11:56:55,936 -- RankALS1 evaluates progress: 200 / 328
+[DEBUG] 2020-07-22 11:56:55,936 -- RankALS3: Pre5: 0.017281,Pre10: 0.015395, Pre200: 0.009954, Rec5: 0.004998, Rec10: 0.008593, Rec200: 0.107379, AUC5: 0.537546, AUC10: 0.559449, AUC200: 0.771907, MAP5: 0.002630, MAP10: 0.003230, MAP200: 0.006634, NDCG5: 0.007525, NDCG10: 0.010394,NDCG200: 0.050261,MRR5: 0.039364, MRR10: 0.045059,MRR200: 0.057531	Time: 15:12, 00:20
+[DEBUG] 2020-07-22 11:56:56,134 -- RankALS5 evaluates progress: 100 / 330
+[DEBUG] 2020-07-22 11:56:56,149 -- RankALS5 evaluates progress: 100 / 330
+[DEBUG] 2020-07-22 11:56:56,164 -- RankALS5 evaluates progress: 100 / 330
+[DEBUG] 2020-07-22 11:56:56,179 -- RankALS5 evaluates progress: 100 / 330
+[DEBUG] 2020-07-22 11:56:58,324 -- RankALS1 evaluates progress: 300 / 328
+[DEBUG] 2020-07-22 11:56:58,329 -- RankALS1 evaluates progress: 300 / 328
+[DEBUG] 2020-07-22 11:56:58,739 -- RankALS1 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-1.csv
+[DEBUG] 2020-07-22 11:56:58,742 -- RankALS1: Pre5: 0.012564,Pre10: 0.013462, Pre200: 0.011032, Rec5: 0.002285, Rec10: 0.006687, Rec200: 0.099886, AUC5: 0.529074, AUC10: 0.559822, AUC200: 0.805631, MAP5: 0.001204, MAP10: 0.001799, MAP200: 0.004990, NDCG5: 0.004294, NDCG10: 0.007607,NDCG200: 0.047795,MRR5: 0.030833, MRR10: 0.038831,MRR200: 0.053435	Time: 15:24, 00:14
+[DEBUG] 2020-07-22 11:56:59,888 -- RankALS5 evaluates progress: 200 / 330
+[DEBUG] 2020-07-22 11:56:59,892 -- RankALS5 evaluates progress: 200 / 330
+[DEBUG] 2020-07-22 11:56:59,897 -- RankALS5 evaluates progress: 200 / 330
+[DEBUG] 2020-07-22 11:56:59,901 -- RankALS5 evaluates progress: 200 / 330
+[DEBUG] 2020-07-22 11:57:03,163 -- RankALS5 evaluates progress: 300 / 330
+[DEBUG] 2020-07-22 11:57:03,777 -- RankALS5 has writeen item recommendations to C:\Users\BoningGong\Repos\CARSKitModified\out\artifacts\CARSKitjar\data\CARSKit.Workspace\RankALS-5.csv
+[DEBUG] 2020-07-22 11:57:03,780 -- RankALS5: Pre5: 0.012805,Pre10: 0.014837, Pre200: 0.011982, Rec5: 0.007323, Rec10: 0.016522, Rec200: 0.190499, AUC5: 0.529503, AUC10: 0.562244, AUC200: 0.809115, MAP5: 0.004708, MAP10: 0.006019, MAP200: 0.012076, NDCG5: 0.008346, NDCG10: 0.013741,NDCG200: 0.073827,MRR5: 0.025991, MRR10: 0.034596,MRR200: 0.049006	Time: 15:25, 00:12
+[INFO ] 2020-07-22 11:57:03,785 -- Final Results by RankALS, Pre5: 0.016356,Pre10: 0.015778, Pre200: 0.011487, Rec5: 0.008247, Rec10: 0.015749, Rec200: 0.173388, AUC5: 0.537341, AUC10: 0.566683, AUC200: 0.811732, MAP5: 0.004259, MAP10: 0.005425, MAP200: 0.011014, NDCG5: 0.009431, NDCG10: 0.014067,NDCG200: 0.069774,MRR5: 0.036530, MRR10: 0.044176,MRR200: 0.058813, 0.0, 10, true, 20, Time: '15:16','00:16'
 
-[DEBUG] 2020-06-22 19:16:11,058 -- Have been collected to file: results.txt
+[DEBUG] 2020-07-22 11:57:03,788 -- Have been collected to file: results.txt

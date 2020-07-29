@@ -75,7 +75,7 @@ Rating data set has been successfully loaded.
  * Paired t-test on item's average rating between UI and IC matrix: absolute mean diff = 0.0, p-value = NaN
  *
  *************************************************************************************************************/
-With Setup: cv -k 5 -p on --rand-seed 1 --test-view all
-Final Results by RankALS, Pre5: 0.016356,Pre10: 0.015778, Pre200: 0.011487, Rec5: 0.008247, Rec10: 0.015749, Rec200: 0.173388, AUC5: 0.537341, AUC10: 0.566683, AUC200: 0.811732, MAP5: 0.004259, MAP10: 0.005425, MAP200: 0.011014, NDCG5: 0.009431, NDCG10: 0.014067,NDCG200: 0.069774,MRR5: 0.036530, MRR10: 0.044176,MRR200: 0.058813, 0.0, 10, true, 20, Time: '15:16','00:16'
+With Setup: cv -k 5 -p off --rand-seed 1 --test-view all
+Final Results by CAMF_LCS, Pre5: 0.000477,Pre10: 0.000533, Pre200: 0.001735, Rec5: 0.000598, Rec10: 0.000991, Rec200: 0.039560, AUC5: 0.501179, AUC10: 0.502634, AUC200: 0.623060, MAP5: 0.000195, MAP10: 0.000243, MAP200: 0.000853, NDCG5: 0.000411, NDCG10: 0.000625,NDCG200: 0.011190,MRR5: 0.001060, MRR10: 0.001449,MRR200: 0.005184, numFactors: 10, numIter: 50, lrate: 0.02, maxlrate: -1.0, regB: 1.0E-4, regU: 1.0E-4, regI: 1.0E-4, regC: 0.001, isBoldDriver: true, Time: '00:05','00:24'
 
-Final Results by RankALS, Pre5: 0.016356,Pre10: 0.015778, Pre200: 0.011487, Rec5: 0.008247, Rec10: 0.015749, Rec200: 0.173388, AUC5: 0.537341, AUC10: 0.566683, AUC200: 0.811732, MAP5: 0.004259, MAP10: 0.005425, MAP200: 0.011014, NDCG5: 0.009431, NDCG10: 0.014067,NDCG200: 0.069774,MRR5: 0.036530, MRR10: 0.044176,MRR200: 0.058813, 0.0, 10, true, 20, Time: '15:16','00:16'
+Final Results by CAMF_LCS, Pre5: 0.000477,Pre10: 0.000533, Pre200: 0.001735, Rec5: 0.000598, Rec10: 0.000991, Rec200: 0.039560, AUC5: 0.501179, AUC10: 0.502634, AUC200: 0.623060, MAP5: 0.000195, MAP10: 0.000243, MAP200: 0.000853, NDCG5: 0.000411, NDCG10: 0.000625,NDCG200: 0.011190,MRR5: 0.001060, MRR10: 0.001449,MRR200: 0.005184, numFactors: 10, numIter: 50, lrate: 0.02, maxlrate: -1.0, regB: 1.0E-4, regU: 1.0E-4, regI: 1.0E-4, regC: 0.001, isBoldDriver: true, Time: '00:05','00:24'

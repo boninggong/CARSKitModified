@@ -24,9 +24,9 @@ import carskit.generic.Recommender;
 import java.util.concurrent.ThreadLocalRandom;
 
 /**
- * ItemAverage: return average rating on a specific item
+ * Random: return a random integer between 1 and 1000 for a specific item
  *
- * @author Yong Zheng
+ * @author Boning Gong
  *
  */
 

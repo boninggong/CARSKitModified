@@ -24,9 +24,9 @@ import carskit.generic.Recommender;
 import librec.data.SparseVector;
 
 /**
- * ItemAverage: return average rating on a specific item
+ * ItemPopularity: return the amount of ratings that a specific item has received
  *
- * @author Yong Zheng
+ * @author Boning Gong
  *
  */
 
